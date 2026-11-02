@@ -1,4 +1,4 @@
-# Engineering portfolio — local draft
+# Jinseong Ahn — Engineering portfolio
 
 An evidence-labeled static portfolio for software architecture and AI systems. Career periods follow the Saramin résumé reviewed on 2026-11-02; commercial technical descriptions are attributed to a separate user-supplied résumé. Historical operating counts and performance figures are labeled with their evidentiary limits.
 
