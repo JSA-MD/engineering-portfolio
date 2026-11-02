@@ -13,8 +13,8 @@
     language.textContent = selected === 'en' ? 'KO' : 'EN';
     language.setAttribute('aria-label', selected === 'en' ? 'Switch to Korean' : 'Switch to English');
     set('portfolio-language', selected);
+    if (typeof updateCareer === 'function') updateCareer();
   }
-  applyLanguage(get('portfolio-language') || 'en');
   doc.dataset.theme = get('portfolio-theme') === 'light' ? 'light' : 'dark';
   language.addEventListener('click', () => applyLanguage(doc.lang === 'en' ? 'ko' : 'en'));
   theme.addEventListener('click', () => { doc.dataset.theme = doc.dataset.theme === 'dark' ? 'light' : 'dark'; set('portfolio-theme', doc.dataset.theme); });
@@ -24,4 +24,46 @@
   dialog.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   document.querySelectorAll('.architecture button').forEach(button => button.addEventListener('click', () => { const diagram=button.closest('.architecture'); diagram.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed','false')); button.setAttribute('aria-pressed','true'); diagram.nextElementSibling.textContent = doc.lang === 'ko' ? button.dataset.detailKo : button.dataset.detail; }));
+  document.querySelectorAll('.video-launch').forEach(button => button.addEventListener('click', () => {
+    const id = button.dataset.videoId;
+    if (!/^[\w-]{11}$/.test(id || '')) return;
+    const player = document.createElement('iframe');
+    player.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+    player.title = button.dataset.videoTitle || 'Project video';
+    player.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    player.allowFullscreen = true;
+    player.referrerPolicy = 'strict-origin-when-cross-origin';
+    button.replaceWith(player);
+  }));
+  const search = document.querySelector('#career-search');
+  const filters = [...document.querySelectorAll('[data-career-filter]')];
+  let careerFilter = 'all';
+  function updateCareer() {
+    if (!search) return;
+    const query = search.value.trim().toLocaleLowerCase();
+    let shown = 0;
+    document.querySelectorAll('[data-career-group]').forEach(group => {
+      const company = group.querySelector('.career-group-header').textContent.toLocaleLowerCase();
+      let groupCount = 0;
+      group.querySelectorAll('.career-project').forEach(card => {
+        const matchesText = !query || company.includes(query) || card.textContent.toLocaleLowerCase().includes(query);
+        const matchesFilter = careerFilter !== 'video' || !!card.querySelector('.video-launch, iframe');
+        card.hidden = !(matchesText && matchesFilter);
+        if (!card.hidden) { groupCount++; shown++; }
+      });
+      group.hidden = groupCount === 0;
+    });
+    document.querySelector('.career-empty').hidden = shown !== 0;
+    document.querySelector('#career-count').textContent = doc.lang === 'ko' ? `프로젝트 ${shown}개` : `${shown} project${shown === 1 ? '' : 's'}`;
+  }
+  if (search) {
+    search.addEventListener('input', updateCareer);
+    filters.forEach(button => button.addEventListener('click', () => {
+      careerFilter = button.dataset.careerFilter;
+      filters.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      updateCareer();
+    }));
+    updateCareer();
+  }
+  applyLanguage(get('portfolio-language') || 'en');
 })();

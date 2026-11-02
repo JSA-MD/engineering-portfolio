@@ -1,0 +1,325 @@
+[
+  {
+    "career": 0,
+    "name": "Epic Studio",
+    "nameKo": "Epic Studio",
+    "summary": "An AI-assisted YouTube production system connecting research, scripting, media generation, publishing and feedback.",
+    "summaryKo": "주제 조사부터 대본, 음성·영상 생성, 게시와 피드백까지 연결한 AI 활용 유튜브 제작 시스템입니다.",
+    "commercial": "Historical records: 66 videos composed; 54 uploads across three channels (Feb–Apr 2026).",
+    "commercialKo": "과거 기록: 2026년 2~4월 영상 66편 합성, 세 채널에 54편 업로드.",
+    "technical": "Directed AI coding agents; built a 17-stage pipeline with FastAPI, Next.js and PostgreSQL.",
+    "technicalKo": "AI 코딩 에이전트를 지휘해 FastAPI·Next.js·PostgreSQL 기반 17단계 파이프라인 구축.",
+    "media": {
+      "type": "image",
+      "src": "/assets/epic-pipeline.png",
+      "source": "Actual Epic Studio interface",
+      "sourceKo": "Epic Studio 실제 프로그램 화면"
+    },
+    "detail": "/work/epic-studio/"
+  },
+  {
+    "career": 0,
+    "name": "Trading Research Systems",
+    "nameKo": "트레이딩 연구 시스템",
+    "summary": "Independent market-data, strategy and backtesting projects with risk controls and demo execution.",
+    "summaryKo": "시장 데이터, 전략 백테스트, 위험 관리와 데모 실행을 다룬 독립 연구 프로젝트입니다.",
+    "commercial": "Research and demo work; no live-profitability claim.",
+    "commercialKo": "연구·데모 프로젝트이며 실거래 수익성은 주장하지 않습니다.",
+    "technical": "Built data collection, reproducible backtests and demo parity monitoring.",
+    "technicalKo": "데이터 수집, 재현 가능한 백테스트와 데모 일치성 모니터링 구현.",
+    "media": null,
+    "detail": "/work/trading-research/"
+  },
+  {
+    "career": 1,
+    "name": "OLOBO",
+    "nameKo": "OLOBO",
+    "summary": "A mobile app for creating stories and animated videos with 3D avatars, voice and AI prompts.",
+    "summaryKo": "3D 아바타와 음성, AI 프롬프트로 스토리와 애니메이션 영상을 만드는 모바일 앱입니다.",
+    "commercial": "US iOS release and Android open beta, according to the résumé.",
+    "commercialKo": "경력 문서 기준 미국 iOS 정식 출시 및 Android 오픈 베타.",
+    "technical": "Led client/backend architecture; traced an intermittent iOS crash to an external-library overflow.",
+    "technicalKo": "클라이언트·백엔드 설계를 주도하고 간헐적 iOS 충돌의 라이브러리 오버플로 원인 추적.",
+    "media": {
+      "type": "youtube",
+      "id": "vbDRFJ3K2rE",
+      "source": "OLOBO official channel · published 2024",
+      "sourceKo": "OLOBO 공식 채널 · 2024년 게시"
+    },
+    "detail": "/work/olobo/"
+  },
+  {
+    "career": 2,
+    "name": "Purenista",
+    "nameKo": "Purenista",
+    "summary": "A Japanese avatar styling and social art app where users combine items to create and share artwork.",
+    "summaryKo": "아바타와 아이템을 조합해 작품을 만들고 공유하는 일본 소셜 아트 앱입니다.",
+    "commercial": "Released on iOS and Android in Japan; 2020 in-house developer award reported in résumé.",
+    "commercialKo": "일본 iOS·Android 상용화, 2020년 사내 올해의 개발자상 수상(경력 문서 기준).",
+    "technical": "Résumé reports composition >40s → <5s and image size >30MB → <3MB using native C++.",
+    "technicalKo": "네이티브 C++ 적용 후 합성 40초 이상→5초 미만, 이미지 30MB 이상→3MB 미만(경력 문서 기준).",
+    "media": {
+      "type": "youtube",
+      "id": "87NaMmu1jfY",
+      "source": "Purenista official channel · product introduction",
+      "sourceKo": "피ュ어니스타 공식 채널 · 제품 소개"
+    },
+    "detail": "/work/purenista/"
+  },
+  {
+    "career": 3,
+    "name": "Golden Express",
+    "nameKo": "Golden Express",
+    "summary": "A casino slot-machine title developed for Kangwon Land / KLSaberi and shown at G2E Las Vegas.",
+    "summaryKo": "강원랜드 / KLSaberi를 위해 개발하고 라스베이거스 G2E에 출품한 슬롯머신 게임입니다.",
+    "commercial": "Presented at G2E 2019; the linked footage covers the KLSaberi exhibition lineup.",
+    "commercialKo": "2019년 G2E 출품. 영상은 KLSaberi 전시 라인업의 제3자 촬영분입니다.",
+    "technical": "Led a five-programmer team and developed the Unity game framework and hardware integration.",
+    "technicalKo": "5인 개발팀을 이끌며 Unity 게임 프레임워크와 하드웨어 연동 개발.",
+    "media": {
+      "type": "youtube",
+      "id": "mWqqYe5Haw4",
+      "source": "RandomSlots · third-party G2E exhibition footage",
+      "sourceKo": "RandomSlots · G2E 전시 제3자 촬영"
+    },
+    "detail": null
+  },
+  {
+    "career": 4,
+    "name": "FASSKER",
+    "nameKo": "FASSKER",
+    "summary": "A fashion digital-magazine and social app for sharing style and content.",
+    "summaryKo": "패션 콘텐츠와 스타일을 공유하는 디지털 매거진·소셜 앱입니다.",
+    "commercial": "The résumé reports a commercial mobile release.",
+    "commercialKo": "경력 문서에 모바일 앱 상용화가 기록되어 있습니다.",
+    "technical": "Built early architecture, AWS-backed authentication, content workflows and mobile release systems.",
+    "technicalKo": "초기 아키텍처, AWS 인증, 콘텐츠 기능과 모바일 출시 기반 개발.",
+    "media": {
+      "type": "youtube",
+      "id": "xq_lXXNSr0Q",
+      "source": "Lotte Ventures · founder’s product presentation",
+      "sourceKo": "롯데벤처스 · 창업자 제품 소개 영상"
+    },
+    "detail": null
+  },
+  {
+    "career": 5,
+    "name": "Machigai Breaker",
+    "nameKo": "마치가이 브레이커",
+    "summary": "A Japanese mobile RPG combining quiz and turn-based game mechanics.",
+    "summaryKo": "퀴즈와 턴제 전투를 결합한 일본 모바일 RPG입니다.",
+    "commercial": "Released for iOS and Android in Japan, according to the résumé.",
+    "commercialKo": "경력 문서 기준 일본 iOS·Android 출시.",
+    "technical": "Implemented core game frameworks, combat/item content and caching.",
+    "technicalKo": "게임 프레임워크, 전투·아이템 콘텐츠와 리소스 캐싱 구현.",
+    "media": {
+      "type": "youtube",
+      "id": "VOlStCXYMPg",
+      "source": "Game information channel · 2018 beta gameplay",
+      "sourceKo": "게임 정보 채널 · 2018년 베타 플레이"
+    },
+    "detail": null
+  },
+  {
+    "career": 6,
+    "name": "VM Casino",
+    "nameKo": "VM Casino",
+    "summary": "A mobile social casino application with slot-game content and regular updates.",
+    "summaryKo": "슬롯 게임 콘텐츠와 업데이트를 제공하는 모바일 소셜 카지노 앱입니다.",
+    "commercial": "iOS and Android app development and updates are listed in the résumé.",
+    "commercialKo": "경력 문서에 iOS·Android 앱 개발과 업데이트가 기록되어 있습니다.",
+    "technical": "Implemented slot content and supported device-specific mobile stabilization.",
+    "technicalKo": "슬롯 콘텐츠를 구현하고 모바일 기기별 안정화 지원.",
+    "media": {
+      "type": "youtube",
+      "id": "R2mVhsnIJf8",
+      "source": "tech akoz · footage published 2021",
+      "sourceKo": "tech akoz · 2021년 게시 영상"
+    },
+    "detail": null
+  },
+  {
+    "career": 7,
+    "name": "Double Fortune Casino",
+    "nameKo": "Double Fortune Casino",
+    "summary": "A social casino game for mobile, built around multiple slot experiences.",
+    "summaryKo": "다양한 슬롯 경험을 제공하는 모바일 소셜 카지노 게임입니다.",
+    "commercial": "iOS and Android release reported in the technical résumé.",
+    "commercialKo": "기술 경력 문서에 iOS·Android 출시가 기록되어 있습니다.",
+    "technical": "Designed client architecture, state/event flow, server messaging and platform integrations.",
+    "technicalKo": "클라이언트 구조, 상태·이벤트 흐름, 서버 메시지와 플랫폼 연동 설계.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 8,
+    "name": "S4 League",
+    "nameKo": "S4 League",
+    "summary": "A long-running online action shooter for PC.",
+    "summaryKo": "장기간 서비스된 PC 온라인 액션 슈팅 게임입니다.",
+    "commercial": "Worked on the existing live-service product; no individual revenue claim.",
+    "commercialKo": "기존 라이브 서비스 제품에 참여했으며 개인 기여 매출은 확인되지 않았습니다.",
+    "technical": "Maintained C/C++ / DirectX client systems and addressed content and security issues.",
+    "technicalKo": "C/C++·DirectX 클라이언트 유지보수와 콘텐츠·보안 이슈 대응.",
+    "media": {
+      "type": "youtube",
+      "id": "3w9aUT2m9h0",
+      "source": "Artorikus · third-party trailer compilation, later footage",
+      "sourceKo": "Artorikus · 제3자 트레일러 모음, 재직 이후 영상"
+    },
+    "detail": null
+  },
+  {
+    "career": 8,
+    "name": "Pmang Vegas Royal Casino · Smart TV",
+    "nameKo": "피망 베가스 로열 카지노 · 스마트 TV",
+    "summary": "A social casino title adapted for a Samsung Smart TV interface.",
+    "summaryKo": "삼성 스마트 TV 환경으로 포팅한 소셜 카지노 게임입니다.",
+    "commercial": "The résumé records the Samsung Smart TV porting project.",
+    "commercialKo": "경력 문서에 삼성 스마트 TV 포팅 프로젝트가 기록되어 있습니다.",
+    "technical": "Built remote-control input, TV navigation and platform integration.",
+    "technicalKo": "리모컨 입력, TV 내비게이션과 플랫폼 연동 구현.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 9,
+    "name": "Arcade Games & Enjoy Derby",
+    "nameKo": "아케이드 게임 / Enjoy Derby",
+    "summary": "PC arcade games and a Japanese online horse-racing system connected to hardware.",
+    "summaryKo": "하드웨어와 연결되는 PC 아케이드 게임과 일본 온라인 경마 시스템입니다.",
+    "commercial": "More than 20 arcade titles are listed as commercialized in the résumé.",
+    "commercialKo": "경력 문서에 아케이드 게임 20여 종 상용화가 기록되어 있습니다.",
+    "technical": "Developed 3D systems, SQLite data and RS232C external-device integration.",
+    "technicalKo": "3D 시스템, SQLite 데이터와 RS232C 외부 장치 연동 개발.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 10,
+    "name": "Warbane",
+    "nameKo": "워베인",
+    "summary": "A large-scale online MMORPG with persistent game data and multiplayer server logic.",
+    "summaryKo": "다중 접속 서버 로직과 지속적인 게임 데이터를 사용하는 온라인 MMORPG입니다.",
+    "commercial": "MMORPG development and live-service work are listed in the résumé.",
+    "commercialKo": "경력 문서에 MMORPG 개발과 서비스 대응이 기록되어 있습니다.",
+    "technical": "Built Linux/C++ server components including sessions, inventory and PostgreSQL data systems.",
+    "technicalKo": "Linux·C++ 서버에서 세션, 인벤토리와 PostgreSQL 데이터 시스템 개발.",
+    "media": {
+      "type": "youtube",
+      "id": "qDjNM0ruUC0",
+      "source": "Star Mgame · historical product footage",
+      "sourceKo": "Star Mgame · 당시 제품 영상"
+    },
+    "detail": null
+  },
+  {
+    "career": 11,
+    "name": "Project N",
+    "nameKo": "Project N",
+    "summary": "An MMORPG development project using Unreal Engine 3 and Scaleform.",
+    "summaryKo": "Unreal Engine 3와 Scaleform을 사용한 MMORPG 개발 프로젝트입니다.",
+    "commercial": "Development-stage project; release status not verified.",
+    "commercialKo": "개발 프로젝트이며 출시 여부는 확인되지 않았습니다.",
+    "technical": "Integrated Scaleform with the engine and implemented game UI.",
+    "technicalKo": "Scaleform을 엔진에 통합하고 게임 UI 구현.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 12,
+    "name": "PangYa / Online Game Client",
+    "nameKo": "팡야 / 온라인 게임 클라이언트",
+    "summary": "An online game client and GUI development project; PangYa is named in the technical résumé.",
+    "summaryKo": "온라인 게임 클라이언트와 GUI 개발 프로젝트이며 상세 경력 문서에 팡야가 명시되어 있습니다.",
+    "commercial": "Commercial online game participation is self-reported in the technical résumé.",
+    "commercialKo": "상용 온라인 게임 참여는 제공된 상세 경력 문서 기준입니다.",
+    "technical": "Integrated UI middleware and built XML-driven GUI and text layout.",
+    "technicalKo": "UI 미들웨어를 통합하고 XML 기반 GUI와 텍스트 레이아웃 개발.",
+    "media": {
+      "type": "youtube",
+      "id": "OdpGSvcIDPQ",
+      "source": "Dr. shack · third-party gameplay footage",
+      "sourceKo": "Dr. shack · 제3자 플레이 영상"
+    },
+    "detail": null
+  },
+  {
+    "career": 13,
+    "name": "Online Games & 3D Engine",
+    "nameKo": "온라인 게임 / 3D 엔진",
+    "summary": "Online board and casino games and a 3D golf-game engine built for the Japanese market.",
+    "summaryKo": "일본 시장을 위한 온라인 보드·카지노 게임과 3D 골프 게임 엔진입니다.",
+    "commercial": "Online game development and releases are recorded in the résumé.",
+    "commercialKo": "경력 문서에 온라인 게임 제작과 출시가 기록되어 있습니다.",
+    "technical": "Developed custom 3D engine, mesh export, animation and terrain systems.",
+    "technicalKo": "자체 3D 엔진, 메시 익스포터, 애니메이션과 지형 시스템 개발.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 14,
+    "name": "Game & 3D Programming Education",
+    "nameKo": "게임 / 3D 프로그래밍 교육",
+    "summary": "Taught 3D programming and guided game-programming students.",
+    "summaryKo": "3D 프로그래밍을 강의하고 게임 프로그래밍 수강생을 지도했습니다.",
+    "commercial": "Teaching role; no commercial product claimed.",
+    "commercialKo": "교육 경력이며 상용 제품 성과는 해당하지 않습니다.",
+    "technical": "Covered rendering, animation, C/C++, DirectX, OpenGL and 3D mathematics.",
+    "technicalKo": "렌더링, 애니메이션, C/C++, DirectX, OpenGL과 3D 수학 강의.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 15,
+    "name": "PC Online Casual Games",
+    "nameKo": "PC 온라인 캐주얼 게임",
+    "summary": "Online casual PC games and the supporting content-creation tools.",
+    "summaryKo": "PC 온라인 캐주얼 게임과 콘텐츠 제작을 지원하는 도구입니다.",
+    "commercial": "Development period is recorded in the Saramin résumé.",
+    "commercialKo": "사람인 이력서에 해당 개발 경력이 기록되어 있습니다.",
+    "technical": "Implemented architecture, sprite tools, events, state machines and sound systems.",
+    "technicalKo": "아키텍처, 스프라이트 도구, 이벤트·상태 머신과 사운드 시스템 구현.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 16,
+    "name": "3D Subway Simulator",
+    "nameKo": "3D 지하철 시뮬레이터",
+    "summary": "A VR subway-driving simulation and associated 3D visualization work.",
+    "summaryKo": "VR 지하철 주행 시뮬레이션과 관련 3D 시각화 작업입니다.",
+    "commercial": "Simulation project listed in the résumé; release details are unverified.",
+    "commercialKo": "이력서에 기록된 시뮬레이션 프로젝트이며 출시 세부사항은 미확인입니다.",
+    "technical": "Developed C/C++ / OpenGL simulation logic, character rendering and asset tools.",
+    "technicalKo": "C/C++·OpenGL 시뮬레이션 로직, 캐릭터 렌더링과 리소스 도구 개발.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 17,
+    "name": "Medical PC Software",
+    "nameKo": "의료용 PC 소프트웨어",
+    "summary": "PC packages supporting medical insurance and patient-care workflows.",
+    "summaryKo": "의료보험 및 환자 진료 업무를 지원하는 PC 패키지 소프트웨어입니다.",
+    "commercial": "Commercial software development role listed in the résumé.",
+    "commercialKo": "이력서에 기록된 업무용 소프트웨어 개발 경력입니다.",
+    "technical": "Implemented C/C++ utilities and RS232C hardware-control libraries.",
+    "technicalKo": "C/C++ 유틸리티와 RS232C 하드웨어 제어 라이브러리 구현.",
+    "media": null,
+    "detail": null
+  },
+  {
+    "career": 18,
+    "name": "PC Package Game Internship",
+    "nameKo": "PC 패키지 게임 인턴십",
+    "summary": "An early game-programming internship on PC package game development.",
+    "summaryKo": "PC 패키지 게임 개발에 참여한 초기 게임 프로그래밍 인턴십입니다.",
+    "commercial": "Internship recorded in the Saramin résumé; specific title not confirmed.",
+    "commercialKo": "사람인 이력서에 기록된 인턴십이며 구체적인 작품명은 미확인입니다.",
+    "technical": "Worked with Visual Basic and C/C++ in a game development environment.",
+    "technicalKo": "게임 개발 환경에서 Visual Basic과 C/C++ 실무 경험.",
+    "media": null,
+    "detail": null
+  }
+]
