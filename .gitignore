@@ -1,0 +1,6 @@
+local-review/
+qa/
+docs/
+dist/
+node_modules/
+.env*

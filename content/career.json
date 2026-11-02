@@ -1,0 +1,174 @@
+[
+  {
+    "period": "2023.12 — Present",
+    "koPeriod": "2023.12 — 현재",
+    "company": "Independent AI Projects",
+    "companyKo": "독립 AI 프로젝트",
+    "role": "AI systems developer / software architect",
+    "roleKo": "AI 시스템 개발 / 소프트웨어 아키텍트",
+    "detail": "Independent work includes n8n workflows, AI-assisted content automation and trading research.",
+    "detailKo": "n8n 워크플로, AI 활용 콘텐츠 자동화와 트레이딩 연구를 수행했습니다."
+  },
+  {
+    "period": "2021.05 — 2023.11",
+    "company": "DotDotDot · OLOBO",
+    "companyKo": "닫닫닫 · OLOBO",
+    "role": "Lead programmer / architect",
+    "roleKo": "리드 프로그래머 / 아키텍트",
+    "detail": "3D avatar storytelling, system architecture and iOS crash investigation.",
+    "detailKo": "3D 아바타 스토리 앱의 시스템 아키텍처와 iOS 충돌 원인 분석."
+  },
+  {
+    "period": "2020.01 — 2021.04",
+    "company": "Hangame Japan · Purenista",
+    "companyKo": "한게임재팬 · Purenista",
+    "role": "App development / platform engineering",
+    "roleKo": "앱 개발 / 플랫폼 엔지니어링",
+    "detail": "Cross-platform avatar composition, native C++ media processing and Android integration.",
+    "detailKo": "크로스플랫폼 아바타 합성, 네이티브 C++ 미디어 처리와 Android 통합."
+  },
+  {
+    "period": "2019.07 — 2019.12",
+    "company": "Funwave · Golden Express",
+    "companyKo": "펀웨이브 · Golden Express",
+    "role": "Development team lead",
+    "roleKo": "개발팀장",
+    "detail": "Kangwon Land / KLSaberi casino game and framework development.",
+    "detailKo": "강원랜드 / KLSaberi 카지노 게임과 프레임워크 개발."
+  },
+  {
+    "period": "2018.12 — 2019.06",
+    "company": "FNS Holdings · FASSKER",
+    "companyKo": "FNS홀딩스 · FASSKER",
+    "role": "Development team lead",
+    "roleKo": "개발팀장",
+    "detail": "Fashion social app, frontend/backend integration and mobile release.",
+    "detailKo": "패션 소셜 앱, 프런트엔드·백엔드 통합과 모바일 출시."
+  },
+  {
+    "period": "2018.06 — 2018.09",
+    "company": "Funcrew · Machigai Breaker",
+    "companyKo": "펀크루 · 마치가이 브레이커",
+    "role": "Game development",
+    "roleKo": "게임 개발",
+    "detail": "Unity mobile RPG framework, content and release work in Japan.",
+    "detailKo": "일본 Unity 모바일 RPG 프레임워크, 콘텐츠와 출시 작업."
+  },
+  {
+    "period": "2017.08 — 2017.12",
+    "company": "Akoz Technologies · VM Casino",
+    "companyKo": "아코즈테크놀러지스 · VM Casino",
+    "role": "Game development",
+    "roleKo": "게임 개발",
+    "detail": "Unity social casino development and updates for iOS and Android.",
+    "detailKo": "iOS·Android Unity 소셜 카지노 개발과 업데이트."
+  },
+  {
+    "period": "2016.11 — 2017.08",
+    "company": "DoubleU Games / Diamond Games",
+    "companyKo": "더블유게임스 / Diamond Games",
+    "role": "Development team lead",
+    "roleKo": "개발팀장",
+    "detail": "Double Fortune Casino architecture, client systems and platform integration.",
+    "detailKo": "Double Fortune Casino 아키텍처, 클라이언트 시스템과 플랫폼 연동."
+  },
+  {
+    "period": "2016.01 — 2016.06",
+    "company": "Neowiz GameOn Studio",
+    "companyKo": "네오위즈 게임온스튜디오",
+    "role": "Client team lead",
+    "roleKo": "클라이언트 파트장",
+    "detail": "Samsung Smart TV porting and S4 League maintenance.",
+    "detailKo": "삼성 스마트 TV 포팅과 S4 League 유지보수."
+  },
+  {
+    "period": "2012.09 — 2015.09",
+    "company": "GAME SHARP",
+    "companyKo": "게임샵",
+    "role": "Development team lead",
+    "roleKo": "개발팀장",
+    "detail": "Arcade games, 3D engines and serial hardware integration.",
+    "detailKo": "아케이드 게임, 3D 엔진과 시리얼 하드웨어 연동."
+  },
+  {
+    "period": "2008.07 — 2012.09",
+    "company": "Mgame · MG-Studio",
+    "companyKo": "엠게임 · MG-Studio",
+    "role": "Backend / server developer",
+    "roleKo": "백엔드 / 서버 개발",
+    "detail": "Warbane MMORPG server, sessions, inventory and PostgreSQL data handling.",
+    "detailKo": "Warbane MMORPG 서버, 세션, 인벤토리와 PostgreSQL 데이터 처리."
+  },
+  {
+    "period": "2008.04 — 2008.06",
+    "company": "Barunson E&A · Project N",
+    "companyKo": "바른손이앤에이 · Project N",
+    "role": "Game developer",
+    "roleKo": "게임 개발",
+    "detail": "Unreal Engine 3 and Scaleform integration for an MMORPG.",
+    "detailKo": "MMORPG의 Unreal Engine 3와 Scaleform 통합."
+  },
+  {
+    "period": "2007.07 — 2007.12",
+    "company": "NTREEVSoft",
+    "companyKo": "엔트리브소프트",
+    "role": "Game developer",
+    "roleKo": "게임 개발",
+    "detail": "Online game client, GUI and text-layout systems.",
+    "detailKo": "온라인 게임 클라이언트, GUI와 텍스트 레이아웃 시스템."
+  },
+  {
+    "period": "2002.09 — 2007.06",
+    "company": "Game Land Japan",
+    "companyKo": "Game Land Japan",
+    "role": "Game developer",
+    "roleKo": "게임 개발",
+    "detail": "Online games, a custom 3D engine and animation tools.",
+    "detailKo": "온라인 게임, 자체 3D 엔진과 애니메이션 도구."
+  },
+  {
+    "period": "2002.01 — 2002.08",
+    "company": "HanbitSoft Digital Campus",
+    "companyKo": "한빛소프트 Digital Campus",
+    "role": "3D programming instructor",
+    "roleKo": "3D 프로그래밍 강사",
+    "detail": "3D rendering, animation, C/C++, DirectX and OpenGL instruction.",
+    "detailKo": "3D 렌더링, 애니메이션, C/C++, DirectX와 OpenGL 강의."
+  },
+  {
+    "period": "2001.01 — 2001.12",
+    "company": "Xcellent",
+    "companyKo": "Xcellent",
+    "role": "Game developer",
+    "roleKo": "게임 개발",
+    "detail": "PC online casual games and supporting tools.",
+    "detailKo": "PC 온라인 캐주얼 게임과 지원 도구 개발."
+  },
+  {
+    "period": "2000.06 — 2000.12",
+    "company": "VRStaff",
+    "companyKo": "VRStaff",
+    "role": "Game developer",
+    "roleKo": "게임 개발",
+    "detail": "VR subway simulation, rendering and visualization tools.",
+    "detailKo": "VR 지하철 시뮬레이션, 렌더링과 시각화 도구."
+  },
+  {
+    "period": "1999.01 — 2000.06",
+    "company": "Almighty IT",
+    "companyKo": "전능IT",
+    "role": "Software developer",
+    "roleKo": "소프트웨어 개발",
+    "detail": "PC business software and serial communication libraries.",
+    "detailKo": "PC 업무용 소프트웨어와 시리얼 통신 라이브러리."
+  },
+  {
+    "period": "1997.07 — 1997.08",
+    "company": "Mirinae Software",
+    "companyKo": "미리내 소프트웨어",
+    "role": "Programmer intern",
+    "roleKo": "프로그래머 인턴",
+    "detail": "Early PC package game development experience.",
+    "detailKo": "초기 PC 패키지 게임 개발 경험."
+  }
+]
