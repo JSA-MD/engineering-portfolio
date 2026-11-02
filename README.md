@@ -1,6 +1,8 @@
 # Engineering portfolio — local draft
 
-An evidence-labeled static portfolio for architecture and AI systems. The user's designated technical résumé supports commercial descriptions; the Saramin résumé is the sole authority for employment periods and was reviewed after user login on 2026-11-02. This draft is not cleared for public deployment.
+An evidence-labeled static portfolio for software architecture and AI systems. Career periods follow the Saramin résumé reviewed on 2026-11-02; commercial technical descriptions are attributed to a separate user-supplied résumé. Historical operating counts and performance figures are labeled with their evidentiary limits.
+
+Live site: https://engineering-portfolio-b9p.pages.dev/
 
 Requirements: Node.js. No install or paid runtime service required.
 
@@ -10,6 +12,6 @@ npm run check
 python3 -m http.server 8877 --directory dist
 ```
 
-Open the local URL in Aside after the server starts. This environment denied binding a server, so real HTTP navigation still needs verification. Output is in `dist/`; keep `docs/` internal. Edit `content/projects.json` and `assets/` to update approved material; see `docs/content-update-guide.md`, `docs/evidence-ledger.md`, `docs/qa-report.md` and `docs/publication-review.md`.
+Open the local URL after the server starts. Output is in `dist/`. Edit `content/projects.json`, `content/career.json` and `assets/` to update approved material. Local research notes, browser QA artifacts and project-discovery output are ignored and must remain private.
 
-Cloudflare Pages output directory: `dist`; build command: `npm run build`. The English résumé is provided as a sanitized PDF. Final review, actual domain configuration, full HTTP browser QA and production deployment remain outstanding. Internal evidence files are deliberately excluded from the public repository.
+Cloudflare Pages tracks the `main` branch; build command: `npm run build`; output directory: `dist`; `SITE_URL` is the production HTTPS origin. Changes pushed to `main` trigger a new build. The sanitized English résumé excludes private contact details.
