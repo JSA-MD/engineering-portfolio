@@ -45,6 +45,11 @@
     "linkLabelKo": "EpicFun 유튜브 채널",
     "resources": [
       {
+        "url": "https://www.youtube.com/shorts/67D6-wYeliE",
+        "label": "Raccoon Steals Tools Mid-Repair",
+        "labelKo": "Raccoon Steals Tools Mid-Repair"
+      },
+      {
         "url": "https://www.youtube.com/shorts/c9arv8PT4Ks",
         "label": "Dog Wakes Up the Sleepy Girl",
         "labelKo": "Dog Wakes Up the Sleepy Girl"
@@ -58,7 +63,14 @@
         "captionKo": "n8n 동물 숏츠 제작 워크플로 · 프로젝트 제작자 제공 화면",
         "originalLink": true
       }
-    ]
+    ],
+    "detailMedia": {
+      "type": "youtube",
+      "id": "67D6-wYeliE",
+      "source": "EpicFun · Raccoon Steals Tools Mid-Repair",
+      "sourceKo": "EpicFun · Raccoon Steals Tools Mid-Repair",
+      "channelUrl": "https://www.youtube.com/@epicfun777"
+    }
   },
   {
     "id": "epic-studio",
