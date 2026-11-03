@@ -1,7 +1,7 @@
 // Portfolio sections are driven by reviewed career and media records.
 export function makeSections({ t, esc, projects, careerEntries, careerProjects }) {
   const projectByName = name => careerProjects.find(item => item.name === name);
-  const ids = ['YouTube Channel (Audio Drama Automation)','Animal Shorts Automation','Epic Studio','OLOBO','Purenista','Golden Express'];
+  const ids = ['YouTube Channel (Audio Drama Automation)','EpicFun (Animal Shorts Automation)','Epic Studio','OLOBO','Purenista','Golden Express'];
   const localize = (en, ko) => t(en, ko);
   const projectLink = p => p.detail || (p.slug ? '/lab/#project-'+p.slug : '/career/#career-'+p.career);
   const thumbnail = (p, interactive = true) => {

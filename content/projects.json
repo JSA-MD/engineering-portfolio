@@ -33,6 +33,34 @@
     ]
   },
   {
+    "id": "epicfun-animal-shorts",
+    "number": "01",
+    "category": "AI AUTOMATION / N8N",
+    "year": "2026.01",
+    "name": "EpicFun (Animal Shorts Automation)",
+    "nameKo": "EpicFun (동물 숏츠 자동 제작)",
+    "source": "Author-supplied n8n screenshot, local workflow metadata and the EpicFun YouTube channel.",
+    "link": "https://www.youtube.com/@epicfun777",
+    "linkLabel": "EpicFun YouTube channel",
+    "linkLabelKo": "EpicFun 유튜브 채널",
+    "resources": [
+      {
+        "url": "https://www.youtube.com/shorts/c9arv8PT4Ks",
+        "label": "Dog Wakes Up the Sleepy Girl",
+        "labelKo": "Dog Wakes Up the Sleepy Girl"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/n8n-epicfun-animal-shorts.png",
+        "alt": "n8n HomeCamShorts animal Shorts workflow",
+        "caption": "Animal Shorts workflow in n8n · screenshot supplied by the project author",
+        "captionKo": "n8n 동물 숏츠 제작 워크플로 · 프로젝트 제작자 제공 화면",
+        "originalLink": true
+      }
+    ]
+  },
+  {
     "id": "epic-studio",
     "number": "01",
     "category": "AI SYSTEMS / CONTENT AUTOMATION",
