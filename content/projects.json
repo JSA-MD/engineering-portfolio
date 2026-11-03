@@ -21,6 +21,15 @@
         "label": "A Mother-in-law’s Revenge",
         "labelKo": "짐 취급 당한 시어머니의 100억 복수"
       }
+    ],
+    "images": [
+      {
+        "src": "/assets/n8n-audio-drama-workflow.png",
+        "alt": "n8n AnimationGenerator workflow for audio drama production",
+        "caption": "Audio drama production workflow in n8n · screenshot supplied by the project author",
+        "captionKo": "n8n 오디오 드라마 제작 워크플로 · 프로젝트 제작자 제공 화면",
+        "originalLink": true
+      }
     ]
   },
   {
