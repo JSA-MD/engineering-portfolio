@@ -63,3 +63,8 @@ html[data-style=modern] .journey-grid article{background:var(--surface);border:1
 html[data-style=modern] .callout{border-radius:0 12px 12px 0}
 html[data-style=modern][data-theme=dark] .filter-buttons button[aria-pressed=true]{color:#102038}
 @media(max-width:700px){.style-bar-inner{min-height:54px;gap:9px}.style-switch button{padding:6px 10px}.style-hint{margin-left:auto;font-size:10px}html[data-style=modern] .topbar{height:72px}html[data-style=modern] .home-intro{padding-top:45px;padding-bottom:55px}html[data-style=modern] .intro-main h1,html[data-style=modern] .career-hero h1,html[data-style=modern] .page-head h1{font-size:clamp(34px,9vw,50px);line-height:1.2}html[data-style=modern] .intro-lead{font-size:16px}html[data-style=modern] .intro-preview{border-radius:14px}html[data-style=modern] .feature-grid{gap:16px}html[data-style=modern] .feature-content h3{font-size:24px}}
+/* More designs can be added without forcing the page wider on small screens. */
+.style-switch{min-width:0;max-width:100%;flex:0 1 auto;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:thin}
+.style-switch button{flex:0 0 auto;white-space:nowrap}
+.style-label,.style-hint{flex:0 0 auto}
+@media(max-width:500px){.style-hint{display:none}.style-switch{max-width:calc(100% - 95px)}}

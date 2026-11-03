@@ -1,0 +1,7 @@
+{
+  "default": "modern",
+  "styles": [
+    { "id": "modern", "name": "Modern", "nameKo": "모던" },
+    { "id": "classic", "name": "Classic", "nameKo": "클래식" }
+  ]
+}
