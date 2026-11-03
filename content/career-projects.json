@@ -41,9 +41,15 @@
     "summary": "n8n workflow for creating entertaining animal videos for YouTube Shorts.",
     "summaryKo": "재미있는 동물 영상을 유튜브 숏츠로 제작하는 n8n 프로젝트.",
     "skills": "n8n · OpenAI · Sora API · YouTube",
-    "highlight": "Includes scheduled generation and YouTube upload nodes; publication not independently verified.",
-    "highlightKo": "예약 실행·Sora 영상 생성·유튜브 업로드 노드 구성(게시 내역 미확인).",
-    "slug": "animal-shorts-automation"
+    "highlight": "Published on EpicFun; most-viewed Short had about 13K views (Nov 2026).",
+    "highlightKo": "EpicFun 채널 게시 · 최다 조회 영상 약 1.3만 회(2026.11 확인).",
+    "slug": "animal-shorts-automation",
+    "media": {
+      "type": "youtube",
+      "id": "c9arv8PT4Ks",
+      "source": "EpicFun · Dog Wakes Up the Sleepy Girl · most viewed as of Nov 2026",
+      "sourceKo": "EpicFun · Dog Wakes Up the Sleepy Girl · 2026.11 인기순 1위"
+    }
   },
   {
     "career": 0,
