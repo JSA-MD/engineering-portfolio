@@ -1,5 +1,29 @@
 [
   {
+    "id": "youtube-audio-drama",
+    "number": "00",
+    "category": "AI AUTOMATION / N8N",
+    "year": "2025.12",
+    "name": "YouTube Channel (Audio Drama Automation)",
+    "nameKo": "Youtube 채널 (오디오 드라마 자동 제작)",
+    "source": "Local n8n workflow metadata and the published Insaeng Mujigae YouTube channel.",
+    "link": "https://www.youtube.com/@%EC%9D%B8%EC%83%9D%EB%AC%B4%EC%A7%80%EA%B0%9C-p9i",
+    "linkLabel": "Insaeng Mujigae YouTube channel",
+    "linkLabelKo": "인생무지개 유튜브 채널",
+    "resources": [
+      {
+        "url": "https://www.youtube.com/watch?v=M_EMt1NYX6U",
+        "label": "The Day My Husband Lost His Way",
+        "labelKo": "남편이 길을 잃던 날"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4vonULd51jk",
+        "label": "A Mother-in-law’s Revenge",
+        "labelKo": "짐 취급 당한 시어머니의 100억 복수"
+      }
+    ]
+  },
+  {
     "id": "epic-studio",
     "number": "01",
     "category": "AI SYSTEMS / CONTENT AUTOMATION",

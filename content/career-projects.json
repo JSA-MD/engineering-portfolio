@@ -1,12 +1,12 @@
 [
   {
     "career": 0,
-    "name": "Senior Audio Drama Automation",
-    "nameKo": "시니어 오디오 드라마 자동 제작",
+    "name": "YouTube Channel (Audio Drama Automation)",
+    "nameKo": "Youtube 채널 (오디오 드라마 자동 제작)",
     "period": "2025.12 recorded",
     "periodKo": "2025.12 기록",
-    "summary": "n8n workflow for creating senior-oriented audio drama videos for YouTube.",
-    "summaryKo": "시니어를 위한 유튜브 오디오 드라마 제작 자동화 프로젝트.",
+    "summary": "An n8n workflow automating audio drama production for a YouTube channel.",
+    "summaryKo": "n8n으로 유튜브 오디오 드라마 제작 전 과정을 자동화한 프로젝트.",
     "skills": "n8n · OpenAI · Claude · Gemini · ElevenLabs · FFmpeg",
     "highlight": "Published the audio drama on the Insaeng Mujigae YouTube channel.",
     "highlightKo": "인생무지개 유튜브 채널에 오디오 드라마 영상 게시.",
@@ -19,15 +19,16 @@
     },
     "slug": "senior-audio-drama-automation",
     "description": [
-      "Creates narrative audio dramas for a senior audience.",
-      "Generates story outlines, scripts, voices and scene images.",
-      "Combines audio, subtitles and visuals for YouTube."
+      "Automates the audio drama production workflow with n8n.",
+      "Uses AI to create story outlines, scripts, voices and scene images.",
+      "Combines audio, subtitles and images into videos for a YouTube channel."
     ],
     "descriptionKo": [
-      "시니어를 위한 사연 중심 오디오 드라마를 제작합니다.",
-      "시놉시스·대본·음성과 장면 이미지를 생성합니다.",
-      "음성·자막·이미지를 합쳐 유튜브 영상으로 만듭니다."
-    ]
+      "n8n으로 오디오 드라마 제작의 전체 작업을 자동화했습니다.",
+      "AI로 시놉시스·대본·음성과 장면 이미지를 생성합니다.",
+      "음성·자막·이미지를 결합해 유튜브 채널 영상을 제작합니다."
+    ],
+    "detail": "/work/youtube-audio-drama/"
   },
   {
     "career": 0,
