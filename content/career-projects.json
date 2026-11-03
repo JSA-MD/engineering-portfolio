@@ -86,32 +86,33 @@
   },
   {
     "career": 0,
-    "name": "Epic Studio",
-    "nameKo": "Epic Studio",
-    "summary": "AI-assisted YouTube content production and publishing system.",
-    "summaryKo": "AI 기반 유튜브 콘텐츠 제작·게시 자동화 시스템.",
+    "name": "Jay Invest (Epic Studio)",
+    "nameKo": "Jay Invest (Epic Studio)",
+    "summary": "AI-developed YouTube automation system built from earlier n8n workflow experience.",
+    "summaryKo": "n8n 자동화 경험을 바탕으로 AI 코딩 도구로 구축한 유튜브 운영 시스템.",
     "media": {
-      "type": "image",
-      "src": "/assets/epic-pipeline.png",
-      "source": "Actual Epic Studio interface",
-      "sourceKo": "Epic Studio 실제 프로그램 화면"
+      "type": "channel",
+      "src": "/assets/jay-invest-channel-banner.jpg",
+      "source": "Jay Invest YouTube channel image",
+      "sourceKo": "Jay Invest 유튜브 채널 이미지",
+      "channelUrl": "https://www.youtube.com/@JayInvests7US"
     },
     "detail": "/work/epic-studio/",
-    "skills": "Python · FastAPI · Next.js · PostgreSQL · FFmpeg",
-    "highlight": "66 videos composed and 54 uploaded across three channels (historical records).",
-    "highlightKo": "영상 66편 합성, 3개 채널에 54편 게시(과거 기록).",
+    "skills": "Claude Code · Codex · Python · FastAPI · Next.js · PostgreSQL · FFmpeg · YouTube API",
+    "highlight": "AI-built system; 66 videos composed and 54 uploaded across three channels (historical project records).",
+    "highlightKo": "AI 코딩으로 시스템 구축 · 영상 66편 합성, 3개 채널에 54편 게시(과거 프로젝트 기록).",
     "period": "2026.01 recorded",
     "periodKo": "2026.01 기록",
     "slug": "epic-studio",
     "description": [
-      "Automates production of YouTube content with AI.",
-      "Connects topic research, scripts, images, voice and video.",
-      "Supports publishing and feedback-driven review."
+      "Built an end-to-end YouTube production system with Claude Code and Codex, drawing on earlier n8n experience.",
+      "Connects research, topic selection, scripts, visuals, voice, subtitles, composition and upload.",
+      "Collects channel performance data and feeds insights into future topic generation."
     ],
     "descriptionKo": [
-      "AI를 활용해 유튜브 콘텐츠 제작을 자동화합니다.",
-      "주제 조사부터 대본·이미지·음성·영상을 연결합니다.",
-      "게시와 성과 확인까지 제작 흐름을 지원합니다."
+      "n8n 자동화 경험을 바탕으로 Claude Code·Codex를 활용해 유튜브 운영 시스템을 구축했습니다.",
+      "소재 수집·주제 선정부터 음성·자막·영상 제작, 합성·업로드까지 연결합니다.",
+      "채널 성과 데이터를 수집해 다음 영상의 주제 선정에 활용합니다."
     ]
   },
   {
