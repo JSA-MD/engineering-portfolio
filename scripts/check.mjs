@@ -9,10 +9,12 @@ const careerProjects=JSON.parse(await readFile('content/career-projects.json','u
 const designStyles=JSON.parse(await readFile('content/design-styles.json','utf8'));
 for(const [i,p] of careerProjects.entries()){
   for(const field of ['name','nameKo','summary','summaryKo','skills','highlight','highlightKo'])if(!p[field])throw Error(`career project ${i}: missing ${field}`);
+  for(const field of ['description','descriptionKo'])if(!Array.isArray(p[field])||p[field].length!==3||p[field].some(line=>typeof line!=='string'||!line.trim()))throw Error(`career project ${i}: ${field} must contain three lines`);
   if(!Number.isInteger(p.career)||p.career<0||p.career>=career.length)throw Error(`career project ${i}: invalid career index`);
   if(p.media?.type==='youtube'&&!/^[\w-]{11}$/.test(p.media.id))throw Error(`career project ${i}: invalid video ID`);
   if(p.media?.type==='image')await access(join('dist',p.media.src));
   if(p.media?.type==='video'){await access(join('dist',p.media.src));await access(join('dist',p.media.poster));}
+  if(p.media?.channelUrl && !/^https:\/\/www\.youtube\.com\/@[A-Za-z0-9%_-]+$/.test(p.media.channelUrl))throw Error(`career project ${i}: invalid channel URL`);
   if(p.media&&(!p.media.source||!p.media.sourceKo))throw Error(`career project ${i}: media attribution missing`);
 }
 for(const [i] of career.entries())if(!careerProjects.some(p=>p.career===i))throw Error(`career ${i}: missing project`);
@@ -22,7 +24,7 @@ if((careerHtml.match(/class="career-project"/g)||[]).length!==careerProjects.len
 const labHtml=await readFile('dist/lab/index.html','utf8');
 if((labHtml.match(/class="career-project"/g)||[]).length!==careerProjects.filter(p=>p.career===0).length)throw Error('independent projects missing from AI lab');
 const briefs=[...careerHtml.matchAll(/<div class="project-brief">([\s\S]*?)<\/div>/g)];
-if(briefs.length!==careerProjects.length || briefs.some(x=>(x[1].match(/<p>/g)||[]).length!==3))throw Error('Each career project must have three brief lines');
+if(briefs.length!==careerProjects.length || briefs.some(x=>(x[1].match(/<p(?:\s[^>]*)?>/g)||[]).length!==5))throw Error('Each project must have three description lines, skills and highlight');
 for(const p of projects){const html=await readFile(join('dist','work',p.id,'index.html'),'utf8');if(/THE PROBLEM|THE SYSTEM|해결할 문제|구현 방식/.test(html))throw Error(`${p.id}: old detailed sections remain`);if((html.match(/class="project-brief"/g)||[]).length!==1)throw Error(`${p.id}: missing project brief`);}
 for(const route of ['', 'work','career','journey','lab','about',...projects.map(p=>`work/${p.id}`)]) {const html=await readFile(join('dist',route,'index.html'),'utf8'); if(!html.includes('<title>')||!html.includes('id="main"')||!html.includes('name="description"')) throw Error(`${route}: missing required structure`);for(const style of designStyles.styles)if(!html.includes(`data-style-choice="${style.id}"`))throw Error(`${route}: missing ${style.id} style control`);}
 console.log(`Verified ${projects.length} case studies, ${career.length} career entries, ${careerProjects.length} career projects and referenced media.`);

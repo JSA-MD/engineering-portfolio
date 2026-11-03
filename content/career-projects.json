@@ -1,6 +1,29 @@
 [
   {
     "career": 0,
+    "period": "2024.11 recorded",
+    "periodKo": "2024.11 기록",
+    "name": "Unity Card Game Prototype",
+    "nameKo": "Unity 카드 게임 프로토타입",
+    "slug": "unity-card-game-prototype",
+    "summary": "A Unity card-game prototype.",
+    "summaryKo": "Unity 기반 카드 게임 프로토타입.",
+    "skills": "Unity · C# · Game UI · Animation",
+    "highlight": "Built card dealing animation and game-manager integration.",
+    "highlightKo": "카드 배분 애니메이션과 게임 매니저 연동 개발.",
+    "description": [
+      "A card-game prototype built with Unity.",
+      "Includes game scenes, card assets and UI.",
+      "Connects card dealing animation to game management."
+    ],
+    "descriptionKo": [
+      "Unity로 만든 카드 게임 프로토타입입니다.",
+      "게임 장면과 카드 리소스·UI를 구성했습니다.",
+      "카드 배분 애니메이션과 게임 관리를 연결했습니다."
+    ]
+  },
+  {
+    "career": 0,
     "name": "Senior Audio Drama Automation",
     "nameKo": "시니어 오디오 드라마 자동 제작",
     "period": "2025.12 recorded",
@@ -8,16 +31,26 @@
     "summary": "n8n workflow for creating senior-oriented audio drama videos for YouTube.",
     "summaryKo": "시니어를 위한 유튜브 오디오 드라마 제작 자동화 프로젝트.",
     "skills": "n8n · OpenAI · Claude · Gemini · ElevenLabs · FFmpeg",
-    "highlight": "Scripts, voice, subtitles and scene rendering; real output sample.",
-    "highlightKo": "대본·음성·자막·장면 합성 워크플로와 실제 제작 영상 확인.",
+    "highlight": "Published the audio drama on the Insaeng Mujigae YouTube channel.",
+    "highlightKo": "인생무지개 유튜브 채널에 오디오 드라마 영상 게시.",
     "media": {
-      "type": "video",
-      "src": "/assets/audio-drama-sample.mp4",
-      "poster": "/assets/audio-drama-scene.png",
-      "source": "30-second excerpt of an AI-generated project video; AI-generated scene.",
-      "sourceKo": "실제 제작 영상의 30초 발췌본 · AI 생성 장면."
+      "type": "youtube",
+      "id": "M_EMt1NYX6U",
+      "source": "Insaeng Mujigae · The Day My Husband Lost His Way",
+      "sourceKo": "인생무지개 · 남편이 길을 잃던 날",
+      "channelUrl": "https://www.youtube.com/@%EC%9D%B8%EC%83%9D%EB%AC%B4%EC%A7%80%EA%B0%9C-p9i"
     },
-    "slug": "senior-audio-drama-automation"
+    "slug": "senior-audio-drama-automation",
+    "description": [
+      "Creates narrative audio dramas for a senior audience.",
+      "Generates story outlines, scripts, voices and scene images.",
+      "Combines audio, subtitles and visuals for YouTube."
+    ],
+    "descriptionKo": [
+      "시니어를 위한 사연 중심 오디오 드라마를 제작합니다.",
+      "시놉시스·대본·음성과 장면 이미지를 생성합니다.",
+      "음성·자막·이미지를 합쳐 유튜브 영상으로 만듭니다."
+    ]
   },
   {
     "career": 0,
@@ -30,7 +63,17 @@
     "skills": "Python · FastAPI · Streamlit · PostgreSQL · n8n",
     "highlight": "Combines collection, deduplication, keyword extraction and a search UI.",
     "highlightKo": "수집·중복 제거·키워드 분석과 검색 화면 연결.",
-    "slug": "ai-studio-news-collector"
+    "slug": "ai-studio-news-collector",
+    "description": [
+      "Collects news from Google and Naver.",
+      "Extracts keywords, removes duplicates and ranks trends.",
+      "Provides a searchable interface and scheduled collection."
+    ],
+    "descriptionKo": [
+      "구글과 네이버에서 뉴스를 수집합니다.",
+      "키워드를 추출하고 중복 제거와 트렌드 분석을 수행합니다.",
+      "검색 화면과 예약 수집 기능을 제공합니다."
+    ]
   },
   {
     "career": 0,
@@ -49,7 +92,17 @@
       "id": "c9arv8PT4Ks",
       "source": "EpicFun · Dog Wakes Up the Sleepy Girl · most viewed as of Nov 2026",
       "sourceKo": "EpicFun · Dog Wakes Up the Sleepy Girl · 2026.11 인기순 1위"
-    }
+    },
+    "description": [
+      "Creates entertaining animal Shorts for YouTube.",
+      "Builds video ideas and requests AI-generated clips.",
+      "Schedules the workflow and connects YouTube upload."
+    ],
+    "descriptionKo": [
+      "재미있는 동물 숏츠 영상을 제작합니다.",
+      "영상 아이디어를 만들고 AI 영상 생성을 요청합니다.",
+      "예약 실행과 유튜브 업로드를 연결합니다."
+    ]
   },
   {
     "career": 0,
@@ -69,7 +122,17 @@
     "highlightKo": "영상 66편 합성, 3개 채널에 54편 게시(과거 기록).",
     "period": "2026.01 recorded",
     "periodKo": "2026.01 기록",
-    "slug": "epic-studio"
+    "slug": "epic-studio",
+    "description": [
+      "Automates production of YouTube content with AI.",
+      "Connects topic research, scripts, images, voice and video.",
+      "Supports publishing and feedback-driven review."
+    ],
+    "descriptionKo": [
+      "AI를 활용해 유튜브 콘텐츠 제작을 자동화합니다.",
+      "주제 조사부터 대본·이미지·음성·영상을 연결합니다.",
+      "게시와 성과 확인까지 제작 흐름을 지원합니다."
+    ]
   },
   {
     "career": 0,
@@ -82,7 +145,40 @@
     "skills": "Python · DEAP · NumPy · Pandas · Backtesting",
     "highlight": "Strategy evolution and cost-aware backtests; research results only.",
     "highlightKo": "전략 진화와 비용 반영 백테스트 구현 · 연구 단계.",
-    "slug": "epic-invest-genetic-strategy-research"
+    "slug": "epic-invest-genetic-strategy-research",
+    "description": [
+      "Explores crypto strategies with genetic programming.",
+      "Generates and evaluates candidate trading formulas.",
+      "Runs cost-aware backtests for research."
+    ],
+    "descriptionKo": [
+      "유전 프로그래밍으로 암호화폐 전략을 탐색합니다.",
+      "매매 수식 후보를 생성하고 평가합니다.",
+      "비용을 반영한 백테스트로 연구합니다."
+    ]
+  },
+  {
+    "career": 0,
+    "period": "2026.03 recorded",
+    "periodKo": "2026.03 기록",
+    "name": "Online Shop Automation",
+    "nameKo": "온라인 쇼핑 관리 자동화",
+    "slug": "online-shop-automation",
+    "summary": "Online shopping trend and listing automation.",
+    "summaryKo": "온라인 쇼핑 트렌드·상품 등록 자동화.",
+    "skills": "Python · Streamlit · Playwright · Pandas",
+    "highlight": "Connected product research, image processing and listing workflows.",
+    "highlightKo": "상품 조사·이미지 처리·등록 워크플로를 연결했습니다.",
+    "description": [
+      "Automates parts of online shop research and management.",
+      "Collects product trends and presents them in a dashboard.",
+      "Prepares product images and listing packages."
+    ],
+    "descriptionKo": [
+      "온라인 쇼핑 조사와 관리 업무를 자동화합니다.",
+      "상품 트렌드를 수집하고 대시보드에 표시합니다.",
+      "상품 이미지와 등록용 자료를 준비합니다."
+    ]
   },
   {
     "career": 0,
@@ -95,7 +191,17 @@
     "skills": "Python · Pandas · Streamlit · Telegram",
     "highlight": "Signal analysis and dashboard tooling; no performance claim.",
     "highlightKo": "매매 신호 분석과 대시보드 도구 개발 · 성과 미주장.",
-    "slug": "epic-trading-wb-strategy"
+    "slug": "epic-trading-wb-strategy",
+    "description": [
+      "Researches semi-automated futures trading.",
+      "Analyzes signals based on the WB trading method.",
+      "Provides monitoring and dashboard tools."
+    ],
+    "descriptionKo": [
+      "선물 매매의 반자동화를 연구합니다.",
+      "더블비 매매법을 바탕으로 신호를 분석합니다.",
+      "모니터링과 대시보드 도구를 제공합니다."
+    ]
   },
   {
     "career": 0,
@@ -108,7 +214,17 @@
     "skills": "Python · Backtesting · Telegram · Docker",
     "highlight": "Strategy backtesting and monitoring components.",
     "highlightKo": "전략 백테스트와 모니터링 구성요소 개발.",
-    "slug": "epic-trading-2-scalping-research"
+    "slug": "epic-trading-2-scalping-research",
+    "description": [
+      "Studies short-term trading strategies.",
+      "Combines strategy logic with historical backtesting.",
+      "Includes monitoring and messaging integrations."
+    ],
+    "descriptionKo": [
+      "단기 매매 전략을 분석하는 프로젝트입니다.",
+      "전략 로직을 과거 데이터 백테스트와 연결합니다.",
+      "모니터링과 메시지 연동 기능을 포함합니다."
+    ]
   },
   {
     "career": 0,
@@ -121,7 +237,17 @@
     "skills": "JavaScript · Node.js · OKX MCP · WebSocket",
     "highlight": "Implements exchange adapters, indicators and safety checks.",
     "highlightKo": "거래소 연동·지표·안전성 검사 구현.",
-    "slug": "quant-bot-exchange-toolkit"
+    "slug": "quant-bot-exchange-toolkit",
+    "description": [
+      "Experiments with exchange-based quant trading.",
+      "Uses market indicators and exchange adapters.",
+      "Integrates an AI agent toolkit and runtime checks."
+    ],
+    "descriptionKo": [
+      "거래소 기반 퀀트 매매를 실험합니다.",
+      "시장 지표와 거래소 연동 모듈을 사용합니다.",
+      "AI 에이전트 툴킷과 실행 안전성 검사를 연결합니다."
+    ]
   },
   {
     "career": 0,
@@ -134,7 +260,17 @@
     "skills": "Python · PostgreSQL · Backtesting · OKX",
     "highlight": "Backtesting and demo paper execution; research results only.",
     "highlightKo": "백테스트와 데모 모의 실행 · 연구 결과.",
-    "slug": "okx-scalping-research"
+    "slug": "okx-scalping-research",
+    "description": [
+      "Researches five-minute futures scalping.",
+      "Evaluates rule-based strategies with historical data.",
+      "Includes an OKX demo paper-trading runtime."
+    ],
+    "descriptionKo": [
+      "5분봉 선물 스캘핑 전략을 연구합니다.",
+      "과거 데이터로 규칙 기반 전략을 평가합니다.",
+      "OKX 데모 모의매매 실행기를 포함합니다."
+    ]
   },
   {
     "career": 0,
@@ -149,7 +285,17 @@
     "highlightKo": "백테스트·데모 일치성 검증 · 수익성 미검증.",
     "period": "2026.04 recorded",
     "periodKo": "2026.04 기록",
-    "slug": "binance-manual-wick-research"
+    "slug": "binance-manual-wick-research",
+    "description": [
+      "Researches a manual-wick futures strategy.",
+      "Compares historical backtests with demo execution.",
+      "Monitors data and execution parity."
+    ],
+    "descriptionKo": [
+      "선물 시장의 꼬리 반전 전략을 연구합니다.",
+      "과거 백테스트와 데모 실행 결과를 비교합니다.",
+      "데이터와 실행 경로의 일치성을 점검합니다."
+    ]
   },
   {
     "career": 0,
@@ -162,7 +308,17 @@
     "skills": "Python · Polymarket API · PostgreSQL",
     "highlight": "Wallet screening, risk gates and paper-mode research.",
     "highlightKo": "지갑 선별·위험 검증과 모의 실행 연구.",
-    "slug": "polymarket-wallet-scanner"
+    "slug": "polymarket-wallet-scanner",
+    "description": [
+      "Analyzes public prediction-market wallet activity.",
+      "Scores market candidates from observed positions.",
+      "Applies risk checks and supports paper-mode research."
+    ],
+    "descriptionKo": [
+      "예측 시장의 공개 지갑 활동을 분석합니다.",
+      "관찰한 포지션을 바탕으로 후보를 선별합니다.",
+      "위험 검증과 모의 실행 연구를 지원합니다."
+    ]
   },
   {
     "career": 0,
@@ -175,7 +331,17 @@
     "skills": "Python · Testing · Market indicators",
     "highlight": "Research scaffold for replay, indicators and regime analysis.",
     "highlightKo": "캔들 재생·지표·시장 국면 분석 연구 기반.",
-    "slug": "trading-bot-research-foundation"
+    "slug": "trading-bot-research-foundation",
+    "description": [
+      "Builds a reproducible market research foundation.",
+      "Replays candles through indicators and regime analysis.",
+      "Keeps backtest components and tests separate."
+    ],
+    "descriptionKo": [
+      "재현 가능한 시장 분석 기반을 구축합니다.",
+      "캔들을 재생하며 지표와 시장 국면을 분석합니다.",
+      "백테스트 구성요소와 검증 코드를 분리합니다."
+    ]
   },
   {
     "career": 0,
@@ -188,7 +354,17 @@
     "skills": "Pine Script · TradingView · Python",
     "highlight": "Research and paper-mode validation; live readiness not claimed.",
     "highlightKo": "전략 실험과 모의 검증 구조 · 실전 준비 여부 미주장.",
-    "slug": "emanuel-tradingview-research"
+    "slug": "emanuel-tradingview-research",
+    "description": [
+      "Connects TradingView strategy tests with Python.",
+      "Records candidates and checks signal parity.",
+      "Keeps the workflow in research and paper mode."
+    ],
+    "descriptionKo": [
+      "TradingView 전략 실험을 Python 검증과 연결합니다.",
+      "전략 후보를 기록하고 신호 일치성을 확인합니다.",
+      "연구와 모의 검증을 중심으로 구성했습니다."
+    ]
   },
   {
     "career": 0,
@@ -201,7 +377,17 @@
     "skills": "Python · AI agents · Experiment registry · Testing",
     "highlight": "Separates experiments, validation and research evidence.",
     "highlightKo": "실험 등록·검증·근거 기록을 분리한 연구 구조.",
-    "slug": "alpha-factory-research-orchestrator"
+    "slug": "alpha-factory-research-orchestrator",
+    "description": [
+      "Organizes agent-assisted strategy experiments.",
+      "Separates candidate generation from validation.",
+      "Records research evidence and gate decisions."
+    ],
+    "descriptionKo": [
+      "AI 에이전트 기반 전략 실험을 관리합니다.",
+      "후보 생성과 검증 절차를 분리합니다.",
+      "연구 근거와 검증 결과를 기록합니다."
+    ]
   },
   {
     "career": 0,
@@ -214,7 +400,17 @@
     "skills": "Python · Claude Code · Experiment registry · Testing",
     "highlight": "Research workflow with recorded validation gates.",
     "highlightKo": "검증 단계와 실험 기록을 갖춘 연구 워크플로.",
-    "slug": "emanuel-autonomous-research-lab"
+    "slug": "emanuel-autonomous-research-lab",
+    "description": [
+      "Manages agent-assisted strategy research.",
+      "Tracks experiment configurations and validation gates.",
+      "Supports repeatable review of research candidates."
+    ],
+    "descriptionKo": [
+      "AI 에이전트를 활용해 전략을 연구합니다.",
+      "실험 설정과 검증 단계를 관리합니다.",
+      "연구 후보를 반복 검토할 수 있도록 구성했습니다."
+    ]
   },
   {
     "career": 0,
@@ -227,7 +423,17 @@
     "skills": "Python · FastAPI · React · PostgreSQL",
     "highlight": "Research, paper trading and operational monitoring in one workspace.",
     "highlightKo": "연구·모의매매·운영 감시를 하나의 화면으로 구성.",
-    "slug": "trend-trading-workspace"
+    "slug": "trend-trading-workspace",
+    "description": [
+      "Collects market data for trend research.",
+      "Combines backtesting, paper trading and monitoring.",
+      "Presents analysis and operational views in a web UI."
+    ],
+    "descriptionKo": [
+      "추세 전략 연구를 위한 시장 데이터를 수집합니다.",
+      "백테스트·모의매매·거래 감시를 연결합니다.",
+      "웹 화면에서 분석과 운영 상태를 확인합니다."
+    ]
   },
   {
     "career": 1,
@@ -244,7 +450,17 @@
     "detail": "/work/olobo/",
     "skills": "Unity3D · C# · Spring Boot · Python · MySQL",
     "highlight": "US iOS release; resolved an intermittent iOS crash (résumé).",
-    "highlightKo": "미국 iOS 출시, 간헐적 iOS 충돌 해결(경력 문서)."
+    "highlightKo": "미국 iOS 출시, 간헐적 iOS 충돌 해결(경력 문서).",
+    "description": [
+      "Creates stories with 3D avatars and AI-generated voice.",
+      "Connects a Unity client with backend services.",
+      "Targets iOS and Android mobile devices."
+    ],
+    "descriptionKo": [
+      "3D 아바타와 AI 음성으로 이야기를 만드는 앱입니다.",
+      "Unity 클라이언트와 백엔드 서비스를 연결합니다.",
+      "iOS·Android 모바일 환경을 지원합니다."
+    ]
   },
   {
     "career": 2,
@@ -261,7 +477,17 @@
     "detail": "/work/purenista/",
     "skills": "React Native · TypeScript · C++ · Swift · Kotlin",
     "highlight": "Composition >40s → ≤5s; images >30MB → ≤3MB (résumé).",
-    "highlightKo": "이미지 합성 40초 이상→5초 이내, 30MB 이상→3MB 이하(경력 문서)."
+    "highlightKo": "이미지 합성 40초 이상→5초 이내, 30MB 이상→3MB 이하(경력 문서).",
+    "description": [
+      "A Japanese avatar-styling and social art app.",
+      "Combines character items into shareable artwork.",
+      "Uses a native image engine across mobile platforms."
+    ],
+    "descriptionKo": [
+      "아바타 스타일링과 작품 공유를 위한 일본 앱입니다.",
+      "캐릭터 아이템을 조합해 디지털 작품을 만듭니다.",
+      "모바일 공통 이미지 처리 엔진을 사용합니다."
+    ]
   },
   {
     "career": 3,
@@ -278,7 +504,17 @@
     "detail": null,
     "skills": "Unity3D · C# · Hardware integration",
     "highlight": "Led development; exhibited at G2E Las Vegas in 2019.",
-    "highlightKo": "개발팀 리딩, 2019 라스베이거스 G2E 출품."
+    "highlightKo": "개발팀 리딩, 2019 라스베이거스 G2E 출품.",
+    "description": [
+      "A casino slot-machine game for Kangwon Land / KLSaberi.",
+      "Built a Unity-based game framework and gameplay.",
+      "Integrated game software with casino hardware."
+    ],
+    "descriptionKo": [
+      "강원랜드 KLSaberi의 슬롯머신 게임입니다.",
+      "Unity 기반 게임 프레임워크와 콘텐츠를 개발했습니다.",
+      "카지노 하드웨어와 게임 소프트웨어를 연동했습니다."
+    ]
   },
   {
     "career": 4,
@@ -295,7 +531,17 @@
     "detail": null,
     "skills": "Unity3D · C# · Spring Boot · AWS",
     "highlight": "Established the initial architecture and release infrastructure.",
-    "highlightKo": "초기 아키텍처와 모바일 출시 기반 구축."
+    "highlightKo": "초기 아키텍처와 모바일 출시 기반 구축.",
+    "description": [
+      "A fashion content and style-sharing mobile app.",
+      "Established the initial client and backend architecture.",
+      "Built shared foundations for mobile release."
+    ],
+    "descriptionKo": [
+      "패션 콘텐츠와 스타일을 공유하는 모바일 앱입니다.",
+      "초기 클라이언트와 백엔드 구조를 설계했습니다.",
+      "모바일 출시를 위한 공통 개발 기반을 구축했습니다."
+    ]
   },
   {
     "career": 5,
@@ -312,7 +558,17 @@
     "detail": null,
     "skills": "Unity3D · C# · iOS · Android",
     "highlight": "Released on iOS and Android in Japan (résumé).",
-    "highlightKo": "일본 iOS·Android 상용 출시(경력 문서)."
+    "highlightKo": "일본 iOS·Android 상용 출시(경력 문서).",
+    "description": [
+      "A Japanese mobile RPG combining quizzes and combat.",
+      "Developed gameplay frameworks and content.",
+      "Supported iOS and Android releases."
+    ],
+    "descriptionKo": [
+      "퀴즈와 턴제 전투를 결합한 일본 모바일 RPG입니다.",
+      "게임 프레임워크와 콘텐츠를 개발했습니다.",
+      "iOS·Android 출시 환경에 대응했습니다."
+    ]
   },
   {
     "career": 6,
@@ -329,7 +585,17 @@
     "detail": null,
     "skills": "iOS · Android · Mobile game development",
     "highlight": "Developed slot content and supported device stability.",
-    "highlightKo": "슬롯 콘텐츠 개발과 모바일 기기 안정화."
+    "highlightKo": "슬롯 콘텐츠 개발과 모바일 기기 안정화.",
+    "description": [
+      "A mobile social casino with slot games.",
+      "Developed and updated slot-game content.",
+      "Supported stability across mobile devices."
+    ],
+    "descriptionKo": [
+      "슬롯 콘텐츠를 제공하는 모바일 소셜 카지노입니다.",
+      "슬롯 게임 콘텐츠와 업데이트를 개발했습니다.",
+      "모바일 기기별 안정화 작업을 지원했습니다."
+    ]
   },
   {
     "career": 7,
@@ -341,7 +607,17 @@
     "detail": null,
     "skills": "Unity3D · C# · Spring Boot · MySQL",
     "highlight": "iOS / Android release; eight casino titles for China (résumé).",
-    "highlightKo": "iOS·Android 출시 및 중국향 카지노 8종 개발·출시(경력 문서)."
+    "highlightKo": "iOS·Android 출시 및 중국향 카지노 8종 개발·출시(경력 문서).",
+    "description": [
+      "A social casino with multiple slot experiences.",
+      "Developed client architecture and backend integration.",
+      "Supported mobile releases and related casino titles."
+    ],
+    "descriptionKo": [
+      "다양한 슬롯을 제공하는 모바일 소셜 카지노입니다.",
+      "클라이언트 구조와 백엔드 연동을 개발했습니다.",
+      "모바일 출시와 관련 카지노 게임 개발에 참여했습니다."
+    ]
   },
   {
     "career": 8,
@@ -358,7 +634,17 @@
     "detail": null,
     "skills": "C/C++ · DirectX · Game client",
     "highlight": "Maintained and stabilized an established live-service client.",
-    "highlightKo": "라이브 서비스 클라이언트 유지보수·안정화."
+    "highlightKo": "라이브 서비스 클라이언트 유지보수·안정화.",
+    "description": [
+      "A long-running online action shooting game for PC.",
+      "Maintained an established game client and codebase.",
+      "Addressed live-service and stability issues."
+    ],
+    "descriptionKo": [
+      "장기간 서비스된 PC 온라인 액션 슈팅 게임입니다.",
+      "기존 게임 클라이언트와 코드베이스를 유지보수했습니다.",
+      "라이브 서비스와 안정성 이슈에 대응했습니다."
+    ]
   },
   {
     "career": 8,
@@ -370,7 +656,17 @@
     "detail": null,
     "skills": "Smart TV · Remote input · Platform integration",
     "highlight": "Implemented TV navigation and remote-control interaction.",
-    "highlightKo": "TV 내비게이션과 리모컨 입력 기능 구현."
+    "highlightKo": "TV 내비게이션과 리모컨 입력 기능 구현.",
+    "description": [
+      "A social casino adapted for Samsung Smart TV.",
+      "Implemented remote-control input and TV navigation.",
+      "Integrated the application with the TV platform."
+    ],
+    "descriptionKo": [
+      "소셜 카지노 게임을 삼성 스마트 TV에 포팅했습니다.",
+      "리모컨 입력과 TV 내비게이션을 구현했습니다.",
+      "TV 플랫폼과 애플리케이션을 연동했습니다."
+    ]
   },
   {
     "career": 9,
@@ -382,7 +678,17 @@
     "detail": null,
     "skills": "C/C++ · DirectX · SQLite · RS232C",
     "highlight": "Over 20 arcade titles commercialized (résumé).",
-    "highlightKo": "아케이드 게임 20여 종 상용화(경력 문서)."
+    "highlightKo": "아케이드 게임 20여 종 상용화(경력 문서).",
+    "description": [
+      "Developed arcade games and an online horse-racing system.",
+      "Connected game software with external hardware.",
+      "Handled 3D systems and local data processing."
+    ],
+    "descriptionKo": [
+      "아케이드 게임과 온라인 경마 시스템을 개발했습니다.",
+      "게임 소프트웨어와 외부 하드웨어를 연결했습니다.",
+      "3D 시스템과 로컬 데이터 처리를 담당했습니다."
+    ]
   },
   {
     "career": 10,
@@ -399,7 +705,17 @@
     "detail": null,
     "skills": "C/C++ · Linux · PostgreSQL",
     "highlight": "Developed server logic and supported live operations.",
-    "highlightKo": "MMORPG 서버 로직 개발 및 라이브 운영 대응."
+    "highlightKo": "MMORPG 서버 로직 개발 및 라이브 운영 대응.",
+    "description": [
+      "An online MMORPG with persistent multiplayer data.",
+      "Developed Linux-based game server logic.",
+      "Handled sessions, inventory and database integration."
+    ],
+    "descriptionKo": [
+      "다중 접속과 게임 데이터를 사용하는 MMORPG입니다.",
+      "Linux 기반 게임 서버 로직을 개발했습니다.",
+      "세션·인벤토리와 데이터베이스를 연결했습니다."
+    ]
   },
   {
     "career": 11,
@@ -411,7 +727,17 @@
     "detail": null,
     "skills": "Unreal Engine 3 · Scaleform · Game UI",
     "highlight": "Integrated Scaleform and built game interfaces.",
-    "highlightKo": "Scaleform 연동과 게임 UI 개발."
+    "highlightKo": "Scaleform 연동과 게임 UI 개발.",
+    "description": [
+      "An MMORPG project using Unreal Engine 3.",
+      "Integrated Scaleform with the game engine.",
+      "Developed game user interfaces."
+    ],
+    "descriptionKo": [
+      "언리얼 엔진 3 기반 MMORPG 개발 프로젝트입니다.",
+      "게임 엔진에 Scaleform을 연동했습니다.",
+      "게임 사용자 인터페이스를 개발했습니다."
+    ]
   },
   {
     "career": 12,
@@ -428,7 +754,17 @@
     "detail": null,
     "skills": "C/C++ · DirectX · Game client",
     "highlight": "Contributed to a commercial online game (résumé).",
-    "highlightKo": "상용 온라인 게임 개발 참여(경력 문서)."
+    "highlightKo": "상용 온라인 게임 개발 참여(경력 문서).",
+    "description": [
+      "Contributed to the online golf game PangYa.",
+      "Worked on the PC game client and rendering.",
+      "Supported game features and the live product."
+    ],
+    "descriptionKo": [
+      "온라인 골프 게임 팡야 개발에 참여했습니다.",
+      "PC 게임 클라이언트와 렌더링을 개발했습니다.",
+      "게임 기능과 서비스 대응을 지원했습니다."
+    ]
   },
   {
     "career": 13,
@@ -440,7 +776,17 @@
     "detail": null,
     "skills": "C/C++ · 3D engine · Animation",
     "highlight": "Developed a custom 3D engine and content tools.",
-    "highlightKo": "자체 3D 엔진과 콘텐츠 제작 도구 개발."
+    "highlightKo": "자체 3D 엔진과 콘텐츠 제작 도구 개발.",
+    "description": [
+      "Built online games for the Japanese market.",
+      "Developed a custom 3D golf-game engine.",
+      "Created animation, terrain and content tools."
+    ],
+    "descriptionKo": [
+      "일본 시장 대상 온라인 게임을 개발했습니다.",
+      "자체 3D 골프 게임 엔진을 개발했습니다.",
+      "애니메이션·지형·콘텐츠 도구를 제작했습니다."
+    ]
   },
   {
     "career": 14,
@@ -452,7 +798,17 @@
     "detail": null,
     "skills": "C/C++ · DirectX · 3D graphics",
     "highlight": "Taught 3D programming and mentored student portfolios.",
-    "highlightKo": "3D 프로그래밍 강의와 수강생 포트폴리오 지도."
+    "highlightKo": "3D 프로그래밍 강의와 수강생 포트폴리오 지도.",
+    "description": [
+      "Taught game and 3D engine programming.",
+      "Covered graphics, animation and 3D mathematics.",
+      "Mentored students on their project portfolios."
+    ],
+    "descriptionKo": [
+      "게임과 3D 엔진 프로그래밍을 강의했습니다.",
+      "그래픽·애니메이션·3D 수학을 다뤘습니다.",
+      "수강생의 프로젝트 포트폴리오를 지도했습니다."
+    ]
   },
   {
     "career": 15,
@@ -464,7 +820,17 @@
     "detail": null,
     "skills": "Game architecture · Sprite tools · State machines",
     "highlight": "Developed core game systems and creation tools.",
-    "highlightKo": "게임 핵심 시스템과 제작 도구 개발."
+    "highlightKo": "게임 핵심 시스템과 제작 도구 개발.",
+    "description": [
+      "Developed PC online casual games.",
+      "Built content tools and core game architecture.",
+      "Worked on event, state and sound systems."
+    ],
+    "descriptionKo": [
+      "PC 온라인 캐주얼 게임을 개발했습니다.",
+      "콘텐츠 제작 도구와 게임 구조를 구축했습니다.",
+      "이벤트·상태·사운드 시스템을 다뤘습니다."
+    ]
   },
   {
     "career": 16,
@@ -476,7 +842,17 @@
     "detail": null,
     "skills": "C/C++ · DirectX · Simulation",
     "highlight": "Developed simulation logic and 3D rendering.",
-    "highlightKo": "시뮬레이션 로직과 3D 렌더링 개발."
+    "highlightKo": "시뮬레이션 로직과 3D 렌더링 개발.",
+    "description": [
+      "A 3D subway-driving simulation project.",
+      "Developed simulation logic and rendering.",
+      "Created supporting game-client functionality."
+    ],
+    "descriptionKo": [
+      "3D 지하철 주행 시뮬레이션 프로젝트입니다.",
+      "시뮬레이션 로직과 렌더링을 개발했습니다.",
+      "게임 클라이언트의 관련 기능을 구현했습니다."
+    ]
   },
   {
     "career": 17,
@@ -488,7 +864,17 @@
     "detail": null,
     "skills": "Visual Basic · C/C++ · RS232C",
     "highlight": "Developed utilities and hardware-control libraries.",
-    "highlightKo": "업무 유틸리티와 하드웨어 제어 라이브러리 개발."
+    "highlightKo": "업무 유틸리티와 하드웨어 제어 라이브러리 개발.",
+    "description": [
+      "PC applications for medical insurance and patient care.",
+      "Developed business utilities and shared libraries.",
+      "Integrated serial communication and hardware control."
+    ],
+    "descriptionKo": [
+      "의료보험과 진료 업무를 위한 PC 소프트웨어입니다.",
+      "업무 유틸리티와 공통 라이브러리를 개발했습니다.",
+      "시리얼 통신과 하드웨어 제어를 연동했습니다."
+    ]
   },
   {
     "career": 18,
@@ -500,6 +886,16 @@
     "detail": null,
     "skills": "Visual Basic · C/C++ · Game programming",
     "highlight": "First professional game development experience.",
-    "highlightKo": "게임 개발사에서 프로그래밍 실무 경험."
+    "highlightKo": "게임 개발사에서 프로그래밍 실무 경험.",
+    "description": [
+      "An internship on PC package-game development.",
+      "Contributed to game programming work.",
+      "Gained early experience in a game studio."
+    ],
+    "descriptionKo": [
+      "PC 패키지 게임 개발 인턴십입니다.",
+      "게임 프로그래밍 작업에 참여했습니다.",
+      "게임 개발사에서 초기 실무 경험을 쌓았습니다."
+    ]
   }
 ]
