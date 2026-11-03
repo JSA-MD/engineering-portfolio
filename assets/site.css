@@ -135,3 +135,6 @@ html[data-style=overview] .button.primary:hover{background:#7f2d1c}
 /* Three short project-description lines followed by skills and a highlight. */
 .project-brief .brief-continuation{padding-left:14px}
 .project-brief p:nth-last-child(2){border-top:1px solid var(--line);padding-top:9px;margin-top:3px}
+
+/* Show the full channel banner without cropping its artwork. */
+.channel-art{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;background:#dceef8;overflow:hidden}.channel-art-image{display:block;width:100%;height:auto}.feature-media img.channel-art-image{object-fit:contain;background:#dceef8}
