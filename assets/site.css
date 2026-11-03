@@ -17,3 +17,49 @@ html[data-theme=light] .button.primary{color:#fff}
 html[lang=ko] .career-hero h1,html[lang=ko] .intro-main h1,html[lang=ko] .section-title h2,html[lang=ko] .summary-band h2,html[lang=ko] .journey-cta h2{font-family:'DM Sans','Apple SD Gothic Neo',sans-serif;font-weight:700;word-break:keep-all;letter-spacing:-.055em}html[lang=ko] .career-hero h1 em,html[lang=ko] .intro-main h1 em,html[lang=ko] .section-title h2 i,html[lang=ko] .summary-band h2 em,html[lang=ko] .journey-cta h2 i{font-style:normal;font-weight:700}@media(max-width:700px){html[lang=ko] .career-hero h1,html[lang=ko] .intro-main h1{font-size:clamp(36px,9vw,50px);line-height:1.18}}
 
 html[lang=ko] .career-group-header h2,html[lang=ko] .project-heading h3,html[lang=ko] .feature-content h3{font-family:'DM Sans','Apple SD Gothic Neo',sans-serif;font-weight:700;word-break:keep-all}
+
+/* Two complete visual styles; the color mode remains independently selectable. */
+.style-bar{border-bottom:1px solid var(--line);background:var(--bg)}
+.style-bar-inner{min-height:58px;display:flex;align-items:center;gap:15px}
+.style-label{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--muted)}
+.style-switch{display:inline-flex;padding:3px;border:1px solid var(--line);border-radius:9px;background:var(--surface);gap:3px}
+.style-switch button{border:0;border-radius:6px;background:transparent;color:var(--muted);padding:6px 12px;line-height:1.3;font-size:12px;font-weight:700;cursor:pointer}
+.style-switch button[aria-pressed=true]{background:var(--bg);color:var(--text);box-shadow:0 1px 5px #0002}
+.style-hint{font-size:11px;color:var(--muted)}
+html[data-style=modern][data-theme=light]{--bg:#f7f8fa;--surface:#fff;--text:#17212e;--muted:#566373;--line:#dce2ea;--accent:#245cc5;--accent2:#174598;--nav:#ffffffed}
+html[data-style=modern][data-theme=dark]{--bg:#111924;--surface:#1a2533;--text:#edf2f8;--muted:#b0becd;--line:#36475b;--accent:#a9c8ff;--accent2:#d0e0ff;--nav:#111924ed}
+html[data-style=modern] body{font-family:'DM Sans','Apple SD Gothic Neo','Malgun Gothic',sans-serif;letter-spacing:-.015em}
+html[data-style=modern] .topbar{height:80px}
+html[data-style=modern] .brand-mark{letter-spacing:-.08em}
+html[data-style=modern] .home-intro{min-height:560px;padding-top:65px;padding-bottom:72px;gap:clamp(40px,5vw,76px)}
+html[data-style=modern] .intro-main h1,html[data-style=modern] .career-hero h1,html[data-style=modern] .page-head h1{font-family:'DM Sans','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-weight:700;font-size:clamp(48px,5.2vw,76px);line-height:1.14;letter-spacing:-.055em;word-break:keep-all}
+html[data-style=modern] .intro-main h1 em,html[data-style=modern] .career-hero h1 em{font-style:normal;font-weight:700}
+html[data-style=modern] .intro-lead{font-size:18px;max-width:560px}
+html[data-style=modern] .intro-preview{padding:13px;border-radius:20px;box-shadow:0 18px 55px #1b325117}
+html[data-style=modern] .preview-screen{border-radius:11px;overflow:hidden}
+html[data-style=modern] .preview-screen span{border-radius:6px}
+html[data-style=modern] .intro-facts strong,html[data-style=modern] .career-facts strong{font-family:'DM Sans','Apple SD Gothic Neo',sans-serif;font-weight:700}
+html[data-style=modern] .button.primary{border-radius:9px;color:#fff;background:#245cc5}
+html[data-style=modern] .button.primary:hover{background:#174598}
+html[data-style=modern] .section-title h2,html[data-style=modern] .summary-band h2,html[data-style=modern] .journey-cta h2,html[data-style=modern] .footer-top h2,html[data-style=modern] .detail-main article h2{font-family:'DM Sans','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-weight:700;font-size:clamp(32px,3.5vw,48px);letter-spacing:-.045em;line-height:1.2;word-break:keep-all}
+html[data-style=modern] .section-title h2 i,html[data-style=modern] .summary-band h2 em,html[data-style=modern] .journey-cta h2 i,html[data-style=modern] .footer-top h2 i{font-style:normal;font-weight:700}
+html[data-style=modern] .feature-grid{gap:24px}
+html[data-style=modern] .feature-card{border-radius:16px;overflow:hidden;box-shadow:0 8px 30px #172b4d0b}
+html[data-style=modern] .feature-card:hover{box-shadow:0 12px 36px #172b4d1c}
+html[data-style=modern] .feature-content h3,html[data-style=modern] .career-group-header h2,html[data-style=modern] .project-heading h3,html[data-style=modern] .preview-caption strong,html[data-style=modern] .all-career-callout h2,html[data-style=modern] .journey-grid h2{font-family:'DM Sans','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-weight:700;letter-spacing:-.035em}
+html[data-style=modern] .feature-content h3{font-size:27px}
+html[data-style=modern] .feature-badge{border-radius:5px}
+html[data-style=modern] .career-controls,html[data-style=modern] .career-project,html[data-style=modern] .all-career-callout{border-radius:14px;overflow:hidden}
+html[data-style=modern] .career-project{box-shadow:0 6px 24px #172b4d0a}
+html[data-style=modern] .career-group-header{border-color:var(--line)}
+html[data-style=modern] .project-visual .video-box,html[data-style=modern] .project-image,html[data-style=modern] .media-empty{border-radius:9px;overflow:hidden}
+html[data-style=modern] .project-copy{border-left:0}
+html[data-style=modern] .project-outcomes dt{font-family:'DM Sans','Apple SD Gothic Neo',sans-serif;font-size:11px;font-weight:700;letter-spacing:0}
+html[data-style=modern] .search-row input,html[data-style=modern] .filter-buttons button{border-radius:7px}
+html[data-style=modern] .tags span{border-radius:99px;padding:6px 10px}
+html[data-style=modern] .summary-band,html[data-style=modern] footer{background:var(--surface)}
+html[data-style=modern] .journey-grid{gap:14px;background:transparent;border:0}
+html[data-style=modern] .journey-grid article{background:var(--surface);border:1px solid var(--line);border-radius:14px}
+html[data-style=modern] .callout{border-radius:0 12px 12px 0}
+html[data-style=modern][data-theme=dark] .filter-buttons button[aria-pressed=true]{color:#102038}
+@media(max-width:700px){.style-bar-inner{min-height:54px;gap:9px}.style-switch button{padding:6px 10px}.style-hint{margin-left:auto;font-size:10px}html[data-style=modern] .topbar{height:72px}html[data-style=modern] .home-intro{padding-top:45px;padding-bottom:55px}html[data-style=modern] .intro-main h1,html[data-style=modern] .career-hero h1,html[data-style=modern] .page-head h1{font-size:clamp(34px,9vw,50px);line-height:1.2}html[data-style=modern] .intro-lead{font-size:16px}html[data-style=modern] .intro-preview{border-radius:14px}html[data-style=modern] .feature-grid{gap:16px}html[data-style=modern] .feature-content h3{font-size:24px}}

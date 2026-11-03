@@ -2,6 +2,7 @@
   const doc = document.documentElement;
   const language = document.querySelector('#language');
   const theme = document.querySelector('#theme');
+  const styleChoices = [...document.querySelectorAll('[data-style-choice]')];
   const menu = document.querySelector('#menu');
   const nav = document.querySelector('#navigation');
   const get = key => { try { return localStorage.getItem(key); } catch { return null; } };
@@ -12,12 +13,25 @@
     document.querySelectorAll('[data-en][data-ko]').forEach(el => { el.textContent = el.getAttribute(`data-${selected}`); });
     language.textContent = selected === 'en' ? 'KO' : 'EN';
     language.setAttribute('aria-label', selected === 'en' ? 'Switch to Korean' : 'Switch to English');
+    document.querySelector('.style-switch').setAttribute('aria-label', selected === 'ko' ? '디자인 스타일' : 'Design style');
+    updateThemeLabel();
     set('portfolio-language', selected);
     if (typeof updateCareer === 'function') updateCareer();
   }
-  doc.dataset.theme = get('portfolio-theme') === 'light' ? 'light' : 'dark';
+  function updateThemeLabel() {
+    const next = doc.dataset.theme === 'dark' ? 'light' : 'dark';
+    theme.textContent = doc.dataset.theme === 'dark' ? '☼' : '☾';
+    theme.setAttribute('aria-label', doc.lang === 'ko' ? (next === 'light' ? '밝은 화면으로 전환' : '어두운 화면으로 전환') : `Switch to ${next} mode`);
+  }
+  function applyStyle(style) {
+    doc.dataset.style = style === 'classic' ? 'classic' : 'modern';
+    styleChoices.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.styleChoice === doc.dataset.style)));
+    set('portfolio-style', doc.dataset.style);
+  }
+  applyStyle(doc.dataset.style);
+  styleChoices.forEach(button => button.addEventListener('click', () => applyStyle(button.dataset.styleChoice)));
   language.addEventListener('click', () => applyLanguage(doc.lang === 'en' ? 'ko' : 'en'));
-  theme.addEventListener('click', () => { doc.dataset.theme = doc.dataset.theme === 'dark' ? 'light' : 'dark'; set('portfolio-theme', doc.dataset.theme); });
+  theme.addEventListener('click', () => { doc.dataset.theme = doc.dataset.theme === 'dark' ? 'light' : 'dark'; set('portfolio-theme', doc.dataset.theme); updateThemeLabel(); });
   menu.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); menu.setAttribute('aria-label',open ? 'Close navigation' : 'Open navigation'); });
   const dialog = document.querySelector('#lightbox');
   document.querySelectorAll('.image-trigger').forEach(button => button.addEventListener('click', () => { const source = button.querySelector('img'); const target = dialog.querySelector('img'); target.src = source.src; target.alt = source.alt; dialog.showModal(); }));

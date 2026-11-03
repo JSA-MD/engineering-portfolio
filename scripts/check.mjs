@@ -17,5 +17,5 @@ for(const [i] of career.entries())if(!careerProjects.some(p=>p.career===i))throw
 const careerHtml=await readFile('dist/career/index.html','utf8');
 if((careerHtml.match(/data-career-group/g)||[]).length!==career.length)throw Error('career entries missing from built page');
 if((careerHtml.match(/class="career-project"/g)||[]).length!==careerProjects.length)throw Error('career projects missing from built page');
-for(const route of ['', 'work','career','journey','lab','about']) {const html=await readFile(join('dist',route,'index.html'),'utf8'); if(!html.includes('<title>')||!html.includes('id="main"')||!html.includes('name="description"')) throw Error(`${route}: missing required structure`);}
+for(const route of ['', 'work','career','journey','lab','about',...projects.map(p=>`work/${p.id}`)]) {const html=await readFile(join('dist',route,'index.html'),'utf8'); if(!html.includes('<title>')||!html.includes('id="main"')||!html.includes('name="description"')) throw Error(`${route}: missing required structure`);for(const style of ['modern','classic'])if(!html.includes(`data-style-choice="${style}"`))throw Error(`${route}: missing ${style} style control`);}
 console.log(`Verified ${projects.length} case studies, ${career.length} career entries, ${careerProjects.length} career projects and referenced media.`);
