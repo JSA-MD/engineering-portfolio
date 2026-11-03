@@ -60,7 +60,7 @@
     "number": "04",
     "category": "RESEARCH / MARKET SYSTEMS",
     "year": "2026",
-    "name": "Trading Research Systems",
+    "name": "Binance Manual Wick Research",
     "status": "Research and demo environments",
     "statusKo": "연구 및 데모 환경",
     "source": "Local README, source and commit e8cbe18; no exchange-account data used."
