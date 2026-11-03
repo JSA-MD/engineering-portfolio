@@ -7,7 +7,11 @@
     "role": "AI systems developer / software architect",
     "roleKo": "AI 시스템 개발 / 소프트웨어 아키텍트",
     "detail": "Independent work includes n8n workflows, AI-assisted content automation and trading research.",
-    "detailKo": "n8n 워크플로, AI 활용 콘텐츠 자동화와 트레이딩 연구를 수행했습니다."
+    "detailKo": "n8n 워크플로, AI 활용 콘텐츠 자동화와 트레이딩 연구를 수행했습니다.",
+    "homeCompany": "Independent AI Research",
+    "homeCompanyKo": "독립 AI 연구·개발",
+    "homeHighlight": "Multiple AI projects · YouTube automation and trading research",
+    "homeHighlightKo": "AI 프로젝트 다수 · 유튜브 제작 자동화 및 트레이딩 연구"
   },
   {
     "period": "2021.05 — 2023.11",
@@ -16,7 +20,11 @@
     "role": "Lead programmer / architect",
     "roleKo": "리드 프로그래머 / 아키텍트",
     "detail": "3D avatar storytelling, system architecture and iOS crash investigation.",
-    "detailKo": "3D 아바타 스토리 앱의 시스템 아키텍처와 iOS 충돌 원인 분석."
+    "detailKo": "3D 아바타 스토리 앱의 시스템 아키텍처와 iOS 충돌 원인 분석.",
+    "homeCompany": "DotDotDot",
+    "homeCompanyKo": "닫닫닫",
+    "homeHighlight": "OLOBO · US iOS release and iOS crash resolution",
+    "homeHighlightKo": "OLOBO · 미국 iOS 출시 및 간헐적 충돌 해결"
   },
   {
     "period": "2020.01 — 2021.04",
@@ -25,7 +33,11 @@
     "role": "App development / platform engineering",
     "roleKo": "앱 개발 / 플랫폼 엔지니어링",
     "detail": "Cross-platform avatar composition, native C++ media processing and Android integration.",
-    "detailKo": "크로스플랫폼 아바타 합성, 네이티브 C++ 미디어 처리와 Android 통합."
+    "detailKo": "크로스플랫폼 아바타 합성, 네이티브 C++ 미디어 처리와 Android 통합.",
+    "homeCompany": "Cocone Fukuoka (Hangame Japan)",
+    "homeCompanyKo": "코코네 후쿠오카 (한게임재팬)",
+    "homeHighlight": "Purenista · Japan launch, ¥2B+ revenue scale, 2020 Developer of the Year",
+    "homeHighlightKo": "Purenista 일본 상용화 · 매출 규모 20억 엔 이상 · 2020 올해의 개발자상"
   },
   {
     "period": "2019.07 — 2019.12",
@@ -34,7 +46,11 @@
     "role": "Development team lead",
     "roleKo": "개발팀장",
     "detail": "Kangwon Land / KLSaberi casino game and framework development.",
-    "detailKo": "강원랜드 / KLSaberi 카지노 게임과 프레임워크 개발."
+    "detailKo": "강원랜드 / KLSaberi 카지노 게임과 프레임워크 개발.",
+    "homeCompany": "Funwave / KLSaberi",
+    "homeCompanyKo": "펀웨이브 / KLSaberi",
+    "homeHighlight": "Golden Express · development lead, exhibited at G2E Las Vegas 2019",
+    "homeHighlightKo": "Golden Express 개발 리딩 · 2019 라스베이거스 G2E 출품"
   },
   {
     "period": "2018.12 — 2019.06",
@@ -43,7 +59,11 @@
     "role": "Development team lead",
     "roleKo": "개발팀장",
     "detail": "Fashion social app, frontend/backend integration and mobile release.",
-    "detailKo": "패션 소셜 앱, 프런트엔드·백엔드 통합과 모바일 출시."
+    "detailKo": "패션 소셜 앱, 프런트엔드·백엔드 통합과 모바일 출시.",
+    "homeCompany": "FNS Holdings",
+    "homeCompanyKo": "FNS홀딩스",
+    "homeHighlight": "FASSKER · initial architecture and mobile release foundation",
+    "homeHighlightKo": "FASSKER · 초기 아키텍처 및 모바일 출시 기반 구축"
   },
   {
     "period": "2018.06 — 2018.09",
@@ -52,7 +72,11 @@
     "role": "Game development",
     "roleKo": "게임 개발",
     "detail": "Unity mobile RPG framework, content and release work in Japan.",
-    "detailKo": "일본 Unity 모바일 RPG 프레임워크, 콘텐츠와 출시 작업."
+    "detailKo": "일본 Unity 모바일 RPG 프레임워크, 콘텐츠와 출시 작업.",
+    "homeCompany": "Funcrew",
+    "homeCompanyKo": "펀크루",
+    "homeHighlight": "Machigai Breaker · commercial iOS and Android launch in Japan",
+    "homeHighlightKo": "마치가이 브레이커 · 일본 iOS·Android 상용 출시"
   },
   {
     "period": "2017.08 — 2017.12",
@@ -61,7 +85,11 @@
     "role": "Game development",
     "roleKo": "게임 개발",
     "detail": "Unity social casino development and updates for iOS and Android.",
-    "detailKo": "iOS·Android Unity 소셜 카지노 개발과 업데이트."
+    "detailKo": "iOS·Android Unity 소셜 카지노 개발과 업데이트.",
+    "homeCompany": "Akoz Technologies",
+    "homeCompanyKo": "아코즈테크놀러지스",
+    "homeHighlight": "VM Casino · social casino content and mobile stabilization",
+    "homeHighlightKo": "VM Casino · 소셜 카지노 콘텐츠 개발 및 모바일 안정화"
   },
   {
     "period": "2016.11 — 2017.08",
@@ -70,7 +98,11 @@
     "role": "Development team lead",
     "roleKo": "개발팀장",
     "detail": "Double Fortune Casino architecture, client systems and platform integration.",
-    "detailKo": "Double Fortune Casino 아키텍처, 클라이언트 시스템과 플랫폼 연동."
+    "detailKo": "Double Fortune Casino 아키텍처, 클라이언트 시스템과 플랫폼 연동.",
+    "homeCompany": "DoubleU Games / Diamond Games",
+    "homeCompanyKo": "더블유게임스 / Diamond Games",
+    "homeHighlight": "Double Fortune Casino · mobile release and eight casino titles",
+    "homeHighlightKo": "Double Fortune Casino 모바일 출시 · 중국향 카지노 8종 개발·출시"
   },
   {
     "period": "2016.01 — 2016.06",
@@ -79,7 +111,11 @@
     "role": "Client team lead",
     "roleKo": "클라이언트 파트장",
     "detail": "Samsung Smart TV porting and S4 League maintenance.",
-    "detailKo": "삼성 스마트 TV 포팅과 S4 League 유지보수."
+    "detailKo": "삼성 스마트 TV 포팅과 S4 League 유지보수.",
+    "homeCompany": "Neowiz GameOn Studio",
+    "homeCompanyKo": "네오위즈 게임온스튜디오",
+    "homeHighlight": "S4 League live maintenance · Samsung Smart TV port",
+    "homeHighlightKo": "S4 League 라이브 유지보수 · 삼성 스마트 TV 포팅"
   },
   {
     "period": "2012.09 — 2015.09",
@@ -88,7 +124,11 @@
     "role": "Development team lead",
     "roleKo": "개발팀장",
     "detail": "Arcade games, 3D engines and serial hardware integration.",
-    "detailKo": "아케이드 게임, 3D 엔진과 시리얼 하드웨어 연동."
+    "detailKo": "아케이드 게임, 3D 엔진과 시리얼 하드웨어 연동.",
+    "homeCompany": "GAME SHARP",
+    "homeCompanyKo": "게임샵",
+    "homeHighlight": "20+ arcade games commercialized · Japan horse-racing system",
+    "homeHighlightKo": "아케이드 게임 20여 종 상용화 · 일본 경마 시스템 개발"
   },
   {
     "period": "2008.07 — 2012.09",
@@ -97,7 +137,11 @@
     "role": "Backend / server developer",
     "roleKo": "백엔드 / 서버 개발",
     "detail": "Warbane MMORPG server, sessions, inventory and PostgreSQL data handling.",
-    "detailKo": "Warbane MMORPG 서버, 세션, 인벤토리와 PostgreSQL 데이터 처리."
+    "detailKo": "Warbane MMORPG 서버, 세션, 인벤토리와 PostgreSQL 데이터 처리.",
+    "homeCompany": "Mgame / MG-Studio",
+    "homeCompanyKo": "엠게임 / MG-Studio",
+    "homeHighlight": "Warbane MMORPG server and live-service development",
+    "homeHighlightKo": "워베인 MMORPG 서버 개발 및 라이브 서비스 대응"
   },
   {
     "period": "2008.04 — 2008.06",
@@ -106,7 +150,11 @@
     "role": "Game developer",
     "roleKo": "게임 개발",
     "detail": "Unreal Engine 3 and Scaleform integration for an MMORPG.",
-    "detailKo": "MMORPG의 Unreal Engine 3와 Scaleform 통합."
+    "detailKo": "MMORPG의 Unreal Engine 3와 Scaleform 통합.",
+    "homeCompany": "Barunson E&A",
+    "homeCompanyKo": "바른손이앤에이",
+    "homeHighlight": "Project N · Unreal Engine 3 and Scaleform UI integration",
+    "homeHighlightKo": "Project N · Unreal Engine 3 및 Scaleform UI 연동"
   },
   {
     "period": "2007.07 — 2007.12",
@@ -115,7 +163,11 @@
     "role": "Game developer",
     "roleKo": "게임 개발",
     "detail": "Online game client, GUI and text-layout systems.",
-    "detailKo": "온라인 게임 클라이언트, GUI와 텍스트 레이아웃 시스템."
+    "detailKo": "온라인 게임 클라이언트, GUI와 텍스트 레이아웃 시스템.",
+    "homeCompany": "NTREEVSoft",
+    "homeCompanyKo": "엔트리브소프트",
+    "homeHighlight": "PangYa · online game client and rendering development",
+    "homeHighlightKo": "팡야 · 온라인 게임 클라이언트 및 렌더링 개발"
   },
   {
     "period": "2002.09 — 2007.06",
@@ -124,7 +176,11 @@
     "role": "Game developer",
     "roleKo": "게임 개발",
     "detail": "Online games, a custom 3D engine and animation tools.",
-    "detailKo": "온라인 게임, 자체 3D 엔진과 애니메이션 도구."
+    "detailKo": "온라인 게임, 자체 3D 엔진과 애니메이션 도구.",
+    "homeCompany": "Game Land Japan",
+    "homeCompanyKo": "Game Land Japan",
+    "homeHighlight": "Online games · custom 3D engine and animation tools",
+    "homeHighlightKo": "온라인 게임 · 자체 3D 엔진 및 애니메이션 도구 개발"
   },
   {
     "period": "2002.01 — 2002.08",
@@ -133,7 +189,11 @@
     "role": "3D programming instructor",
     "roleKo": "3D 프로그래밍 강사",
     "detail": "3D rendering, animation, C/C++, DirectX and OpenGL instruction.",
-    "detailKo": "3D 렌더링, 애니메이션, C/C++, DirectX와 OpenGL 강의."
+    "detailKo": "3D 렌더링, 애니메이션, C/C++, DirectX와 OpenGL 강의.",
+    "homeCompany": "HanbitSoft Digital Campus",
+    "homeCompanyKo": "한빛소프트 디지털캠퍼스",
+    "homeHighlight": "Game and 3D programming instruction · portfolio mentoring",
+    "homeHighlightKo": "게임·3D 프로그래밍 강의 및 수강생 포트폴리오 지도"
   },
   {
     "period": "2001.01 — 2001.12",
@@ -142,7 +202,11 @@
     "role": "Game developer",
     "roleKo": "게임 개발",
     "detail": "PC online casual games and supporting tools.",
-    "detailKo": "PC 온라인 캐주얼 게임과 지원 도구 개발."
+    "detailKo": "PC 온라인 캐주얼 게임과 지원 도구 개발.",
+    "homeCompany": "Xcellent",
+    "homeCompanyKo": "Xcellent",
+    "homeHighlight": "PC online casual games · core systems and tools",
+    "homeHighlightKo": "PC 온라인 캐주얼 게임 · 핵심 시스템 및 제작 도구 개발"
   },
   {
     "period": "2000.06 — 2000.12",
@@ -151,7 +215,11 @@
     "role": "Game developer",
     "roleKo": "게임 개발",
     "detail": "VR subway simulation, rendering and visualization tools.",
-    "detailKo": "VR 지하철 시뮬레이션, 렌더링과 시각화 도구."
+    "detailKo": "VR 지하철 시뮬레이션, 렌더링과 시각화 도구.",
+    "homeCompany": "VRStaff",
+    "homeCompanyKo": "VRStaff",
+    "homeHighlight": "3D subway simulation · rendering and simulation logic",
+    "homeHighlightKo": "3D 지하철 시뮬레이션 · 렌더링 및 시뮬레이션 로직 개발"
   },
   {
     "period": "1999.01 — 2000.06",
@@ -160,7 +228,11 @@
     "role": "Software developer",
     "roleKo": "소프트웨어 개발",
     "detail": "PC business software and serial communication libraries.",
-    "detailKo": "PC 업무용 소프트웨어와 시리얼 통신 라이브러리."
+    "detailKo": "PC 업무용 소프트웨어와 시리얼 통신 라이브러리.",
+    "homeCompany": "Almighty IT",
+    "homeCompanyKo": "전능IT",
+    "homeHighlight": "Medical PC software · serial communication and hardware control",
+    "homeHighlightKo": "의료용 PC 소프트웨어 · 시리얼 통신 및 하드웨어 제어"
   },
   {
     "period": "1997.07 — 1997.08",
@@ -169,6 +241,10 @@
     "role": "Programmer intern",
     "roleKo": "프로그래머 인턴",
     "detail": "Early PC package game development experience.",
-    "detailKo": "초기 PC 패키지 게임 개발 경험."
+    "detailKo": "초기 PC 패키지 게임 개발 경험.",
+    "homeCompany": "Mirinae Software",
+    "homeCompanyKo": "미리내 소프트웨어",
+    "homeHighlight": "PC packaged game development · programmer internship",
+    "homeHighlightKo": "PC 패키지 게임 개발 참여 · 프로그래머 인턴"
   }
 ]
