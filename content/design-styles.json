@@ -1,6 +1,7 @@
 {
-  "default": "modern",
+  "default": "overview",
   "styles": [
+    { "id": "overview", "name": "Overview", "nameKo": "개요형" },
     { "id": "modern", "name": "Modern", "nameKo": "모던" },
     { "id": "classic", "name": "Classic", "nameKo": "클래식" }
   ]

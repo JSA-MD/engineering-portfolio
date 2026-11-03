@@ -34,6 +34,7 @@
   language.addEventListener('click', () => applyLanguage(doc.lang === 'en' ? 'ko' : 'en'));
   theme.addEventListener('click', () => { doc.dataset.theme = doc.dataset.theme === 'dark' ? 'light' : 'dark'; set('portfolio-theme', doc.dataset.theme); updateThemeLabel(); });
   menu.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); menu.setAttribute('aria-label',open ? 'Close navigation' : 'Open navigation'); });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-label', 'Open navigation'); }));
   const dialog = document.querySelector('#lightbox');
   document.querySelectorAll('.image-trigger').forEach(button => button.addEventListener('click', () => { const source = button.querySelector('img'); const target = dialog.querySelector('img'); target.src = source.src; target.alt = source.alt; dialog.showModal(); }));
   dialog.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
