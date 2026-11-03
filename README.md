@@ -17,3 +17,5 @@ Open the local URL after the server starts. Output is in `dist/`. Career periods
 Cloudflare Pages tracks the `main` branch; build command: `npm run build`; output directory: `dist`; `SITE_URL` is the production HTTPS origin. Changes pushed to `main` trigger a new build. The sanitized English résumé excludes private contact details.
 
 The design switch offers Modern and Classic layouts; the separate theme button controls light/dark colors. Both preferences are stored only in the visitor's browser and apply across pages. Modern and light are the defaults when no preference has been saved.
+
+To add a design, append a unique lowercase `id`, English `name`, and Korean `nameKo` to `content/design-styles.json`, then add its visual rules under `html[data-style=your-id]` in `assets/site.css` (including both light and dark color modes). Keep existing style IDs and rules to preserve visitors' saved choices. The build generates the switch and supports persistence for every registered style; run `npm run build` and `npm run check`, then verify both color modes and mobile scrolling.

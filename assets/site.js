@@ -3,6 +3,7 @@
   const language = document.querySelector('#language');
   const theme = document.querySelector('#theme');
   const styleChoices = [...document.querySelectorAll('[data-style-choice]')];
+  const defaultStyle = styleChoices.find(button => button.getAttribute('aria-pressed') === 'true')?.dataset.styleChoice;
   const menu = document.querySelector('#menu');
   const nav = document.querySelector('#navigation');
   const get = key => { try { return localStorage.getItem(key); } catch { return null; } };
@@ -24,7 +25,7 @@
     theme.setAttribute('aria-label', doc.lang === 'ko' ? (next === 'light' ? '밝은 화면으로 전환' : '어두운 화면으로 전환') : `Switch to ${next} mode`);
   }
   function applyStyle(style) {
-    doc.dataset.style = style === 'classic' ? 'classic' : 'modern';
+    doc.dataset.style = styleChoices.some(button => button.dataset.styleChoice === style) ? style : defaultStyle;
     styleChoices.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.styleChoice === doc.dataset.style)));
     set('portfolio-style', doc.dataset.style);
   }
