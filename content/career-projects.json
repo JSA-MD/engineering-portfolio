@@ -1,29 +1,6 @@
 [
   {
     "career": 0,
-    "period": "2024.11 recorded",
-    "periodKo": "2024.11 기록",
-    "name": "Unity Card Game Prototype",
-    "nameKo": "Unity 카드 게임 프로토타입",
-    "slug": "unity-card-game-prototype",
-    "summary": "A Unity card-game prototype.",
-    "summaryKo": "Unity 기반 카드 게임 프로토타입.",
-    "skills": "Unity · C# · Game UI · Animation",
-    "highlight": "Built card dealing animation and game-manager integration.",
-    "highlightKo": "카드 배분 애니메이션과 게임 매니저 연동 개발.",
-    "description": [
-      "A card-game prototype built with Unity.",
-      "Includes game scenes, card assets and UI.",
-      "Connects card dealing animation to game management."
-    ],
-    "descriptionKo": [
-      "Unity로 만든 카드 게임 프로토타입입니다.",
-      "게임 장면과 카드 리소스·UI를 구성했습니다.",
-      "카드 배분 애니메이션과 게임 관리를 연결했습니다."
-    ]
-  },
-  {
-    "career": 0,
     "name": "Senior Audio Drama Automation",
     "nameKo": "시니어 오디오 드라마 자동 제작",
     "period": "2025.12 recorded",
