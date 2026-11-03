@@ -63,7 +63,7 @@
       let groupCount = 0;
       group.querySelectorAll('.career-project').forEach(card => {
         const matchesText = !query || company.includes(query) || card.textContent.toLocaleLowerCase().includes(query);
-        const matchesFilter = careerFilter !== 'video' || !!card.querySelector('.video-launch, iframe');
+        const matchesFilter = careerFilter !== 'video' || !!card.querySelector('.video-launch, iframe, video');
         card.hidden = !(matchesText && matchesFilter);
         if (!card.hidden) { groupCount++; shown++; }
       });

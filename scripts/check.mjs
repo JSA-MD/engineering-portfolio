@@ -12,12 +12,15 @@ for(const [i,p] of careerProjects.entries()){
   if(!Number.isInteger(p.career)||p.career<0||p.career>=career.length)throw Error(`career project ${i}: invalid career index`);
   if(p.media?.type==='youtube'&&!/^[\w-]{11}$/.test(p.media.id))throw Error(`career project ${i}: invalid video ID`);
   if(p.media?.type==='image')await access(join('dist',p.media.src));
+  if(p.media?.type==='video'){await access(join('dist',p.media.src));await access(join('dist',p.media.poster));}
   if(p.media&&(!p.media.source||!p.media.sourceKo))throw Error(`career project ${i}: media attribution missing`);
 }
 for(const [i] of career.entries())if(!careerProjects.some(p=>p.career===i))throw Error(`career ${i}: missing project`);
 const careerHtml=await readFile('dist/career/index.html','utf8');
 if((careerHtml.match(/data-career-group/g)||[]).length!==career.length)throw Error('career entries missing from built page');
 if((careerHtml.match(/class="career-project"/g)||[]).length!==careerProjects.length)throw Error('career projects missing from built page');
+const labHtml=await readFile('dist/lab/index.html','utf8');
+if((labHtml.match(/class="career-project"/g)||[]).length!==careerProjects.filter(p=>p.career===0).length)throw Error('independent projects missing from AI lab');
 const briefs=[...careerHtml.matchAll(/<div class="project-brief">([\s\S]*?)<\/div>/g)];
 if(briefs.length!==careerProjects.length || briefs.some(x=>(x[1].match(/<p>/g)||[]).length!==3))throw Error('Each career project must have three brief lines');
 for(const p of projects){const html=await readFile(join('dist','work',p.id,'index.html'),'utf8');if(/THE PROBLEM|THE SYSTEM|해결할 문제|구현 방식/.test(html))throw Error(`${p.id}: old detailed sections remain`);if((html.match(/class="project-brief"/g)||[]).length!==1)throw Error(`${p.id}: missing project brief`);}
