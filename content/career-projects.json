@@ -19,14 +19,10 @@
     },
     "slug": "senior-audio-drama-automation",
     "description": [
-      "Automates the audio drama production workflow with n8n.",
-      "Uses AI to create story outlines, scripts, voices and scene images.",
-      "Combines audio, subtitles and images into videos for a YouTube channel."
+      "Using n8n, I connected AI-generated synopses, scripts, narration and images into a production workflow for a senior-focused audio drama channel."
     ],
     "descriptionKo": [
-      "n8n으로 오디오 드라마 제작의 전체 작업을 자동화했습니다.",
-      "AI로 시놉시스·대본·음성과 장면 이미지를 생성합니다.",
-      "음성·자막·이미지를 결합해 유튜브 채널 영상을 제작합니다."
+      "시니어를 위한 오디오 드라마 채널을 운영하며 n8n으로 시놉시스와 대본, 음성·이미지 생성부터 영상 제작까지 자동화했습니다."
     ],
     "detail": "/work/youtube-audio-drama/"
   },
@@ -43,14 +39,10 @@
     "highlightKo": "수집·중복 제거·키워드 분석과 검색 화면 연결.",
     "slug": "ai-studio-news-collector",
     "description": [
-      "Collects news from Google and Naver.",
-      "Extracts keywords, removes duplicates and ranks trends.",
-      "Provides a searchable interface and scheduled collection."
+      "I built a news research tool that collects Google and Naver articles, removes duplicates and extracts keywords, with scheduled collection and a searchable dashboard."
     ],
     "descriptionKo": [
-      "구글과 네이버에서 뉴스를 수집합니다.",
-      "키워드를 추출하고 중복 제거와 트렌드 분석을 수행합니다.",
-      "검색 화면과 예약 수집 기능을 제공합니다."
+      "구글·네이버 뉴스를 자동 수집하고 중복 제거와 키워드·트렌드 분석을 거쳐 검색할 수 있는 대시보드를 만들었습니다."
     ],
     "detail": "/work/ai-studio-news-collector/"
   },
@@ -74,14 +66,10 @@
       "channelUrl": "https://www.youtube.com/@epicfun777"
     },
     "description": [
-      "Creates entertaining animal Shorts for YouTube.",
-      "Builds video ideas and requests AI-generated clips.",
-      "Schedules the workflow and connects YouTube upload."
+      "I used n8n to automate animal-themed Shorts, connecting scheduled topic selection, AI video generation and YouTube publishing."
     ],
     "descriptionKo": [
-      "재미있는 동물 숏츠 영상을 제작합니다.",
-      "영상 아이디어를 만들고 AI 영상 생성을 요청합니다.",
-      "예약 실행과 유튜브 업로드를 연결합니다."
+      "재미있는 동물 숏츠를 제작하기 위해 n8n으로 소재 선정과 AI 영상 생성, 예약 실행과 유튜브 업로드를 연결했습니다."
     ],
     "detail": "/work/epicfun-animal-shorts/"
   },
@@ -92,28 +80,24 @@
     "summary": "AI-developed YouTube automation system built from earlier n8n workflow experience.",
     "summaryKo": "n8n 자동화 경험을 바탕으로 AI 코딩 도구로 구축한 유튜브 운영 시스템.",
     "media": {
-      "type": "channel",
-      "src": "/assets/jay-invest-channel-banner.jpg",
-      "source": "Jay Invest YouTube channel image",
-      "sourceKo": "Jay Invest 유튜브 채널 이미지",
+      "type": "youtube",
+      "id": "y8_sqj5jVOM",
+      "source": "Jay Invest · NPR & PBS Are Dead",
+      "sourceKo": "Jay Invest · NPR & PBS Are Dead",
       "channelUrl": "https://www.youtube.com/@JayInvests7US"
     },
     "detail": "/work/epic-studio/",
     "skills": "Claude Code · Codex · Python · FastAPI · Next.js · PostgreSQL · FFmpeg · YouTube API",
-    "highlight": "AI-built system; 66 videos composed and 54 uploaded across three channels (historical project records).",
-    "highlightKo": "AI 코딩으로 시스템 구축 · 영상 66편 합성, 3개 채널에 54편 게시(과거 프로젝트 기록).",
+    "highlight": "Built an AI-assisted production system; previously composed 66 videos and published 54 across three channels.",
+    "highlightKo": "AI 협업으로 시스템 구축 · 당시 영상 66편 합성, 3개 채널에 54편 게시.",
     "period": "2026.01 recorded",
     "periodKo": "2026.01 기록",
     "slug": "epic-studio",
     "description": [
-      "Built an end-to-end YouTube production system with Claude Code and Codex, drawing on earlier n8n experience.",
-      "Connects research, topic selection, scripts, visuals, voice, subtitles, composition and upload.",
-      "Collects channel performance data and feeds insights into future topic generation."
+      "Drawing on my n8n experience, I built a YouTube production system with Claude Code and Codex. It connects research, scripts, media generation and publishing, then uses channel feedback to inform future topics."
     ],
     "descriptionKo": [
-      "n8n 자동화 경험을 바탕으로 Claude Code·Codex를 활용해 유튜브 운영 시스템을 구축했습니다.",
-      "소재 수집·주제 선정부터 음성·자막·영상 제작, 합성·업로드까지 연결합니다.",
-      "채널 성과 데이터를 수집해 다음 영상의 주제 선정에 활용합니다."
+      "n8n 자동화 경험을 바탕으로 Claude Code와 Codex를 활용해 유튜브 운영 시스템을 구축했습니다. 소재 수집부터 영상 제작·업로드까지 연결하고 채널 성과를 다음 주제 선정에 활용합니다."
     ]
   },
   {
@@ -129,14 +113,10 @@
     "highlightKo": "전략 진화와 비용 반영 백테스트 구현 · 연구 단계.",
     "slug": "epic-invest-genetic-strategy-research",
     "description": [
-      "Explores crypto strategies with genetic programming.",
-      "Generates and evaluates candidate trading formulas.",
-      "Runs cost-aware backtests for research."
+      "I explored genetic programming to generate crypto strategy formulas and assess candidates through cost-aware historical backtests."
     ],
     "descriptionKo": [
-      "유전 프로그래밍으로 암호화폐 전략을 탐색합니다.",
-      "매매 수식 후보를 생성하고 평가합니다.",
-      "비용을 반영한 백테스트로 연구합니다."
+      "유전 프로그래밍으로 암호화폐 매매 수식 후보를 만들고 비용을 반영한 과거 데이터 백테스트로 평가하는 연구를 진행했습니다."
     ],
     "detail": "/work/epic-invest-genetic-strategy-research/"
   },
@@ -153,14 +133,10 @@
     "highlight": "Connected product research, image processing and listing workflows.",
     "highlightKo": "상품 조사·이미지 처리·등록 워크플로를 연결했습니다.",
     "description": [
-      "Automates parts of online shop research and management.",
-      "Collects product trends and presents them in a dashboard.",
-      "Prepares product images and listing packages."
+      "I automated parts of online shop management, connecting product trend research with a dashboard, image processing and listing preparation."
     ],
     "descriptionKo": [
-      "온라인 쇼핑 조사와 관리 업무를 자동화합니다.",
-      "상품 트렌드를 수집하고 대시보드에 표시합니다.",
-      "상품 이미지와 등록용 자료를 준비합니다."
+      "온라인 쇼핑 트렌드 조사와 관리 업무를 자동화하며 대시보드, 상품 이미지 처리와 등록 자료 준비 과정을 연결했습니다."
     ],
     "detail": "/work/online-shop-automation/"
   },
@@ -173,18 +149,14 @@
     "summary": "Market analysis and semi-automated futures strategy research.",
     "summaryKo": "더블비 매매법 기반 선물 매매 분석·반자동화 연구.",
     "skills": "Python · Pandas · Streamlit · Telegram",
-    "highlight": "Signal analysis and dashboard tooling; no performance claim.",
-    "highlightKo": "매매 신호 분석과 대시보드 도구 개발 · 성과 미주장.",
+    "highlight": "Signal analysis and dashboard tooling for research.",
+    "highlightKo": "매매 신호 분석과 대시보드를 연결한 연구 도구.",
     "slug": "epic-trading-wb-strategy",
     "description": [
-      "Researches semi-automated futures trading.",
-      "Analyzes signals based on the WB trading method.",
-      "Provides monitoring and dashboard tools."
+      "I researched semi-automated futures trading around the WB method, building signal analysis and dashboard monitoring tools."
     ],
     "descriptionKo": [
-      "선물 매매의 반자동화를 연구합니다.",
-      "더블비 매매법을 바탕으로 신호를 분석합니다.",
-      "모니터링과 대시보드 도구를 제공합니다."
+      "더블비 매매법을 바탕으로 선물 매매의 반자동화를 연구하며 신호 분석과 모니터링 대시보드를 개발했습니다."
     ],
     "detail": "/work/epic-trading-wb-strategy/"
   },
@@ -201,14 +173,10 @@
     "highlightKo": "전략 백테스트와 모니터링 구성요소 개발.",
     "slug": "epic-trading-2-scalping-research",
     "description": [
-      "Studies short-term trading strategies.",
-      "Combines strategy logic with historical backtesting.",
-      "Includes monitoring and messaging integrations."
+      "I built a short-term strategy research system combining trading logic, historical backtesting, monitoring and messaging."
     ],
     "descriptionKo": [
-      "단기 매매 전략을 분석하는 프로젝트입니다.",
-      "전략 로직을 과거 데이터 백테스트와 연결합니다.",
-      "모니터링과 메시지 연동 기능을 포함합니다."
+      "단기 매매 전략을 연구하기 위해 전략 로직과 과거 데이터 백테스트를 구현하고 모니터링·메시지 연동 기능을 연결했습니다."
     ],
     "detail": "/work/epic-trading-2-scalping-research/"
   },
@@ -225,14 +193,10 @@
     "highlightKo": "거래소 연동·지표·안전성 검사 구현.",
     "slug": "quant-bot-exchange-toolkit",
     "description": [
-      "Experiments with exchange-based quant trading.",
-      "Uses market indicators and exchange adapters.",
-      "Integrates an AI agent toolkit and runtime checks."
+      "I experimented with exchange-based quant trading using market indicators, exchange adapters, an AI agent toolkit and runtime safety checks."
     ],
     "descriptionKo": [
-      "거래소 기반 퀀트 매매를 실험합니다.",
-      "시장 지표와 거래소 연동 모듈을 사용합니다.",
-      "AI 에이전트 툴킷과 실행 안전성 검사를 연결합니다."
+      "시장 지표와 거래소 연동 모듈을 기반으로 퀀트 매매를 실험하고 AI 에이전트 툴킷과 실행 안전성 검사를 연결했습니다."
     ],
     "detail": "/work/quant-bot-exchange-toolkit/"
   },
@@ -249,14 +213,10 @@
     "highlightKo": "백테스트와 데모 모의 실행 · 연구 결과.",
     "slug": "okx-scalping-research",
     "description": [
-      "Researches five-minute futures scalping.",
-      "Evaluates rule-based strategies with historical data.",
-      "Includes an OKX demo paper-trading runtime."
+      "I researched rule-based five-minute futures strategies through historical backtesting and an OKX demo paper-trading runtime."
     ],
     "descriptionKo": [
-      "5분봉 선물 스캘핑 전략을 연구합니다.",
-      "과거 데이터로 규칙 기반 전략을 평가합니다.",
-      "OKX 데모 모의매매 실행기를 포함합니다."
+      "5분봉 선물 스캘핑 전략을 과거 데이터로 평가하고 OKX 데모 환경에서 모의 실행할 수 있는 연구 시스템을 만들었습니다."
     ],
     "detail": "/work/okx-scalping-research/"
   },
@@ -269,20 +229,16 @@
     "media": null,
     "detail": "/work/trading-research/",
     "skills": "TypeScript · PostgreSQL · Binance Demo · Backtesting",
-    "highlight": "Backtests and demo parity checks; profitability is unverified.",
-    "highlightKo": "백테스트·데모 일치성 검증 · 수익성 미검증.",
+    "highlight": "Backtest and demo-execution parity research.",
+    "highlightKo": "백테스트와 데모 실행 결과의 일치성 연구.",
     "period": "2026.04 recorded",
     "periodKo": "2026.04 기록",
     "slug": "binance-manual-wick-research",
     "description": [
-      "Researches a manual-wick futures strategy.",
-      "Compares historical backtests with demo execution.",
-      "Monitors data and execution parity."
+      "I researched wick-reversal strategies in futures markets, comparing historical backtests and demo execution to inspect data and execution parity."
     ],
     "descriptionKo": [
-      "선물 시장의 꼬리 반전 전략을 연구합니다.",
-      "과거 백테스트와 데모 실행 결과를 비교합니다.",
-      "데이터와 실행 경로의 일치성을 점검합니다."
+      "선물 시장의 꼬리 반전 전략을 연구하며 과거 백테스트와 데모 실행을 비교하고 데이터와 실행 경로의 일치성을 점검했습니다."
     ]
   },
   {
@@ -298,14 +254,10 @@
     "highlightKo": "지갑 선별·위험 검증과 모의 실행 연구.",
     "slug": "polymarket-wallet-scanner",
     "description": [
-      "Analyzes public prediction-market wallet activity.",
-      "Scores market candidates from observed positions.",
-      "Applies risk checks and supports paper-mode research."
+      "I built a scanner that analyzes public prediction-market wallet activity, selects candidates from observed positions and applies risk checks in paper-mode research."
     ],
     "descriptionKo": [
-      "예측 시장의 공개 지갑 활동을 분석합니다.",
-      "관찰한 포지션을 바탕으로 후보를 선별합니다.",
-      "위험 검증과 모의 실행 연구를 지원합니다."
+      "예측시장의 공개 지갑 활동과 포지션을 분석해 후보를 선별하고 위험 검증과 모의 실행을 지원하는 도구를 만들었습니다."
     ],
     "detail": "/work/polymarket-wallet-scanner/"
   },
@@ -322,14 +274,10 @@
     "highlightKo": "캔들 재생·지표·시장 국면 분석 연구 기반.",
     "slug": "trading-bot-research-foundation",
     "description": [
-      "Builds a reproducible market research foundation.",
-      "Replays candles through indicators and regime analysis.",
-      "Keeps backtest components and tests separate."
+      "I built a reproducible research foundation that replays candles through indicators and market-regime analysis, separating the backtest engine from its tests."
     ],
     "descriptionKo": [
-      "재현 가능한 시장 분석 기반을 구축합니다.",
-      "캔들을 재생하며 지표와 시장 국면을 분석합니다.",
-      "백테스트 구성요소와 검증 코드를 분리합니다."
+      "캔들을 재생하며 지표와 시장 국면을 분석할 수 있도록 백테스트와 검증 코드를 분리한 연구 기반을 구축했습니다."
     ],
     "detail": "/work/trading-bot-research-foundation/"
   },
@@ -342,18 +290,14 @@
     "summary": "Strategy experiments connecting TradingView and Python validation.",
     "summaryKo": "TradingView 실험과 Python 검증을 연결하는 전략 연구.",
     "skills": "Pine Script · TradingView · Python",
-    "highlight": "Research and paper-mode validation; live readiness not claimed.",
-    "highlightKo": "전략 실험과 모의 검증 구조 · 실전 준비 여부 미주장.",
+    "highlight": "TradingView-to-Python validation workflow design.",
+    "highlightKo": "TradingView·Python 기반 검증 흐름 설계.",
     "slug": "emanuel-tradingview-research",
     "description": [
-      "Designs a research workflow starting with TradingView tests.",
-      "Plans Python parity checks and paper or shadow validation.",
-      "Keeps the scaffold in research and paper mode."
+      "I designed a research scaffold starting with TradingView strategy tests and proceeding to planned Python parity and paper or shadow validation."
     ],
     "descriptionKo": [
-      "TradingView 전략 실험을 시작점으로 연구 흐름을 설계합니다.",
-      "Python 신호 일치성과 모의·섀도 검증 단계를 구상했습니다.",
-      "연구와 모의 검증을 위한 기반 프로젝트입니다."
+      "TradingView 전략 실험을 시작으로 Python 신호 일치성과 모의·섀도 검증을 이어가는 연구 흐름을 설계했습니다."
     ],
     "detail": "/work/emanuel-tradingview-research/"
   },
@@ -370,14 +314,10 @@
     "highlightKo": "실험 등록·검증·근거 기록을 분리한 연구 구조.",
     "slug": "alpha-factory-research-orchestrator",
     "description": [
-      "Organizes agent-assisted strategy experiments.",
-      "Separates candidate generation from validation.",
-      "Records research evidence and gate decisions."
+      "I organized agent-assisted strategy research by separating candidate generation from validation and recording experiment results and gate decisions."
     ],
     "descriptionKo": [
-      "AI 에이전트 기반 전략 실험을 관리합니다.",
-      "후보 생성과 검증 절차를 분리합니다.",
-      "연구 근거와 검증 결과를 기록합니다."
+      "AI 에이전트 기반 전략 연구에서 후보 생성과 검증을 분리하고 실험 결과와 검증 단계를 기록하는 구조를 만들었습니다."
     ],
     "detail": "/work/alpha-factory-research-orchestrator/"
   },
@@ -394,14 +334,10 @@
     "highlightKo": "검증 단계와 실험 기록을 갖춘 연구 워크플로.",
     "slug": "emanuel-autonomous-research-lab",
     "description": [
-      "Manages agent-assisted strategy research.",
-      "Tracks experiment configurations and validation gates.",
-      "Supports repeatable review of research candidates."
+      "I built an agent-assisted research workflow that tracks experiment configurations, decision records and validation gates for repeatable review."
     ],
     "descriptionKo": [
-      "AI 에이전트를 활용해 전략을 연구합니다.",
-      "실험 설정과 검증 단계를 관리합니다.",
-      "연구 후보를 반복 검토할 수 있도록 구성했습니다."
+      "AI 에이전트를 활용한 전략 연구에서 실험 설정과 의사결정, 검증 단계를 기록하고 반복 검토할 수 있는 워크플로를 만들었습니다."
     ],
     "detail": "/work/emanuel-autonomous-research-lab/"
   },
@@ -418,14 +354,10 @@
     "highlightKo": "전략 연구·시뮬레이션·운영 감시를 통합한 워크스페이스.",
     "slug": "trend-trading-workspace",
     "description": [
-      "Collects market data and organizes trend-strategy research.",
-      "Connects backtesting and paper trading with operational monitoring.",
-      "Built and refined with AI-assisted development and a web dashboard."
+      "I built an AI-assisted research workspace that brings market-data collection, trend-strategy backtesting, paper trading and monitoring together in a web dashboard."
     ],
     "descriptionKo": [
-      "시장 데이터를 수집하고 추세 전략을 연구하는 시스템입니다.",
-      "백테스트·모의매매·운영 감시를 하나의 흐름으로 연결합니다.",
-      "AI 협업 개발을 활용해 웹 대시보드와 연구 기능을 구축했습니다."
+      "AI 협업 개발로 시장 데이터 수집과 추세 전략 연구, 백테스트·모의매매·운영 감시를 한곳에서 다루는 웹 대시보드를 구축했습니다."
     ],
     "detail": "/work/trend-trading/",
     "media": {
@@ -452,14 +384,10 @@
     "highlight": "US iOS release; resolved an intermittent iOS crash.",
     "highlightKo": "미국 iOS 출시, 간헐적 iOS 충돌 해결.",
     "description": [
-      "An app that turns recorded voice or text into animated content.",
-      "AI combines suitable 3D avatar animation and camera work.",
-      "Users create videos from their stories on mobile devices."
+      "I led development of an app that turns recorded voice or text into video by combining AI with 3D avatar animation and camera work."
     ],
     "descriptionKo": [
-      "녹음된 음성이나 텍스트를 애니메이션 콘텐츠로 만드는 앱입니다.",
-      "AI가 내용에 맞는 3D 아바타 동작과 카메라 워크를 조합합니다.",
-      "사용자는 모바일에서 자신의 이야기를 영상으로 제작할 수 있습니다."
+      "녹음한 음성이나 텍스트를 분석해 내용에 맞는 3D 아바타 애니메이션과 카메라 워크를 조합하는 AI 콘텐츠 제작 앱의 개발을 이끌었습니다."
     ]
   },
   {
@@ -479,14 +407,10 @@
     "highlight": "Composition >40s → ≤5s; images >30MB → ≤3MB.",
     "highlightKo": "이미지 합성 40초 이상→5초 이내, 30MB 이상→3MB 이하.",
     "description": [
-      "A Japanese avatar-styling and social art app.",
-      "Combines character items into shareable artwork.",
-      "Uses a native image engine across mobile platforms."
+      "I designed the client architecture and shared native image engine for a Japanese app where users create and share avatar artwork."
     ],
     "descriptionKo": [
-      "아바타 스타일링과 작품 공유를 위한 일본 앱입니다.",
-      "캐릭터 아이템을 조합해 디지털 작품을 만듭니다.",
-      "모바일 공통 이미지 처리 엔진을 사용합니다."
+      "아바타 스타일링과 작품 공유를 즐기는 일본 소셜 앱에서 클라이언트 구조와 iOS·Android 공통 이미지 처리 엔진을 개발했습니다."
     ]
   },
   {
@@ -506,14 +430,10 @@
     "highlight": "Led development; exhibited at G2E Las Vegas in 2019.",
     "highlightKo": "개발팀 리딩, 2019 라스베이거스 G2E 출품.",
     "description": [
-      "A casino slot-machine game for Kangwon Land / KLSaberi.",
-      "Built a Unity-based game framework and gameplay.",
-      "Stabilized builds for casino hardware and exhibition use."
+      "I led development of a Unity slot-machine game for Kangwon Land / KLSaberi, building gameplay and stabilizing release builds for casino hardware and exhibition."
     ],
     "descriptionKo": [
-      "강원랜드 KLSaberi의 슬롯머신 게임입니다.",
-      "Unity 기반 게임 프레임워크와 콘텐츠를 개발했습니다.",
-      "카지노 하드웨어와 전시 환경에 맞춰 빌드를 안정화했습니다."
+      "강원랜드 KLSaberi의 Unity 슬롯머신 게임 개발팀을 이끌며 게임플레이를 개발하고 카지노 기기와 전시 환경에 맞춰 빌드를 안정화했습니다."
     ]
   },
   {
@@ -533,14 +453,10 @@
     "highlight": "Established the initial architecture and release infrastructure.",
     "highlightKo": "초기 아키텍처와 모바일 출시 기반 구축.",
     "description": [
-      "A fashion content and style-sharing mobile app.",
-      "Established the initial client and backend architecture.",
-      "Built shared foundations for mobile release."
+      "I established the initial client and backend architecture for a fashion social app, including the shared framework and mobile release foundations."
     ],
     "descriptionKo": [
-      "패션 콘텐츠와 스타일을 공유하는 모바일 앱입니다.",
-      "초기 클라이언트와 백엔드 구조를 설계했습니다.",
-      "모바일 출시를 위한 공통 개발 기반을 구축했습니다."
+      "패션 콘텐츠와 스타일을 공유하는 앱의 초기 클라이언트·백엔드 구조를 설계하고 모바일 출시를 위한 공통 개발 기반을 구축했습니다."
     ]
   },
   {
@@ -560,14 +476,10 @@
     "highlight": "Released on iOS and Android in Japan; reached No. 2 on Japan's App Store.",
     "highlightKo": "일본 iOS·Android 상용 출시 및 일본 앱스토어 2위 달성.",
     "description": [
-      "A Japanese mobile RPG combining quizzes and combat.",
-      "Developed gameplay frameworks and content.",
-      "Supported iOS and Android releases."
+      "As lead programmer in Tokyo, I developed the client framework and gameplay for a Japanese quiz RPG and supported its iOS and Android launch."
     ],
     "descriptionKo": [
-      "퀴즈와 턴제 전투를 결합한 일본 모바일 RPG입니다.",
-      "게임 프레임워크와 콘텐츠를 개발했습니다.",
-      "iOS·Android 출시 환경에 대응했습니다."
+      "일본 도쿄에서 리드 프로그래머로 퀴즈와 턴제 전투를 결합한 모바일 RPG의 클라이언트와 게임플레이를 개발하고 양대 플랫폼 출시를 지원했습니다."
     ]
   },
   {
@@ -587,14 +499,10 @@
     "highlight": "Developed slot content and supported device stability.",
     "highlightKo": "슬롯 콘텐츠 개발과 모바일 기기 안정화.",
     "description": [
-      "A mobile social casino with slot games.",
-      "Developed and updated slot-game content.",
-      "Supported stability across mobile devices."
+      "I developed and updated slot-game content for a mobile social casino and supported stability across devices."
     ],
     "descriptionKo": [
-      "슬롯 콘텐츠를 제공하는 모바일 소셜 카지노입니다.",
-      "슬롯 게임 콘텐츠와 업데이트를 개발했습니다.",
-      "모바일 기기별 안정화 작업을 지원했습니다."
+      "모바일 소셜 카지노의 슬롯 콘텐츠와 업데이트를 개발하고 기기별 안정화 작업을 지원했습니다."
     ]
   },
   {
@@ -620,14 +528,10 @@
     "highlight": "iOS / Android release; eight casino titles for China.",
     "highlightKo": "iOS·Android 출시 및 중국향 카지노 8종 개발·출시.",
     "description": [
-      "A mobile social casino with Macau-inspired slots and bonus games.",
-      "The game features free spins, jackpots and global group chat.",
-      "Developed client architecture and backend integration for mobile release."
+      "I developed the client architecture and backend integration for a Macau-themed mobile social casino and supported its iOS and Android release."
     ],
     "descriptionKo": [
-      "마카오풍 테마 슬롯과 보너스 게임을 제공하는 모바일 소셜 카지노입니다.",
-      "무료 스핀과 잭팟, 전 세계 이용자 그룹 채팅을 제공합니다.",
-      "클라이언트 구조와 백엔드 연동을 개발하고 모바일 출시를 지원했습니다."
+      "마카오풍 슬롯과 보너스 게임을 제공하는 모바일 소셜 카지노에서 클라이언트 구조와 백엔드 연동을 개발하고 iOS·Android 출시를 지원했습니다."
     ]
   },
   {
@@ -647,14 +551,10 @@
     "highlight": "Maintained and stabilized an established live-service client.",
     "highlightKo": "라이브 서비스 클라이언트 유지보수·안정화.",
     "description": [
-      "A long-running online action shooting game for PC.",
-      "Maintained an established game client and codebase.",
-      "Addressed live-service and stability issues."
+      "I maintained the C/C++ and DirectX client of a long-running PC action game, investigating live-service issues and improving runtime stability."
     ],
     "descriptionKo": [
-      "장기간 서비스된 PC 온라인 액션 슈팅 게임입니다.",
-      "기존 게임 클라이언트와 코드베이스를 유지보수했습니다.",
-      "라이브 서비스와 안정성 이슈에 대응했습니다."
+      "장기간 서비스된 PC 온라인 액션 게임의 C/C++·DirectX 클라이언트를 유지보수하며 라이브 서비스 이슈와 런타임 안정화에 대응했습니다."
     ]
   },
   {
@@ -683,14 +583,10 @@
     "highlight": "Implemented TV navigation and remote-control interaction.",
     "highlightKo": "TV 내비게이션과 리모컨 입력 기능 구현.",
     "description": [
-      "Developed the Samsung Smart TV version of the predecessor to Pmang New Vegas.",
-      "Implemented remote-control input and TV navigation.",
-      "The renewed Pmang New Vegas offers slots, baccarat, and blackjack."
+      "I adapted the predecessor to Pmang New Vegas for Samsung Smart TV, implementing remote-control input and TV navigation."
     ],
     "descriptionKo": [
-      "현재 피망 뉴베가스의 전신인 소셜 카지노를 삼성 스마트 TV용으로 개발했습니다.",
-      "리모컨 입력과 TV 메뉴 내비게이션을 구현했습니다.",
-      "리뉴얼된 피망 뉴베가스는 슬롯·바카라·블랙잭을 제공합니다."
+      "현재 피망 뉴베가스의 전신인 소셜 카지노를 삼성 스마트 TV용으로 개발하며 리모컨 입력과 TV 메뉴 내비게이션을 구현했습니다."
     ]
   },
   {
@@ -705,14 +601,10 @@
     "highlight": "Over 20 arcade titles commercialized.",
     "highlightKo": "아케이드 게임 20여 종 상용화.",
     "description": [
-      "Developed arcade games and an online horse-racing system.",
-      "Connected game software with external hardware.",
-      "Handled 3D systems and local data processing."
+      "I developed arcade games and a Japan-focused online horse-racing system, connecting game software with external hardware and local data storage."
     ],
     "descriptionKo": [
-      "아케이드 게임과 온라인 경마 시스템을 개발했습니다.",
-      "게임 소프트웨어와 외부 하드웨어를 연결했습니다.",
-      "3D 시스템과 로컬 데이터 처리를 담당했습니다."
+      "아케이드 게임과 일본 대상 온라인 경마 시스템을 개발하며 게임 소프트웨어와 외부 하드웨어, 로컬 데이터 처리를 연결했습니다."
     ]
   },
   {
@@ -732,14 +624,10 @@
     "highlight": "Developed server logic and supported live operations.",
     "highlightKo": "MMORPG 서버 로직 개발 및 라이브 운영 대응.",
     "description": [
-      "An online MMORPG with persistent multiplayer data.",
-      "Developed Linux-based game server logic.",
-      "Developed game logic and PostgreSQL data processing."
+      "I developed Linux-based MMORPG server and gameplay logic in C/C++, handled PostgreSQL data and supported the live service."
     ],
     "descriptionKo": [
-      "다중 접속과 게임 데이터를 사용하는 MMORPG입니다.",
-      "Linux 기반 게임 서버 로직을 개발했습니다.",
-      "게임 로직과 PostgreSQL 데이터 처리를 개발했습니다."
+      "Linux 환경에서 C/C++로 MMORPG 서버와 게임 로직을 개발하고 PostgreSQL 데이터 처리와 라이브 서비스 운영에 참여했습니다."
     ]
   },
   {
@@ -754,14 +642,10 @@
     "highlight": "Integrated Scaleform and built game interfaces.",
     "highlightKo": "Scaleform 연동과 게임 UI 개발.",
     "description": [
-      "An MMORPG project using Unreal Engine 3.",
-      "Integrated Scaleform with the game engine.",
-      "Developed game user interfaces."
+      "I integrated Scaleform into an Unreal Engine 3 MMORPG project and developed its game user interface."
     ],
     "descriptionKo": [
-      "언리얼 엔진 3 기반 MMORPG 개발 프로젝트입니다.",
-      "게임 엔진에 Scaleform을 연동했습니다.",
-      "게임 사용자 인터페이스를 개발했습니다."
+      "Unreal Engine 3 기반 MMORPG 프로젝트에서 Scaleform을 게임 엔진에 연동하고 사용자 인터페이스를 개발했습니다."
     ]
   },
   {
@@ -781,14 +665,10 @@
     "highlight": "Contributed to a commercial online game.",
     "highlightKo": "상용 온라인 게임 개발 참여.",
     "description": [
-      "Contributed to the online golf game PangYa.",
-      "Worked on the PC game client and rendering.",
-      "Supported game features and the live product."
+      "I contributed C/C++ client features, DirectX rendering and game logic to the PangYa online golf game and supported the live product."
     ],
     "descriptionKo": [
-      "온라인 골프 게임 팡야 개발에 참여했습니다.",
-      "PC 게임 클라이언트와 렌더링을 개발했습니다.",
-      "게임 기능과 서비스 대응을 지원했습니다."
+      "온라인 골프 게임 팡야의 PC 클라이언트와 DirectX 렌더링, 게임 로직 개발에 참여하고 서비스 운영에 대응했습니다."
     ]
   },
   {
@@ -803,14 +683,10 @@
     "highlight": "Developed a custom 3D engine and content tools.",
     "highlightKo": "자체 3D 엔진과 콘텐츠 제작 도구 개발.",
     "description": [
-      "Built online games for the Japanese market.",
-      "Developed a custom 3D golf-game engine.",
-      "Created animation, terrain and content tools."
+      "I developed online games for Japan, including a custom 3D golf engine and tools for animation, terrain and content production."
     ],
     "descriptionKo": [
-      "일본 시장 대상 온라인 게임을 개발했습니다.",
-      "자체 3D 골프 게임 엔진을 개발했습니다.",
-      "애니메이션·지형·콘텐츠 도구를 제작했습니다."
+      "일본 시장 대상 온라인 게임과 자체 3D 골프 엔진을 개발하고 애니메이션·지형·콘텐츠 제작 도구를 만들었습니다."
     ]
   },
   {
@@ -825,14 +701,10 @@
     "highlight": "Taught 3D programming and mentored student portfolios.",
     "highlightKo": "3D 프로그래밍 강의와 수강생 포트폴리오 지도.",
     "description": [
-      "Taught game and 3D engine programming.",
-      "Covered graphics, animation and 3D mathematics.",
-      "Mentored students on their project portfolios."
+      "I taught game and 3D engine programming with C/C++ and DirectX, guiding students through projects and portfolio development."
     ],
     "descriptionKo": [
-      "게임과 3D 엔진 프로그래밍을 강의했습니다.",
-      "그래픽·애니메이션·3D 수학을 다뤘습니다.",
-      "수강생의 프로젝트 포트폴리오를 지도했습니다."
+      "C/C++와 DirectX를 활용한 게임·3D 엔진 프로그래밍을 강의하고 수강생의 프로젝트와 포트폴리오를 지도했습니다."
     ]
   },
   {
@@ -847,14 +719,10 @@
     "highlight": "Developed core game systems and creation tools.",
     "highlightKo": "게임 핵심 시스템과 제작 도구 개발.",
     "description": [
-      "Developed PC online casual games.",
-      "Built content tools and core game architecture.",
-      "Worked on event, state and sound systems."
+      "I developed PC online casual games and content tools, working on game architecture, events, state handling and sound."
     ],
     "descriptionKo": [
-      "PC 온라인 캐주얼 게임을 개발했습니다.",
-      "콘텐츠 제작 도구와 게임 구조를 구축했습니다.",
-      "이벤트·상태·사운드 시스템을 다뤘습니다."
+      "PC 온라인 캐주얼 게임과 콘텐츠 제작 도구를 개발하며 게임 구조와 이벤트·상태·사운드 시스템을 담당했습니다."
     ]
   },
   {
@@ -869,14 +737,10 @@
     "highlight": "Developed simulation logic and 3D rendering.",
     "highlightKo": "시뮬레이션 로직과 3D 렌더링 개발.",
     "description": [
-      "A 3D subway-driving simulation project.",
-      "Developed simulation logic and rendering.",
-      "Created supporting game-client functionality."
+      "I contributed client features, DirectX rendering and simulation logic to a real-time 3D recreation of the Incheon subway."
     ],
     "descriptionKo": [
-      "3D 지하철 주행 시뮬레이션 프로젝트입니다.",
-      "시뮬레이션 로직과 렌더링을 개발했습니다.",
-      "게임 클라이언트의 관련 기능을 구현했습니다."
+      "인천 지하철 운행 환경을 실시간 3D로 재현하는 프로젝트에서 클라이언트와 DirectX 렌더링, 시뮬레이션 로직을 개발했습니다."
     ]
   },
   {
@@ -891,14 +755,10 @@
     "highlight": "Developed utilities and hardware-control libraries.",
     "highlightKo": "업무 유틸리티와 하드웨어 제어 라이브러리 개발.",
     "description": [
-      "PC applications for medical insurance and patient care.",
-      "Developed business utilities and shared libraries.",
-      "Integrated serial communication and hardware control."
+      "I developed medical administration software and C/C++ utilities, including serial communication to control external display hardware."
     ],
     "descriptionKo": [
-      "의료보험과 진료 업무를 위한 PC 소프트웨어입니다.",
-      "업무 유틸리티와 공통 라이브러리를 개발했습니다.",
-      "시리얼 통신과 하드웨어 제어를 연동했습니다."
+      "의료보험과 진료 업무용 PC 소프트웨어를 개발하고, 시리얼 통신으로 외부 전광판을 제어하는 C/C++ 유틸리티와 라이브러리를 만들었습니다."
     ]
   },
   {
@@ -913,14 +773,10 @@
     "highlight": "First professional game development experience.",
     "highlightKo": "게임 개발사에서 프로그래밍 실무 경험.",
     "description": [
-      "An internship on PC package-game development.",
-      "Contributed to game programming work.",
-      "Gained early experience in a game studio."
+      "I began my professional career at Mirinae Software, contributing to PC packaged-game development with Visual Basic and C/C++."
     ],
     "descriptionKo": [
-      "PC 패키지 게임 개발 인턴십입니다.",
-      "게임 프로그래밍 작업에 참여했습니다.",
-      "게임 개발사에서 초기 실무 경험을 쌓았습니다."
+      "미리내소프트웨어에서 Visual Basic과 C/C++를 활용한 PC 패키지 게임 개발에 참여하며 실무 경력을 시작했습니다."
     ]
   }
 ]

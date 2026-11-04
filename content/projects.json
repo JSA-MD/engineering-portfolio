@@ -26,8 +26,8 @@
       {
         "src": "/assets/n8n-audio-drama-workflow.png",
         "alt": "n8n AnimationGenerator workflow for audio drama production",
-        "caption": "Audio drama production workflow in n8n · screenshot supplied by the project author",
-        "captionKo": "n8n 오디오 드라마 제작 워크플로 · 프로젝트 제작자 제공 화면",
+        "caption": "Audio drama production workflow in n8n",
+        "captionKo": "n8n 오디오 드라마 제작 워크플로",
         "originalLink": true
       }
     ],
@@ -79,8 +79,8 @@
       {
         "src": "/assets/n8n-epicfun-animal-shorts.png",
         "alt": "n8n HomeCamShorts animal Shorts workflow",
-        "caption": "Animal Shorts workflow in n8n · screenshot supplied by the project author",
-        "captionKo": "n8n 동물 숏츠 제작 워크플로 · 프로젝트 제작자 제공 화면",
+        "caption": "Animal Shorts workflow in n8n",
+        "captionKo": "n8n 동물 숏츠 제작 워크플로",
         "originalLink": true
       }
     ],
@@ -161,16 +161,16 @@
     "linkLabelKo": "Jay Invest 유튜브 채널",
     "detailMedia": {
       "type": "youtube",
-      "id": "MGG4UrIrmug",
-      "source": "Jay Invest · NPR & PBS: Already Dead #Shorts",
-      "sourceKo": "Jay Invest · NPR & PBS: Already Dead #Shorts",
+      "id": "y8_sqj5jVOM",
+      "source": "Jay Invest · NPR & PBS Are Dead",
+      "sourceKo": "Jay Invest · NPR & PBS Are Dead",
       "channelUrl": "https://www.youtube.com/@JayInvests7US"
     },
     "resources": [
       {
-        "url": "https://www.youtube.com/shorts/MGG4UrIrmug",
-        "label": "NPR & PBS: Already Dead #Shorts",
-        "labelKo": "NPR & PBS: Already Dead #Shorts"
+        "url": "https://www.youtube.com/watch?v=y8_sqj5jVOM",
+        "label": "NPR & PBS Are Dead — The $445M War on Information You're Losing",
+        "labelKo": "NPR & PBS Are Dead — The $445M War on Information You're Losing"
       }
     ],
     "caseStudy": {
@@ -236,14 +236,14 @@
         {
           "titleEn": "From n8n to an AI-built system",
           "titleKo": "n8n 경험에서 AI 중심 개발로",
-          "bodyEn": "The earlier audio-drama and animal-Shorts workflows established the automation experience. Epic Studio moved the workflow into an application built without n8n, using Claude Code and Codex for architecture, implementation and review under the developer’s direction.",
+          "bodyEn": "After automating audio dramas and animal Shorts with n8n, I built Epic Studio as an independent application. I used Claude Code and Codex to design, implement and review the system.",
           "bodyKo": "오디오 드라마와 동물 숏츠를 n8n으로 자동화하며 쌓은 경험을 확장했습니다. Epic Studio는 n8n 없이 독립 애플리케이션으로 구축했으며, 개발자의 지시 아래 Claude Code와 Codex를 설계·구현·검토에 활용했습니다."
         },
         {
           "titleEn": "A feedback loop connected to topic generation",
           "titleKo": "성과가 다음 주제로 돌아오는 흐름",
-          "bodyEn": "The YouTube Data API collector stores views, likes and comment counts for uploaded videos. A performance summary groups results by channel and category, and the topic-generation stage can add that context to its prompt. This is implemented logic; the available evidence does not establish that every production run completed the whole loop unattended.",
-          "bodyKo": "YouTube Data API로 업로드 영상의 조회수·좋아요·댓글 수를 수집해 저장합니다. 채널·분야별 성과를 요약하고 주제 생성 단계의 프롬프트에 반영하도록 구현했습니다. 전체 자동화가 목표이며, 모든 실행에서 이 순환이 무인으로 완료됐다는 뜻은 아닙니다."
+          "bodyEn": "I collect and store views, likes and comment counts with the YouTube Data API, summarize performance by channel and category, and pass the summary into topic-generation prompts for future videos.",
+          "bodyKo": "YouTube Data API로 영상의 조회수·좋아요·댓글 수를 수집해 채널과 분야별로 요약하고, 다음 영상의 주제를 생성할 때 프롬프트에 반영하도록 구성했습니다."
         },
         {
           "titleEn": "Operating the pipeline",
@@ -275,8 +275,8 @@
         }
       ],
       "boundary": {
-        "en": "Automation is the project goal. Available records show implemented components and historical publication, not independent proof that every configured channel ran without intervention.",
-        "ko": "완전 자동화는 프로젝트 목표입니다. 확인된 자료는 구현된 기능과 과거 게시 이력을 보여주며, 모든 채널의 모든 실행이 개입 없이 완료됐다는 독립 검증은 아닙니다."
+        "en": "My goal is end-to-end automation, with room to review results and intervene when a production run needs attention.",
+        "ko": "소재 수집부터 성과 반영까지 전체 자동화를 목표로 하면서, 제작 결과를 검토하고 필요한 단계에 개입할 수 있도록 구성했습니다."
       }
     },
     "overview": {
@@ -379,7 +379,11 @@
         "bodyEn": "I also worked on backend business logic and database schemas and supported the iOS and Android launch in Japan. I received Hangame’s 2020 Developer of the Year award.",
         "bodyKo": "클라이언트뿐 아니라 백엔드 비즈니스 로직과 데이터베이스 스키마도 개발하고 일본 iOS·Android 상용화를 지원했습니다. 2020년 한게임 올해의 개발자상을 받았습니다."
       }
-    ]
+    ],
+    "roleSummary": {
+      "en": "I designed the client architecture and a cross-platform C++ image engine, improving composition time and image size while supporting backend development and the Japanese mobile launch.",
+      "ko": "클라이언트 구조와 양 플랫폼 공통 C++ 이미지 엔진을 개발해 합성 속도와 이미지 크기를 개선했습니다. 백엔드와 데이터베이스 개발, 일본 모바일 출시에도 참여했습니다."
+    }
   },
   {
     "id": "olobo",
@@ -437,7 +441,11 @@
         "bodyEn": "I identified an overflow in the library’s calculation and corrected it. I also managed build and release work for the US iOS launch and Android open beta.",
         "bodyKo": "라이브러리 내부 연산에서 발생한 오버플로를 찾아 수정했습니다. 이후 미국 iOS 정식 출시와 Android 오픈 베타를 위한 빌드·릴리스 작업을 담당했습니다."
       }
-    ]
+    ],
+    "roleSummary": {
+      "en": "I led the architecture connecting Unity, backend services and the database, integrated AI and 3D animation, and resolved an intermittent iOS crash before supporting release.",
+      "ko": "Unity·백엔드·데이터베이스를 잇는 아키텍처를 설계하고 AI와 3D 애니메이션을 통합했습니다. iOS 랜덤 크래시를 해결하고 미국 출시를 위한 빌드·릴리스를 담당했습니다."
+    }
   },
   {
     "id": "trading-research",
@@ -629,7 +637,7 @@
         "date": "2026.02–04",
         "titleEn": "Evolving strategy candidates",
         "titleKo": "전략 수식 후보를 진화시키는 실험",
-        "bodyEn": "I explored genetic programming with DEAP to generate trading formulas and evaluate candidates using NumPy/Pandas backtests. The repository records a baseline restore and later work on state carry in the backtest kernel.",
+        "bodyEn": "I explored genetic programming with DEAP to generate trading formulas and evaluate candidates using NumPy/Pandas backtests. I later restored a baseline strategy and improved state carry in the backtest kernel.",
         "bodyKo": "DEAP 유전 프로그래밍으로 매매 수식 후보를 만들고 NumPy·Pandas 백테스트로 평가하는 방법을 연구했습니다. 저장소에는 기준 전략 복원과 백테스트의 상태 이월 개선 과정이 기록돼 있습니다."
       },
       {
@@ -884,7 +892,7 @@
         "titleEn": "Separating proposals from verification",
         "titleKo": "후보 생성과 검증 분리",
         "bodyEn": "I developed an agent-assisted research scaffold with explicit verification and recorded handoffs. Its history shows a bootstrap, validation gates and independent verifier work.",
-        "bodyKo": "AI 에이전트를 활용한 전략 연구에서 검증과 작업 인계를 분리하는 구조를 개발했습니다. 초기 기반 구성과 검증 게이트, 독립 검증 작업이 개발 기록에 남아 있습니다."
+        "bodyKo": "AI 에이전트를 활용한 전략 연구에서 검증과 작업 인계를 분리하는 구조를 개발하고, 초기 기반 구성부터 검증 게이트와 독립 검증까지 진행했습니다."
       },
       {
         "date": "RESEARCH",
