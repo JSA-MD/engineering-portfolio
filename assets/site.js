@@ -47,7 +47,7 @@
   }
   historyToggles.forEach(button => button.addEventListener('click', () => setHistoryExpanded(button.getAttribute('aria-expanded') !== 'true')));
   const dialog = document.querySelector('#lightbox');
-  document.querySelectorAll('.image-trigger').forEach(button => button.addEventListener('click', () => { const source = button.querySelector('img'); const target = dialog.querySelector('img'); target.src = source.src; target.alt = source.alt; dialog.showModal(); }));
+  document.querySelectorAll('.image-trigger').forEach(button => button.addEventListener('click', () => { const source = button.querySelector('img'); const target = dialog.querySelector('img'); target.src = source.dataset.full || source.src; target.alt = source.alt; dialog.showModal(); }));
   dialog.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   document.querySelectorAll('.architecture button').forEach(button => button.addEventListener('click', () => { const diagram=button.closest('.architecture'); diagram.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed','false')); button.setAttribute('aria-pressed','true'); diagram.nextElementSibling.textContent = doc.lang === 'ko' ? button.dataset.detailKo : button.dataset.detail; }));

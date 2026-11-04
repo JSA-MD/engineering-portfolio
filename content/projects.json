@@ -513,7 +513,8 @@
         "captionKo": "대시보드",
         "description": "A full view of operational status, positions, signals, strategy research and rankings at the capture time.",
         "descriptionKo": "운영 상태와 포지션, 신규 시그널, 전략 연구 및 랭킹을 한 화면에서 확인합니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/dashboard-main.jpg"
       },
       {
         "src": "/assets/trend-screens/dashboard-bottom.jpg",
@@ -531,7 +532,8 @@
         "captionKo": "손익 분석",
         "description": "Review realized and unrealized profit and loss, trade counts and period-based breakdowns.",
         "descriptionKo": "실현·미실현 손익, 거래 건수와 기간별 내역을 확인합니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/profit-preview.jpg"
       },
       {
         "src": "/assets/trend-screens/profit-right.jpg",
@@ -540,7 +542,8 @@
         "captionKo": "손익 분석 · 표 오른쪽",
         "description": "The right side of the horizontally scrollable profit and loss table.",
         "descriptionKo": "가로로 스크롤한 손익 내역 표의 오른쪽을 보여줍니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/profit-right-preview.jpg"
       },
       {
         "src": "/assets/trend-screens/paper.jpg",
@@ -549,7 +552,8 @@
         "captionKo": "모의매매",
         "description": "Monitor simulated positions and the paper-trading ledger; the results are not live fills.",
         "descriptionKo": "모의 포지션과 매매 원장을 살펴보는 화면으로, 실거래 체결 결과와 구분합니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/paper-preview.jpg"
       },
       {
         "src": "/assets/trend-screens/portfolio.jpg",
@@ -567,7 +571,8 @@
         "captionKo": "매매전략",
         "description": "Inspect strategy conditions and historical research comparisons in the dashboard.",
         "descriptionKo": "대시보드에서 전략의 진입·청산 조건과 과거 연구 결과를 비교합니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/strategy-preview.jpg"
       },
       {
         "src": "/assets/trend-screens/strategy-bottom.jpg",
@@ -585,7 +590,8 @@
         "captionKo": "코인 분석기",
         "description": "Compare market cycles, moving-average combinations and coin-level research results.",
         "descriptionKo": "코인별 가격 사이클과 이동평균 조합, 연구 결과를 비교합니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/analyzer-preview.jpg"
       },
       {
         "src": "/assets/trend-screens/analyzer-right.jpg",
@@ -594,7 +600,8 @@
         "captionKo": "코인 분석기 · 표 오른쪽",
         "description": "The remaining right-hand columns of the coin comparison table.",
         "descriptionKo": "코인 비교 표에서 오른쪽으로 스크롤해야 보이는 나머지 열을 보여줍니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/analyzer-right-preview.jpg"
       },
       {
         "src": "/assets/trend-screens/experiment.jpg",
@@ -612,7 +619,8 @@
         "captionKo": "인사이트",
         "description": "Explore historical moving-average combinations and coin-level summaries.",
         "descriptionKo": "과거 이동평균 조합과 코인별 분석 결과를 살펴봅니다.",
-        "originalLink": true
+        "originalLink": true,
+        "preview": "/assets/trend-screens/insights-preview.jpg"
       }
     ],
     "engineeringStory": [
