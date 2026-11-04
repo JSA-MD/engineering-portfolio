@@ -151,3 +151,4 @@ html[data-style=overview] .button.primary:hover{background:#7f2d1c}
 
 .home-career-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.home-career-toggle{border:0;border-bottom:1px solid var(--accent);background:transparent;cursor:pointer}.home-career-list+.home-career-list{border-top:0}
 @media(max-width:720px){.home-career-actions{gap:18px}}
+.external-artwork{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;align-items:start;background:#161b1c;padding:6px}.external-artwork a{display:block;min-width:0}.external-artwork img{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:contain}.external-artwork a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}

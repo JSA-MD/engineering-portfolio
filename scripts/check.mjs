@@ -13,6 +13,7 @@ for(const [i,p] of careerProjects.entries()){
   if(!Number.isInteger(p.career)||p.career<0||p.career>=career.length)throw Error(`career project ${i}: invalid career index`);
   if(p.media?.type==='youtube'&&!/^[\w-]{11}$/.test(p.media.id))throw Error(`career project ${i}: invalid video ID`);
   if(p.media?.type==='external'&&[p.media.url,p.media.listingUrl].some(url=>typeof url!=='string'||!url.startsWith('https://')))throw Error(`career project ${i}: invalid external media URL`);
+  if(p.media?.type==='external'&&p.media.images?.some(url=>typeof url!=='string'||!url.startsWith('https://')))throw Error(`career project ${i}: invalid external image URL`);
   if(['image','channel'].includes(p.media?.type))await access(join('dist',p.media.src));
   if(p.media?.type==='video'){await access(join('dist',p.media.src));await access(join('dist',p.media.poster));}
   if(p.media?.channelUrl && !/^https:\/\/www\.youtube\.com\/@[A-Za-z0-9%_-]+$/.test(p.media.channelUrl))throw Error(`career project ${i}: invalid channel URL`);
