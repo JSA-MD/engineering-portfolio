@@ -55,3 +55,5 @@ if((homeHtml.match(/class="home-recommendation"/g)||[]).length!==2||!homeHtml.in
 try{await access('dist/assets/Jinseong-Ahn-Resume.pdf');throw Error('resume PDF must not be published')}catch(e){if(e.code!=='ENOENT')throw e;}
 
 await access('dist/assets/linkedin-recommendation.png');if((homeHtml.match(/src="\/assets\/linkedin-recommendation.png"/g)||[]).length!==2)throw Error('Recommendation screenshot missing from home layouts');
+
+const story=JSON.parse(await readFile('content/personal-story.json','utf8'));if(story.paragraphs.length!==3||story.paragraphs.some(p=>!p.en||!p.ko))throw Error('Personal story must have three bilingual paragraphs');if((homeHtml.match(/class="home-personal-story"/g)||[]).length!==2)throw Error('Personal story missing from home layouts');

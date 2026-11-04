@@ -1,0 +1,20 @@
+{
+  "title": {
+    "ko": "월급 7만원에서 연봉 1억1천만원까지",
+    "en": "From ₩70,000 a month to ₩110 million a year"
+  },
+  "paragraphs": [
+    {
+      "ko": "1997년 국내 최초의 게임회사 미리내 소프트웨어 인턴(그때는 인턴이라는 말이 없었고 산업실습생 이었음)으로 시작하여 2023년 11월 마지막 회사인 (주)닫닫닫(미국회사의 한국법인)에서 마지막 연봉 1억1천만으로 퇴직 하였습니다. PC게임, 모바일게임, 앱, 서버, 패키지 소프트웨어, 클라이언트, 서버, 프론트엔드, 백엔드, AI 프로젝트까지 많은 것을 경험하고 빌드해 왔습니다. 퇴직 당시 27년 가까이를 시대에 흐름에 맞게 변화하며 개발만 하였고 열정을 불태우다 못해 쏟아 부었던 회사가 폐업 하자 저도 개발자를 마치기로 결정하였습니다.",
+      "en": "I began in 1997 as an industrial trainee at Mirinae Software, Korea’s first game company, before the term “intern” was in common use. In November 2023, I left my last employer, DotDotDot, the Korean subsidiary of a US company, with a final annual salary of ₩110 million. I built and worked across PC and mobile games, apps, servers, packaged software, clients, frontends, backends and AI projects. For nearly 27 years I adapted to changes in the industry and devoted myself to development. When the company I had poured my passion into closed, I decided to end my career as a developer."
+    },
+    {
+      "ko": "퇴직 후 처음 1년간은 하고 싶은 것 하고 여러 나라를 여행하며 자유롭게 지냈고 2024년 12월에 퇴직금과 그동안 투자해서 거둔 수익금으로 싱가포르에서 다리 하나만 건너면 되는 조호바루라는 곳에 둘째 유학을 보내면서 뒷바라지 하려고 같이 왔습니다. 거기서 셀프 고립하며 클로드코드, 코덱스 (가끔 Gemini) 로 여러 프로젝트를 만들면서 AI 응용 연구에 매진하고 있습니다.",
+      "en": "For the first year after leaving work, I spent time doing what I wanted and travelling to several countries. In December 2024, using my severance and investment returns, I supported my second child’s studies abroad and moved with them to Johor Bahru, just across the bridge from Singapore. Since then, living in self-imposed isolation, I have focused on applied AI research, building projects with Claude Code and Codex, and occasionally Gemini."
+    },
+    {
+      "ko": "AI 관련 프로그램을 개발하는 일이라면 연봉을 회사에서 제안해 주시는대로 받아들이겠습니다. 나이가 많아서 회사에서 우려가 많은 점도 잘 알고 있습니다. 혹시 채용했는데 회사에서 원하는 역량이 아니라면 언제라도 말씀해 주시면 자진 퇴사하겠습니다.(미국식 채용 문화 적극 찬성)",
+      "en": "For a role developing AI-related software, I am willing to accept the salary the company proposes. I understand that employers may have concerns about my age. If I am hired and my abilities do not meet the company’s needs, please tell me at any time and I will voluntarily step down. I strongly support an American-style employment culture."
+    }
+  ]
+}
