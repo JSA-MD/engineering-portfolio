@@ -131,8 +131,8 @@
     ],
     "caseStudy": {
       "intro": {
-        "en": "A complete production workflow built with AI coding agents, evolving from earlier n8n automation into an independently developed software system. The developer directed the objectives, decisions and verification; the code and system flow were produced using AI tools, as reported by the developer.",
-        "ko": "n8n으로 쌓은 자동화 경험을 독립 소프트웨어 시스템으로 발전시켰습니다. 개발자가 목표와 의사결정·검증을 이끌고 Claude Code와 Codex 등 AI 코딩 도구를 활용해 시스템의 코드와 전체 흐름을 만들었습니다. AI 중심 개발 방식은 개발자 본인의 설명입니다."
+        "en": "I developed Epic Studio as an independent application from the experience of automating YouTube production with n8n. I directed the design, implementation and verification with Claude Code and Codex, connecting content production and channel feedback into one operating workflow.",
+        "ko": "n8n으로 유튜브 콘텐츠를 자동화하며 얻은 경험을 바탕으로 Epic Studio를 독립 애플리케이션으로 만들었습니다. Claude Code와 Codex를 활용해 설계·구현·검증을 이끌며 콘텐츠 제작부터 채널 성과 피드백까지 하나의 운영 흐름으로 연결했습니다."
       },
       "flowTitle": {
         "en": "From source to feedback",
@@ -238,7 +238,44 @@
     "overview": {
       "en": "An AI-assisted system for automating YouTube channel production. It connects topic discovery, script and media creation, video composition, upload, and channel-performance feedback to support the next production cycle.",
       "ko": "유튜브 채널 운영 전반을 자동화하기 위한 AI 기반 프로그램입니다. 소재 수집과 주제 선정부터 대본·이미지·음성·자막·영상 제작, 합성·업로드와 채널 성과 수집까지 연결하고 다음 제작에 활용합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.01",
+        "titleEn": "Beyond the n8n workflow",
+        "titleKo": "n8n에서 독립 애플리케이션으로",
+        "bodyEn": "After building n8n workflows for audio dramas and animal Shorts, I wanted finer control over production stages, channel settings and failures. I began Epic Studio as a separate application and removed the earlier n8n integration. I directed Claude Code and Codex with the intended workflow and reviewed their output as the application took shape.",
+        "bodyKo": "오디오 드라마와 동물 숏츠를 n8n으로 자동화한 뒤, 채널별 설정과 제작 단계, 실패 처리까지 더 세밀하게 제어하고 싶었습니다. Epic Studio를 별도 애플리케이션으로 시작하면서 기존 n8n 연동을 제거하고, Claude Code와 Codex에 만들고자 하는 흐름을 설명하며 설계와 구현을 진행했습니다. 생성된 코드는 실제 프로젝트 구조와 동작을 살피며 검토했습니다."
+      },
+      {
+        "date": "2026.01–02",
+        "titleEn": "Connecting the production stages",
+        "titleKo": "소재에서 영상까지 흐름을 연결",
+        "bodyEn": "I built a pipeline that gathers source material, identifies and validates topics, produces scripts, and coordinates visual assets, narration and subtitles. FFmpeg composes the media and the upload stage connects to YouTube. AI models contribute to tasks such as topic and script generation, while the application coordinates stage inputs, settings and state.",
+        "bodyKo": "뉴스와 트렌드 등에서 소재를 모으고, AI로 주제를 추출·검증한 뒤 대본을 만드는 흐름을 구성했습니다. 이미지와 영상 소스, 음성, 자막을 생성해 FFmpeg로 합성하고 YouTube 업로드까지 연결했습니다. AI 모델은 주제와 대본 등 콘텐츠 생성에 활용하고, 애플리케이션은 각 단계의 입력과 설정, 진행 상태를 관리하도록 나눴습니다."
+      },
+      {
+        "date": "2026.03",
+        "titleEn": "Letting channel feedback inform the next topic",
+        "titleKo": "채널 성과를 다음 주제 선정에 반영",
+        "bodyEn": "Producing a video was only half of the loop. I added a YouTube Data API collector for views, likes and comment counts, stored the results and built summaries by channel and category. These summaries can be included in the prompt for later topic generation, giving the next production cycle context from published work rather than relying only on new trends.",
+        "bodyKo": "영상을 만드는 것에서 멈추지 않고 게시 후 반응을 다음 제작에 활용하고 싶었습니다. YouTube Data API로 조회수·좋아요·댓글 수를 수집해 저장하고, 채널과 분야별 성과를 요약했습니다. 이 요약을 다음 주제 생성 프롬프트에 넣을 수 있도록 연결해 새 트렌드뿐 아니라 기존 영상의 반응도 참고하도록 했습니다."
+      },
+      {
+        "date": "2026.04",
+        "titleEn": "Learning from production failures",
+        "titleKo": "실제 실패를 통해 파이프라인 다듬기",
+        "bodyEn": "As the workflow grew, individual stages could appear complete while an integration was wrong. During a Shorts audit I traced a stock-video API signature mismatch and a missing download, and corrected inconsistent upload-setting names. I used AI to help follow the execution path and inspect changes, then checked the stage boundaries and relevant tests.",
+        "bodyKo": "단계가 많아지면서 각각의 기능보다 연결 지점에서 문제가 생겼습니다. 숏츠 제작 과정을 점검하다 스톡 영상 API 호출 방식이 맞지 않아 다운로드가 누락되는 문제와 업로드 설정 이름이 서로 다른 문제를 찾아 수정했습니다. AI와 실행 경로와 변경 사항을 함께 살펴보면서 단계 사이에 전달되는 값과 테스트를 다시 확인했습니다."
+      },
+      {
+        "date": "2026.10",
+        "titleEn": "Making autonomous runs more dependable",
+        "titleKo": "자동 실행을 안전하게 이어가기",
+        "bodyEn": "I continued to improve logging, stage status, retry and review controls around the pipeline. A later change reserves the executor when a task is created to prevent overlapping pipeline starts, with tests for the reservation behavior. The goal remains end-to-end automation; I distinguish implemented stages and published videos from an assumption that every run needs no intervention.",
+        "bodyKo": "자동화의 범위가 커질수록 작업 상태와 실패 원인을 확인하고 안전하게 다시 실행하는 일이 중요해졌습니다. 로그, 단계별 상태, 재시도와 검토 기능을 보완하고, 작업 생성 시 실행기를 예약해 중복 실행을 막는 처리와 테스트를 추가했습니다. 전체 자동화를 목표로 발전시키되, 구현된 단계와 실제 게시 이력을 모든 작업이 개입 없이 끝났다는 주장과 구분하고 있습니다."
+      }
+    ]
   },
   {
     "id": "purenista",
@@ -352,6 +389,57 @@
       {
         "en": "I used AI coding tools to support implementation and iterative review while preserving the distinction between research results, simulated trades and actual trading.",
         "ko": "AI 코딩 도구를 구현과 반복 검토에 활용하고, 연구 결과·모의매매·실제 거래를 구분해 확인할 수 있도록 구성했습니다."
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/trend-analyzer.jpg",
+        "alt": "Trend Trading coin analyzer with a privacy filter applied",
+        "caption": "Coin analyzer · search filter applied for presentation",
+        "captionKo": "코인 분석기 · 검색 필터를 적용한 화면"
+      },
+      {
+        "src": "/assets/trend-experiments.jpg",
+        "alt": "Trend Trading research library header",
+        "caption": "Experiment library · cropped to omit financial information",
+        "captionKo": "실험 기록 화면 일부 · 금융 정보 제외"
+      }
+    ],
+    "engineeringStory": [
+      {
+        "date": "2026.09",
+        "titleEn": "From an idea to a research workspace",
+        "titleKo": "아이디어를 직접 비교할 수 있는 연구실로",
+        "bodyEn": "I began with a moving-average crossover analyzer: collect market candles, measure price cycles and compare strategy conditions. With AI coding agents assisting implementation and review, I built a FastAPI backend, database and React interface, then added date-range controls, saved experiments and paper-trading workflows. The goal was to make each hypothesis repeatable rather than leave it as an interesting chart.",
+        "bodyKo": "이동평균선 교차를 기준으로 가격의 움직임을 비교해 보고 싶어 분석기를 만들기 시작했습니다. AI 코딩 에이전트와 함께 FastAPI 백엔드, 데이터베이스, React 화면을 구성한 뒤 기간 선택, 실험 기록, 모의매매까지 확장했습니다. 차트에서 떠오른 아이디어를 같은 조건으로 다시 시험할 수 있는 연구 환경을 만드는 것이 첫 목표였습니다."
+      },
+      {
+        "date": "DATA",
+        "titleEn": "The data itself became a question",
+        "titleKo": "데이터가 충분한지부터 다시 살피다",
+        "bodyEn": "As research expanded, collecting and maintaining comparable history became a challenge. Listing dates, the period available from each source and market sessions can differ, so identical-looking tests need not use identical inputs. I used AI to help inspect the data and comparison code, then checked coverage and execution timing against the underlying records instead of treating every discrepancy as a strategy improvement.",
+        "bodyKo": "연구 범위를 넓히면서 직접 수집한 데이터만으로 여러 시장과 긴 기간을 일관되게 비교하기 어렵다는 한계가 드러났습니다. 종목마다 상장 시점이 다르고 데이터 제공처별 수집 구간과 장 운영 시간도 달랐기 때문입니다. AI와 함께 데이터와 비교 코드를 점검하면서 수집 범위와 신호·체결 시점을 원본 기록에 대조했고, 결과 차이를 곧바로 전략의 우열로 해석하지 않도록 했습니다."
+      },
+      {
+        "date": "TRADINGVIEW",
+        "titleEn": "Adding TradingView as another test environment",
+        "titleKo": "Aside와 TradingView를 활용한 백테스트로 확장",
+        "bodyEn": "To work around collection coverage and compare across markets, I extended the research to TradingView. I used Aside to operate the browser and AI assistance to express ideas as Pine strategies, run tests and document results. Local data and Python research continued alongside it; TradingView provided another price source and execution environment for checking whether an idea survived the same conditions.",
+        "bodyKo": "수집 범위의 한계를 보완하고 다양한 시장에서 검증하기 위해 TradingView 백테스트를 연구 흐름에 추가했습니다. Aside로 브라우저를 조작하고 AI와 함께 아이디어를 Pine 전략으로 옮겨 반복 실행과 결과 기록을 진행했습니다. 자체 데이터와 Python 연구도 유지하면서, 다른 가격 데이터와 실행 환경에서 같은 조건을 적용해 결과를 교차 확인했습니다."
+      },
+      {
+        "date": "AI + REVIEW",
+        "titleEn": "Using AI to make comparisons disciplined",
+        "titleKo": "AI를 빠른 실험과 꼼꼼한 검증에 함께 사용",
+        "bodyEn": "I used AI to help formulate hypotheses, implement Pine and Python changes, organize runs and review mismatches. I fixed the market, period, capital and cost assumptions for a comparison and changed one condition at a time; I also checked signal timing, fees, slippage, drawdown and later periods. The AI accelerated iteration, while I set the evaluation rules and examined the evidence.",
+        "bodyKo": "AI를 가설 정리, Pine·Python 코드 작성, 반복 실행과 차이 분석에 활용했습니다. 비교할 때는 시장, 기간, 초기 자본과 비용을 맞추고 한 번에 한 조건씩 바꿨습니다. 신호와 체결 시점, 수수료·슬리피지, 최대 낙폭과 이후 구간도 함께 확인했습니다. AI가 실험 속도를 높이는 동안 비교 기준을 정하고 결과의 타당성을 판단하는 일은 직접 맡았습니다."
+      },
+      {
+        "date": "ITERATION",
+        "titleEn": "Keep research, simulation and operation distinct",
+        "titleKo": "좋은 과거 결과와 실제 운용을 구분",
+        "bodyEn": "The workspace grew to include stored experiments, simulated portfolios, paper trading and operational monitoring. Research records also preserve unsuccessful targets and unresolved differences. A historical simulation is useful for the next question, but it is not evidence of future performance or actual fills; that distinction shaped both the dashboard and the development process.",
+        "bodyKo": "프로젝트는 실험 기록, 포트폴리오 시뮬레이션, 모의매매와 운영 감시 화면으로 발전했습니다. 목표에 미치지 못한 실험과 아직 설명하지 못한 차이도 연구 기록에 남겼습니다. 과거 시뮬레이션 결과는 다음 질문을 찾는 근거로 활용하되, 실제 체결이나 앞으로의 수익과 혼동하지 않도록 화면과 개발 과정을 구분했습니다."
       }
     ]
   }
