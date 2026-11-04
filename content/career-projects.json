@@ -420,8 +420,8 @@
     "career": 1,
     "name": "OLOBO",
     "nameKo": "OLOBO",
-    "summary": "Mobile app creating 3D avatar stories and animations using AI and voice.",
-    "summaryKo": "AI와 음성으로 3D 아바타 스토리·애니메이션을 만드는 앱.",
+    "summary": "AI-powered mobile app that turns voice or text into 3D avatar animation.",
+    "summaryKo": "음성이나 텍스트를 AI로 분석해 3D 아바타 애니메이션을 제작하는 앱.",
     "media": {
       "type": "youtube",
       "id": "vbDRFJ3K2rE",
@@ -433,14 +433,14 @@
     "highlight": "US iOS release; resolved an intermittent iOS crash.",
     "highlightKo": "미국 iOS 출시, 간헐적 iOS 충돌 해결.",
     "description": [
-      "Creates stories with 3D avatars and AI-generated voice.",
-      "Connects a Unity client with backend services.",
-      "Targets iOS and Android mobile devices."
+      "An app that turns recorded voice or text into animated content.",
+      "AI combines suitable 3D avatar animation and camera work.",
+      "Users create videos from their stories on mobile devices."
     ],
     "descriptionKo": [
-      "3D 아바타와 AI 음성으로 이야기를 만드는 앱입니다.",
-      "Unity 클라이언트와 백엔드 서비스를 연결합니다.",
-      "iOS·Android 모바일 환경을 지원합니다."
+      "녹음된 음성이나 텍스트를 애니메이션 콘텐츠로 만드는 앱입니다.",
+      "AI가 내용에 맞는 3D 아바타 동작과 카메라 워크를 조합합니다.",
+      "사용자는 모바일에서 자신의 이야기를 영상으로 제작할 수 있습니다."
     ]
   },
   {
