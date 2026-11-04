@@ -109,6 +109,18 @@
         "alt": "Epic Studio media model settings",
         "caption": "Media model settings",
         "captionKo": "미디어 모델 설정"
+      },
+      {
+        "src": "/assets/epic-news-historical.png",
+        "alt": "Epic Studio news collection and analysis screen captured in February 2026",
+        "caption": "News collection and AI analysis · February 2026 capture",
+        "captionKo": "뉴스 수집·AI 분석 · 2026년 2월 캡처"
+      },
+      {
+        "src": "/assets/epic-trends-historical.png",
+        "alt": "Epic Studio search trend collection screen captured in February 2026",
+        "caption": "Search trend analysis · February 2026 capture",
+        "captionKo": "검색 트렌드 분석 · 2026년 2월 캡처"
       }
     ],
     "nameKo": "Epic Studio (Youtube 채널 운영 자동화 프로그램)",
@@ -393,16 +405,52 @@
     ],
     "images": [
       {
+        "src": "/assets/trend-dashboard-redacted.jpg",
+        "alt": "Trend Trading dashboard with sensitive operating and account information redacted",
+        "caption": "Dashboard · operating and account information redacted",
+        "captionKo": "대시보드 · 운영·계좌 정보 가림"
+      },
+      {
+        "src": "/assets/trend-pnl-redacted.jpg",
+        "alt": "Trend Trading profit and loss analysis with private figures and chart redacted",
+        "caption": "Profit and loss analysis · figures and chart redacted",
+        "captionKo": "손익 분석 · 수치와 차트 가림"
+      },
+      {
+        "src": "/assets/trend-paper-redacted.jpg",
+        "alt": "Trend Trading paper trading view with figures redacted",
+        "caption": "Paper trading · figures redacted; simulated trades",
+        "captionKo": "모의매매 · 수치 가림, 실거래 아님"
+      },
+      {
+        "src": "/assets/trend-portfolio-redacted.jpg",
+        "alt": "Trend Trading portfolio simulation with figures and rows redacted",
+        "caption": "Portfolio simulation · results and rows redacted",
+        "captionKo": "포트폴리오 시뮬레이션 · 결과와 내역 가림"
+      },
+      {
+        "src": "/assets/trend-strategy-redacted.jpg",
+        "alt": "Trend Trading strategy research comparison with numeric results redacted",
+        "caption": "Strategy research comparison · historical figures redacted",
+        "captionKo": "매매전략 연구 비교 · 과거 결과 수치 가림"
+      },
+      {
         "src": "/assets/trend-analyzer.jpg",
         "alt": "Trend Trading coin analyzer with a privacy filter applied",
         "caption": "Coin analyzer · search filter applied for presentation",
-        "captionKo": "코인 분석기 · 검색 필터를 적용한 화면"
+        "captionKo": "코인 분석기 · 검색 필터 적용"
       },
       {
         "src": "/assets/trend-experiments.jpg",
         "alt": "Trend Trading research library header",
         "caption": "Experiment library · cropped to omit financial information",
-        "captionKo": "실험 기록 화면 일부 · 금융 정보 제외"
+        "captionKo": "실험 기록 · 화면 일부"
+      },
+      {
+        "src": "/assets/trend-insights-redacted.jpg",
+        "alt": "Trend Trading research insights with figures redacted",
+        "caption": "Research insights · backtest figures redacted",
+        "captionKo": "연구 인사이트 · 백테스트 수치 가림"
       }
     ],
     "engineeringStory": [
