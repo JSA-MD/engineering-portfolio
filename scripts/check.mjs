@@ -49,3 +49,7 @@ const highlights=JSON.parse(await readFile('content/highlights.json','utf8'));
 const highlightsHtml=await readFile('dist/highlights/index.html','utf8');
 for(const group of ['recognition','research'])for(const image of highlights[group].images){for(const field of ['src','alt','captionEn','captionKo'])if(!image[field])throw Error(`highlights: missing ${field}`);await access(join('dist',image.src));if(!highlightsHtml.includes(image.src))throw Error(`highlights: image missing from page: ${image.src}`);}
 for(const cls of ['nav-standard','nav-overview']){const links=[...homeHtml.matchAll(new RegExp(`<a class="${cls}" href="([^"]+)"`, 'g'))].map(m=>m[1]);const index=links.indexOf('/highlights/');if(index<0||!['/work/','/#overview-projects'].includes(links[index+1]))throw Error(`${cls}: highlights must precede projects`);}
+
+for(const route of ['', 'work','career','highlights','journey','lab','about',...projects.map(p=>`work/${p.id}`),...careerDetails.map(d=>`work/${d.slug}`)]){const html=await readFile(join('dist',route,'index.html'),'utf8');if(html.includes('Jinseong-Ahn-Resume.pdf')||html.includes('resume-link'))throw Error(`${route}: resume download must be removed`);}
+if((homeHtml.match(/class="home-recommendation"/g)||[]).length!==2||!homeHtml.includes('Jaehoon Choi'))throw Error('LinkedIn recommendation missing from home layouts');
+try{await access('dist/assets/Jinseong-Ahn-Resume.pdf');throw Error('resume PDF must not be published')}catch(e){if(e.code!=='ENOENT')throw e;}
