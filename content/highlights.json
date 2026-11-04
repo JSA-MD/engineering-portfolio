@@ -7,18 +7,22 @@
     {
       "period": "2018",
       "metric": "118 kg → 89 kg",
-      "titleEn": "A commitment to change",
-      "titleKo": "체중 감량",
-      "bodyEn": "In 2018, I reduced my weight from 118 kg to 89 kg.",
-      "bodyKo": "2018년 118kg에서 89kg까지 체중을 감량했습니다."
+      "titleEn": "Weight loss and current weight",
+      "titleKo": "체중 감량과 현재 체중",
+      "bodyEn": "I weighed 118 kg in 2018 and weigh 89 kg as of 2026.",
+      "bodyKo": "2018년 118kg에서 감량하여 2026년 현재 89kg입니다.",
+      "periodEn": "2018—2026 (current)",
+      "periodKo": "2018—2026 현재"
     },
     {
       "period": "2020—2023",
       "metric": "10,000+",
-      "titleEn": "Steps every day",
+      "titleEn": "At least 10,000 steps every day",
       "titleKo": "매일 1만 보 이상 걷기",
-      "bodyEn": "While working from 2020 to 2023, I walked at least 10,000 steps every day.",
-      "bodyKo": "2020년부터 2023년까지 회사에 다니는 동안 매일 1만 보 이상 걸었습니다."
+      "bodyEn": "I have walked at least 10,000 steps every day since 2020 and continue to do so today.",
+      "bodyKo": "2020년부터 현재까지 매일 1만 보 이상 걷기를 이어가고 있습니다.",
+      "periodEn": "2020—Present",
+      "periodKo": "2020—현재"
     },
     {
       "period": "2023—",
