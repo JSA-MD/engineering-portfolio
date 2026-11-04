@@ -1,134 +1,345 @@
 [
   {
-    "project":"Golden Express", "slug":"golden-express",
-    "notes":[
-      {"en":"Led development for a Kangwon Land / KLSaberi slot-machine title, including Unity architecture, gameplay and release builds.","ko":"강원랜드 / KLSaberi 슬롯머신의 개발팀을 이끌며 Unity 구조·게임플레이·릴리스 빌드를 담당했습니다."},
-      {"en":"The résumé reports production stabilization for casino hardware and exhibition use, and a showing at G2E Las Vegas in 2019.","ko":"경력기술서에는 카지노 하드웨어와 전시 환경을 고려한 안정화 및 2019년 라스베이거스 G2E 출품이 기록되어 있습니다."},
-      {"en":"The linked video is third-party footage of the KLSaberi exhibition lineup, not an independently verified dedicated Golden Express demo.","ko":"연결된 영상은 KLSaberi 전시 라인업의 제3자 촬영 영상이며 Golden Express 단독 시연으로 확인된 자료는 아닙니다."}
+    "project": "Golden Express",
+    "slug": "golden-express",
+    "notes": [
+      {
+        "en": "I led development of Golden Express, a slot-machine game for Kangwon Land / KLSaberi.",
+        "ko": "강원랜드 / KLSaberi의 슬롯머신 게임 Golden Express 개발팀을 이끌었습니다."
+      },
+      {
+        "en": "I designed the Unity architecture, developed core gameplay, and coordinated the team’s schedule and technical issues.",
+        "ko": "Unity 기반 게임 아키텍처와 주요 게임플레이를 개발하고 팀 일정과 기술 이슈를 관리했습니다."
+      },
+      {
+        "en": "I managed integration and release builds, stabilizing the game for casino hardware and its 2019 G2E Las Vegas exhibition.",
+        "ko": "통합 및 릴리스 빌드를 관리하고 카지노 하드웨어와 전시 환경에 맞춰 안정화해 2019년 라스베이거스 G2E에 출품했습니다."
+      }
     ],
-    "links":[{"url":"https://www.youtube.com/watch?v=mWqqYe5Haw4","en":"G2E 2019 exhibition footage","ko":"2019 G2E 전시 영상"}]
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=mWqqYe5Haw4",
+        "en": "G2E 2019 exhibition footage",
+        "ko": "2019 G2E 전시 영상"
+      }
+    ]
   },
   {
-    "project":"FASSKER", "slug":"fassker",
-    "notes":[
-      {"en":"Designed the early application architecture and shared framework for a fashion social platform.","ko":"패션 소셜 플랫폼의 초기 애플리케이션 구조와 공통 프레임워크를 설계했습니다."},
-      {"en":"The résumé records Unity client and Spring Boot communication, AWS service setup, and iOS / Android build and deployment foundations.","ko":"경력기술서에는 Unity 클라이언트와 Spring Boot 연동, AWS 환경, iOS·Android 빌드 및 배포 기반 구축이 기록되어 있습니다."},
-      {"en":"The linked 2022 article describes a later stage of the product, after this role; it does not establish personal contribution to later features.","ko":"연결된 2022년 기사는 재직 이후 제품의 모습을 설명하며, 이후 기능에 직접 참여했다는 근거는 아닙니다."}
+    "project": "FASSKER",
+    "slug": "fassker",
+    "notes": [
+      {
+        "en": "FASSKER is a fashion social platform for sharing styles and digital content. I established its technical foundation in the company’s early stage.",
+        "ko": "FASSKER는 패션 스타일과 콘텐츠를 공유하는 소셜 플랫폼입니다. 회사 설립 초기 프로젝트의 기술 기반을 구축했습니다."
+      },
+      {
+        "en": "I designed the client architecture and common framework, connecting the Unity application to a Spring Boot backend.",
+        "ko": "클라이언트 아키텍처와 공통 프레임워크를 설계하고 Unity 앱과 Spring Boot 백엔드를 연결했습니다."
+      },
+      {
+        "en": "I set up the AWS service environment and built the iOS and Android build and deployment foundations.",
+        "ko": "AWS 서비스 환경과 iOS·Android 빌드 및 배포 기반을 구축해 이후 기능 개발을 지원했습니다."
+      }
     ],
-    "links":[{"url":"https://www.ajupress.com/view/20220729094057118","en":"FASSKER product article (2022)","ko":"FASSKER 제품 소개 기사 (2022)"}]
+    "links": [
+      {
+        "url": "https://www.ajupress.com/view/20220729094057118",
+        "en": "FASSKER product article (2022)",
+        "ko": "FASSKER 제품 소개 기사 (2022)"
+      }
+    ]
   },
   {
-    "project":"Machigai Breaker", "slug":"machigai-breaker",
-    "notes":[
-      {"en":"A Japanese quiz RPG in which players identify incorrect answers; public product coverage describes the game before its planned 2018 release.","ko":"틀린 답을 골라 전투를 진행하는 일본 퀴즈 RPG로, 공개 기사는 2018년 출시 전 게임을 소개합니다."},
-      {"en":"The résumé reports lead programming, Unity client architecture, gameplay systems and iOS / Android release support.","ko":"경력기술서에는 리드 프로그래밍, Unity 클라이언트 구조·게임플레이 개발과 iOS·Android 출시 대응이 기록되어 있습니다."}
+    "project": "Machigai Breaker",
+    "slug": "machigai-breaker",
+    "notes": [
+      {
+        "en": "Machigai Breaker is a Japanese mobile RPG that combines quizzes with turn-based combat. I worked on the project in Tokyo as lead programmer.",
+        "ko": "마치가이 브레이커는 퀴즈와 턴제 전투를 결합한 일본 모바일 RPG입니다. 도쿄에서 리드 프로그래머로 개발했습니다."
+      },
+      {
+        "en": "I designed the Unity client architecture, developed gameplay systems, and resolved critical technical issues.",
+        "ko": "Unity 클라이언트 구조와 주요 게임플레이 시스템을 개발하고 핵심 기술 문제를 해결했습니다."
+      },
+      {
+        "en": "I supported iOS and Android platform integration, release stabilization, and commercial launch in Japan.",
+        "ko": "iOS·Android 플랫폼 대응과 출시 안정화를 담당해 일본 양대 플랫폼 상용화에 참여했습니다."
+      }
     ],
-    "links":[{"url":"https://gamebiz.jp/news/217147","en":"gamebiz product announcement (Japanese)","ko":"gamebiz 제품 발표 기사 (일본어)"}]
+    "links": [
+      {
+        "url": "https://gamebiz.jp/news/217147",
+        "en": "gamebiz product announcement (Japanese)",
+        "ko": "gamebiz 제품 발표 기사 (일본어)"
+      }
+    ]
   },
   {
-    "project":"VM Casino", "slug":"vm-casino",
-    "notes":[
-      {"en":"A mobile social casino featuring slot-game content; the portfolio's existing career record describes content updates and device stabilization.","ko":"슬롯 콘텐츠를 제공하는 모바일 소셜 카지노로, 기존 경력 기록에는 콘텐츠 업데이트와 기기 안정화가 기재되어 있습니다."},
-      {"en":"The linked tech akoz video was published in 2021, after the listed employment period; it illustrates the product but is not evidence of the exact version developed during that period.","ko":"연결된 tech akoz 영상은 재직 이후인 2021년에 게시됐습니다. 제품 참고 영상이며 당시 개발 버전을 입증하지는 않습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"Double Fortune Casino", "slug":"double-fortune-casino",
-    "notes":[
-      {"en":"The public product listing describes Macau-inspired slots, bonus games, free spins, jackpots and group chat.","ko":"공개 제품 페이지는 마카오풍 슬롯, 보너스 게임, 무료 스핀, 잭팟과 그룹 채팅을 소개합니다."},
-      {"en":"The résumé records Unity client architecture, Spring Boot / MySQL integration and iOS / Android release work.","ko":"경력기술서에는 Unity 클라이언트 구조, Spring Boot·MySQL 연동, iOS·Android 출시 작업이 기록되어 있습니다."},
-      {"en":"Release of this product and eight China-market casino titles are résumé-reported career outcomes. The store images are promotional artwork.","ko":"제품 출시와 중국향 카지노 게임 8종 개발·출시는 경력기술서에 기록된 성과입니다. 이미지는 제품 홍보 자료입니다."}
+    "project": "VM Casino",
+    "slug": "vm-casino",
+    "notes": [
+      {
+        "en": "VM Casino is a mobile social casino featuring slot games.",
+        "ko": "VM Casino는 다양한 슬롯 콘텐츠를 제공하는 모바일 소셜 카지노입니다."
+      },
+      {
+        "en": "I developed and updated slot-game content and supported stability across mobile devices.",
+        "ko": "슬롯 게임 콘텐츠와 업데이트를 개발하고 모바일 기기별 안정화 작업을 지원했습니다."
+      }
     ],
-    "links":[{"url":"https://apkpure.com/double-fortune-casino-%E2%80%93-free-slots-games/com.diamondgames.doublefortunecasino","en":"APKPure game listing","ko":"APKPure 게임 페이지"}]
+    "links": []
   },
   {
-    "project":"S4 League", "slug":"s4-league",
-    "notes":[
-      {"en":"A fast-paced online action shooter. The linked current store listing and later trailer compilation are product references, not a record of the precise 2016 build.","ko":"빠른 속도의 온라인 액션 슈팅 게임입니다. 현재 스토어와 재직 이후 트레일러 모음은 제품 참고 자료이며 2016년 당시 버전을 증명하지는 않습니다."},
-      {"en":"The résumé records C/C++ and DirectX client maintenance, live-service issue investigation and runtime stabilization.","ko":"경력기술서에는 C/C++·DirectX 클라이언트 유지보수, 라이브 이슈 분석과 실행 안정화가 기록되어 있습니다."}
+    "project": "Double Fortune Casino",
+    "slug": "double-fortune-casino",
+    "notes": [
+      {
+        "en": "Double Fortune Casino is a mobile social casino featuring Macau-inspired slots, bonus games, jackpots, and group chat.",
+        "ko": "Double Fortune Casino는 마카오풍 슬롯, 보너스 게임, 잭팟과 그룹 채팅을 제공하는 모바일 소셜 카지노입니다."
+      },
+      {
+        "en": "I developed the Unity client architecture, integrated it with the Spring Boot backend, and handled game data with MySQL.",
+        "ko": "Unity 클라이언트 아키텍처와 Spring Boot 백엔드를 연동하고 MySQL 기반 게임 데이터 처리를 개발했습니다."
+      },
+      {
+        "en": "I supported iOS and Android releases and developed and launched eight social casino titles for the Chinese market.",
+        "ko": "iOS·Android 출시를 지원했으며 중국 시장을 대상으로 소셜 카지노 게임 8종을 개발·출시했습니다."
+      }
     ],
-    "links":[{"url":"https://store.epicgames.com/p/s4-league-f34d33","en":"S4 League store page (later release)","ko":"S4 League 스토어 페이지 (후기 버전)"}]
+    "links": [
+      {
+        "url": "https://apkpure.com/double-fortune-casino-%E2%80%93-free-slots-games/com.diamondgames.doublefortunecasino",
+        "en": "APKPure game listing",
+        "ko": "APKPure 게임 페이지"
+      }
+    ]
   },
   {
-    "project":"Pmang Vegas Royal Casino · Smart TV", "slug":"pmang-vegas-smart-tv",
-    "notes":[
-      {"en":"The existing portfolio record describes a Samsung Smart TV port of a social casino, including remote input and TV navigation.","ko":"기존 포트폴리오 기록에는 소셜 카지노의 삼성 스마트 TV 포팅, 리모컨 입력과 TV 내비게이션 작업이 기재되어 있습니다."},
-      {"en":"A public demonstration of this specific TV port and further project details have not been independently verified.","ko":"해당 TV 포팅의 공개 시연 영상과 추가 세부 사항은 확인하지 못했습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"Arcade Games & Enjoy Derby", "slug":"arcade-games-enjoy-derby",
-    "notes":[
-      {"en":"The résumé describes arcade and hardware-linked game development using C/C++, DirectX, SQLite and RS232C serial communication.","ko":"경력기술서에는 C/C++·DirectX·SQLite·RS232C를 이용한 아케이드 및 하드웨어 연동 게임 개발이 기록되어 있습니다."},
-      {"en":"The reported outcomes include commercialization of about 20 arcade games and a horse-racing system for Japan; individual release evidence was not available.","ko":"아케이드 게임 약 20종 상용화와 일본 경마 시스템 개발은 경력기술서에 기록된 성과이며 개별 출시 증빙은 확보하지 못했습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"Warbane", "slug":"warbane",
-    "notes":[
-      {"en":"Warbane: Rising of Darkness is a fantasy MMORPG; a 2010 article describes its faction warfare and G-Star preview.","ko":"워베인: 어둠의 부활은 판타지 MMORPG입니다. 2010년 공개 기사는 진영 간 전쟁과 지스타 시연을 소개합니다."},
-      {"en":"The résumé records C/C++ game-server and business logic, Linux applications, PostgreSQL data processing and live-service work.","ko":"경력기술서에는 C/C++ 게임 서버·업무 로직, Linux 애플리케이션, PostgreSQL 데이터 처리와 라이브 운영이 기록되어 있습니다."}
+    "project": "S4 League",
+    "slug": "s4-league",
+    "notes": [
+      {
+        "en": "S4 League is an online action shooter. I maintained its established PC game client and supported the live service.",
+        "ko": "S4 League는 온라인 액션 슈팅 게임입니다. 기존 PC 게임 클라이언트의 유지보수와 라이브 서비스를 담당했습니다."
+      },
+      {
+        "en": "I analyzed the C/C++ codebase, maintained DirectX client systems, and investigated production issues.",
+        "ko": "대규모 C/C++ 코드베이스를 분석하고 DirectX 기반 클라이언트를 유지보수하며 서비스 이슈를 해결했습니다."
+      },
+      {
+        "en": "I stabilized the runtime and made changes with care for existing game behavior.",
+        "ko": "기존 게임 동작을 고려해 수정 사항을 적용하고 런타임 안정화를 진행했습니다."
+      }
     ],
-    "links":[{"url":"https://www.inven.co.kr/webzine/news/?news=32044","en":"Warbane product article (2010)","ko":"워베인 공개 기사 (2010)"}]
+    "links": [
+      {
+        "url": "https://store.epicgames.com/p/s4-league-f34d33",
+        "en": "S4 League store page (later release)",
+        "ko": "S4 League 스토어 페이지 (후기 버전)"
+      }
+    ]
   },
   {
-    "project":"Project N", "slug":"project-n",
-    "notes":[
-      {"en":"The existing career record describes an Unreal Engine 3 MMORPG project with Scaleform and game UI integration.","ko":"기존 경력 기록에는 Unreal Engine 3 MMORPG의 Scaleform 연동과 게임 UI 개발이 기재되어 있습니다."},
-      {"en":"Search results include unrelated projects with the same working title. No external product page has been linked without confirming identity.","ko":"같은 가제의 다른 게임이 검색되어 동일 프로젝트로 확인되지 않은 외부 자료는 연결하지 않았습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"PangYa / Online Game Client", "slug":"pangya",
-    "notes":[
-      {"en":"PangYa is an online casual golf game; the linked 2009 report describes a later North American release.","ko":"팡야는 온라인 캐주얼 골프 게임입니다. 연결된 2009년 기사는 이후 북미 서비스에 관한 자료입니다."},
-      {"en":"The résumé records C/C++ game-client, DirectX rendering and game logic work; the video is third-party gameplay recorded later.","ko":"경력기술서에는 C/C++ 클라이언트와 DirectX 렌더링·게임 로직 개발이 기록되어 있습니다. 영상은 이후 촬영된 제3자 플레이 영상입니다."}
+    "project": "Pmang Vegas Royal Casino · Smart TV",
+    "slug": "pmang-vegas-smart-tv",
+    "notes": [
+      {
+        "en": "I worked on bringing the Pmang Vegas social casino experience to Samsung Smart TV.",
+        "ko": "피망 베가스 소셜 카지노를 삼성 스마트 TV 환경으로 포팅했습니다."
+      },
+      {
+        "en": "I implemented remote-control input and TV navigation, and integrated the application with the TV platform.",
+        "ko": "리모컨 입력과 TV 내비게이션을 구현하고 애플리케이션을 TV 플랫폼과 연동했습니다."
+      }
     ],
-    "links":[{"url":"https://www.gamesindustry.biz/pangya-new-pics-released-of-online-casual-golf-game","en":"PangYa product article (2009)","ko":"팡야 제품 소개 기사 (2009)"}]
+    "links": []
   },
   {
-    "project":"Online Games & 3D Engine", "slug":"online-games-3d-engine",
-    "notes":[
-      {"en":"The existing career record describes online game development and a custom 3D golf-game engine.","ko":"기존 경력 기록에는 온라인 게임 개발과 자체 3D 골프 게임 엔진 제작이 기재되어 있습니다."},
-      {"en":"Animation, terrain and content tools are listed in that record; public media and a specific product identity have not been verified.","ko":"애니메이션·지형·콘텐츠 도구 개발이 기록되어 있으나 특정 제품의 공개 자료는 확인하지 못했습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"Game & 3D Programming Education", "slug":"game-3d-programming-education",
-    "notes":[
-      {"en":"The résumé records game programming portfolio guidance and 3D engine curriculum instruction using C/C++ and DirectX.","ko":"경력기술서에는 C/C++·DirectX를 활용한 게임 프로그래밍 포트폴리오 지도와 3D 엔진 교육이 기록되어 있습니다."},
-      {"en":"A contemporary article confirms Hanbit Digital Campus operated game-development courses; it does not document the individual teaching assignment.","ko":"당시 기사는 한빛디지털캠퍼스의 게임 개발 교육을 확인하는 기관 자료이며 개인의 강의 담당 내역을 입증하는 자료는 아닙니다."}
+    "project": "Arcade Games & Enjoy Derby",
+    "slug": "arcade-games-enjoy-derby",
+    "notes": [
+      {
+        "en": "I developed arcade games and a Japan-focused online horse-racing system as lead programmer.",
+        "ko": "리드 프로그래머로 아케이드 게임과 일본 시장 대상 온라인 경마 시스템을 개발했습니다."
+      },
+      {
+        "en": "I built C/C++ and DirectX game systems, used SQLite for local data, and connected external devices through RS232C.",
+        "ko": "C/C++·DirectX 기반 게임 시스템과 SQLite 로컬 데이터 처리를 개발하고 RS232C로 외부 장치를 연결했습니다."
+      },
+      {
+        "en": "I contributed to the development and commercialization of approximately 20 arcade games.",
+        "ko": "아케이드 게임 약 20종의 개발과 상용화에 참여했습니다."
+      }
     ],
-    "links":[{"url":"https://www.joongang.co.kr/article/1041282","en":"Hanbit Digital Campus article (2002)","ko":"한빛디지털캠퍼스 기사 (2002)"}]
+    "links": []
   },
   {
-    "project":"PC Online Casual Games", "slug":"pc-online-casual-games",
-    "notes":[
-      {"en":"The existing portfolio record describes PC online casual games, content tools and event, state and sound systems.","ko":"기존 포트폴리오 기록에는 PC 온라인 캐주얼 게임, 콘텐츠 도구와 이벤트·상태·사운드 시스템이 기재되어 있습니다."},
-      {"en":"The titles and public media could not be confidently matched to this role.","ko":"개별 게임 제목과 공개 영상은 해당 경력과 일치한다고 확인하지 못했습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"3D Subway Simulator", "slug":"3d-subway-simulator",
-    "notes":[
-      {"en":"The résumé describes participation in an Incheon subway 3D simulation using C/C++ and DirectX, including client rendering and simulation logic.","ko":"경력기술서에는 C/C++·DirectX 기반 인천 지하철 3D 시뮬레이션의 렌더링과 시뮬레이션 로직 참여가 기록되어 있습니다."},
-      {"en":"A June 2000 report describes VRStaff supplying a real-time 3D train simulation system; the article does not identify individual contributors.","ko":"2000년 6월 기사는 VRStaff의 실시간 3D 지하철 시뮬레이션 공급을 소개하며 개인 참여자는 명시하지 않습니다."}
+    "project": "Warbane",
+    "slug": "warbane",
+    "notes": [
+      {
+        "en": "Warbane: Rising of Darkness is a fantasy MMORPG centered on battles between factions.",
+        "ko": "워베인: 어둠의 부활은 진영 간 전쟁과 모험을 중심으로 한 판타지 MMORPG입니다."
+      },
+      {
+        "en": "I developed game-server and business logic in C/C++, built Linux server applications, and handled persistent game data with PostgreSQL.",
+        "ko": "C/C++ 게임 서버와 비즈니스 로직, Linux 서버 애플리케이션과 PostgreSQL 데이터 처리를 개발했습니다."
+      },
+      {
+        "en": "I supported live-service operations, maintenance, and production issue resolution.",
+        "ko": "라이브 서비스 운영과 유지보수를 담당하고 운영 중 발생한 문제에 대응했습니다."
+      }
     ],
-    "links":[{"url":"https://www.etnews.com/200006080104","en":"VRStaff subway simulation article (2000)","ko":"VRStaff 지하철 시뮬레이션 기사 (2000)"}]
+    "links": [
+      {
+        "url": "https://www.inven.co.kr/webzine/news/?news=32044",
+        "en": "Warbane product article (2010)",
+        "ko": "워베인 공개 기사 (2010)"
+      }
+    ]
   },
   {
-    "project":"Medical PC Software", "slug":"medical-pc-software",
-    "notes":[
-      {"en":"The résumé describes PC software for medical insurance and patient-care administration, together with business utilities.","ko":"경력기술서에는 의료보험과 진료 업무를 위한 PC 소프트웨어 및 업무 유틸리티 개발이 기록되어 있습니다."},
-      {"en":"C/C++ libraries and RS232C communication were used for external display hardware control. No patient data or software screens are published.","ko":"C/C++ 라이브러리와 RS232C 통신을 이용한 외부 전광판 제어를 개발했습니다. 환자 데이터나 업무 화면은 게시하지 않습니다."}
-    ], "links":[]
-  },
-  {
-    "project":"PC Package Game Internship", "slug":"pc-package-game-internship",
-    "notes":[
-      {"en":"The résumé records participation in PC packaged-game programming using Visual Basic and C/C++ during an internship.","ko":"경력기술서에는 인턴으로 Visual Basic과 C/C++ 기반 PC 패키지 게임 프로그래밍에 참여한 내용이 기록되어 있습니다."},
-      {"en":"A 1997 company profile provides historical context but does not identify the title or prove participation in any named game.","ko":"1997년 회사 소개 기사는 당시 배경 자료이며 참여한 게임 제목이나 특정 작품의 기여를 증명하지 않습니다."}
+    "project": "Project N",
+    "slug": "project-n",
+    "notes": [
+      {
+        "en": "Project N is an MMORPG development project using Unreal Engine 3.",
+        "ko": "Project N은 Unreal Engine 3를 기반으로 한 MMORPG 개발 프로젝트입니다."
+      },
+      {
+        "en": "I integrated Scaleform with the game engine and developed the game’s user interfaces.",
+        "ko": "게임 엔진에 Scaleform을 연동하고 게임 사용자 인터페이스를 개발했습니다."
+      }
     ],
-    "links":[{"url":"https://www.etnews.com/199703070078","en":"Mirinae Software company profile (1997)","ko":"미리내소프트웨어 소개 기사 (1997)"}]
+    "links": []
+  },
+  {
+    "project": "PangYa / Online Game Client",
+    "slug": "pangya",
+    "notes": [
+      {
+        "en": "PangYa is an online casual golf game. I contributed to the PC game client and live product.",
+        "ko": "팡야는 온라인 캐주얼 골프 게임입니다. PC 게임 클라이언트와 서비스 개발에 참여했습니다."
+      },
+      {
+        "en": "I developed C/C++ client features, DirectX rendering, and game logic, and supported operation after release.",
+        "ko": "C/C++ 클라이언트 기능과 DirectX 렌더링·게임 로직을 개발하고 출시 후 서비스 운영에 대응했습니다."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.gamesindustry.biz/pangya-new-pics-released-of-online-casual-golf-game",
+        "en": "PangYa product article (2009)",
+        "ko": "팡야 제품 소개 기사 (2009)"
+      }
+    ]
+  },
+  {
+    "project": "Online Games & 3D Engine",
+    "slug": "online-games-3d-engine",
+    "notes": [
+      {
+        "en": "I developed online games for the Japanese market and built a custom 3D golf-game engine.",
+        "ko": "일본 시장을 대상으로 온라인 게임과 자체 3D 골프 게임 엔진을 개발했습니다."
+      },
+      {
+        "en": "I also created animation, terrain, and content-production tools for the game-development workflow.",
+        "ko": "게임 제작에 필요한 애니메이션·지형·콘텐츠 제작 도구를 개발했습니다."
+      }
+    ],
+    "links": []
+  },
+  {
+    "project": "Game & 3D Programming Education",
+    "slug": "game-3d-programming-education",
+    "notes": [
+      {
+        "en": "I taught game and 3D engine programming at HanbitSoft Digital Campus.",
+        "ko": "한빛소프트 디지털캠퍼스에서 게임 및 3D 엔진 프로그래밍을 강의했습니다."
+      },
+      {
+        "en": "I taught C/C++ and DirectX, guided student portfolios, and helped resolve problems in their projects.",
+        "ko": "C/C++와 DirectX를 활용한 교육을 진행하고 수강생의 포트폴리오와 프로젝트 문제 해결을 지도했습니다."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.joongang.co.kr/article/1041282",
+        "en": "Hanbit Digital Campus article (2002)",
+        "ko": "한빛디지털캠퍼스 기사 (2002)"
+      }
+    ]
+  },
+  {
+    "project": "PC Online Casual Games",
+    "slug": "pc-online-casual-games",
+    "notes": [
+      {
+        "en": "I developed PC online casual games and supported the tools used to create game content.",
+        "ko": "PC 온라인 캐주얼 게임과 콘텐츠 제작 도구를 개발했습니다."
+      },
+      {
+        "en": "My work included game architecture, event and state handling, and sound systems.",
+        "ko": "게임 구조와 이벤트·상태·사운드 시스템을 담당했습니다."
+      }
+    ],
+    "links": []
+  },
+  {
+    "project": "3D Subway Simulator",
+    "slug": "3d-subway-simulator",
+    "notes": [
+      {
+        "en": "I participated in a 3D simulation of the Incheon subway.",
+        "ko": "인천 지하철의 3D 운행 시뮬레이션 제작에 참여했습니다."
+      },
+      {
+        "en": "I developed C/C++ client features, DirectX-based rendering, and simulation logic.",
+        "ko": "C/C++ 클라이언트 기능과 DirectX 기반 렌더링, 시뮬레이션 로직을 개발했습니다."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.etnews.com/200006080104",
+        "en": "VRStaff subway simulation article (2000)",
+        "ko": "VRStaff 지하철 시뮬레이션 기사 (2000)"
+      }
+    ]
+  },
+  {
+    "project": "Medical PC Software",
+    "slug": "medical-pc-software",
+    "notes": [
+      {
+        "en": "I developed PC applications for medical insurance and patient-care administration.",
+        "ko": "의료보험과 환자 진료 업무를 위한 PC 소프트웨어를 개발했습니다."
+      },
+      {
+        "en": "I built business utilities and C/C++ libraries, including RS232C communication for controlling external display hardware.",
+        "ko": "업무 유틸리티와 C/C++ 라이브러리를 개발하고 RS232C 시리얼 통신으로 전광판 하드웨어를 제어했습니다."
+      }
+    ],
+    "links": []
+  },
+  {
+    "project": "PC Package Game Internship",
+    "slug": "pc-package-game-internship",
+    "notes": [
+      {
+        "en": "I began my professional career as a programmer intern at Mirinae Software, contributing to PC packaged-game development.",
+        "ko": "미리내소프트웨어에서 프로그래머 인턴으로 PC 패키지 게임 개발에 참여하며 실무 경력을 시작했습니다."
+      },
+      {
+        "en": "I worked on game programming features using Visual Basic and C/C++.",
+        "ko": "Visual Basic과 C/C++를 활용해 게임 프로그래밍 작업을 수행했습니다."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.etnews.com/199703070078",
+        "en": "Mirinae Software company profile (1997)",
+        "ko": "미리내소프트웨어 소개 기사 (1997)"
+      }
+    ]
   }
 ]
