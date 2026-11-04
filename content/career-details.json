@@ -98,7 +98,7 @@
     }
   },
   {
-    "project": "Machigai Breaker",
+    "project": "マチガイブレイカー",
     "slug": "machigai-breaker",
     "notes": [
       {
@@ -122,8 +122,8 @@
       }
     ],
     "overview": {
-      "en": "Machigai Breaker is a Japanese mobile quiz RPG. Players identify the wrong answers among four choices to attack enemies and advance through battles.",
-      "ko": "마치가이 브레이커는 퀴즈와 RPG 전투를 결합한 일본 모바일 게임입니다. 4개의 선택지에서 틀린 답을 골라 적을 공격하며 모험을 진행합니다."
+      "en": "マチガイブレイカー is a Japanese mobile quiz RPG. Players identify the wrong answers among four choices to attack enemies and advance through battles.",
+      "ko": "マチガイブレイカー는 퀴즈와 RPG 전투를 결합한 일본 모바일 게임입니다. 4개의 선택지에서 틀린 답을 골라 적을 공격하며 모험을 진행합니다."
     },
     "engineeringStory": [
       {
