@@ -642,22 +642,36 @@
     "career": 8,
     "name": "Pmang Vegas Royal Casino · Smart TV",
     "nameKo": "피망 베가스 로열 카지노 · 스마트 TV",
-    "summary": "Social casino game adapted for Samsung Smart TV.",
-    "summaryKo": "삼성 스마트 TV로 포팅한 소셜 카지노 게임.",
-    "media": null,
+    "summary": "Samsung Smart TV adaptation of the predecessor to the renewed Pmang New Vegas casino app.",
+    "summaryKo": "현재 피망 뉴베가스의 전신을 삼성 스마트 TV로 개발한 프로젝트.",
+    "media": {
+      "type": "external",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/2f/56/b32f56d2-6595-c60b-afad-c4c43e1cbd12/7b8b4e3e-81d5-44d5-a0c6-106fa79f7522__Ud53c_Ub9dd_Uc2ac_Ub86f__Uc2a4_Ud06c_Ub9b0_Uc0f701_2688x1242.jpg/643x297bb.webp",
+      "images": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/2f/56/b32f56d2-6595-c60b-afad-c4c43e1cbd12/7b8b4e3e-81d5-44d5-a0c6-106fa79f7522__Ud53c_Ub9dd_Uc2ac_Ub86f__Uc2a4_Ud06c_Ub9b0_Uc0f701_2688x1242.jpg/643x297bb.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/5b/ba/855bba8e-4110-d159-ce81-2c128ca6c63b/bb8d35e4-52ca-473b-9ae5-68239364ec1c__Ud53c_Ub9dd_Uc2ac_Ub86f__Uc2a4_Ud06c_Ub9b0_Uc0f702_2688x1242.jpg/643x297bb.webp"
+      ],
+      "layout": "landscape",
+      "imageAlt": "Pmang New Vegas renewed version App Store screenshot",
+      "label": "Renewed successor: Pmang New Vegas",
+      "labelKo": "리뉴얼 버전: 피망 뉴베가스",
+      "listingUrl": "https://apps.apple.com/kr/app/%ED%94%BC%EB%A7%9D-%EB%89%B4%EB%B2%A0%EA%B0%80%EC%8A%A4-%EC%8A%AC%EB%A1%AF-%EB%B0%94%EC%B9%B4%EB%9D%BC-%EB%B8%94%EB%9E%99%EC%9E%AD/id1533610401",
+      "source": "Screenshots from the renewed Pmang New Vegas · App Store",
+      "sourceKo": "리뉴얼된 피망 뉴베가스 스크린샷 · 출처: App Store"
+    },
     "detail": null,
     "skills": "Smart TV · Remote input · Platform integration",
     "highlight": "Implemented TV navigation and remote-control interaction.",
     "highlightKo": "TV 내비게이션과 리모컨 입력 기능 구현.",
     "description": [
-      "A social casino adapted for Samsung Smart TV.",
+      "Developed the Samsung Smart TV version of the predecessor to Pmang New Vegas.",
       "Implemented remote-control input and TV navigation.",
-      "Integrated the application with the TV platform."
+      "The renewed Pmang New Vegas offers slots, baccarat, and blackjack."
     ],
     "descriptionKo": [
-      "소셜 카지노 게임을 삼성 스마트 TV에 포팅했습니다.",
-      "리모컨 입력과 TV 내비게이션을 구현했습니다.",
-      "TV 플랫폼과 애플리케이션을 연동했습니다."
+      "현재 피망 뉴베가스의 전신인 소셜 카지노를 삼성 스마트 TV용으로 개발했습니다.",
+      "리모컨 입력과 TV 메뉴 내비게이션을 구현했습니다.",
+      "리뉴얼된 피망 뉴베가스는 슬롯·바카라·블랙잭을 제공합니다."
     ]
   },
   {

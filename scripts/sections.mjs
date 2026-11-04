@@ -8,7 +8,8 @@ export function makeSections({ t, esc, projects, careerEntries, careerProjects }
   const thumbnail = (p, interactive = true) => {
     if (p.media?.type === 'external') {
       const images=p.media.images?.length?p.media.images:[p.media.url];
-      return `<div class="external-artwork">${images.map((url,i)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(p.name)} · ${esc('product image '+(i+1))}"><img src="${esc(url)}" alt="${esc(p.name)} · ${esc('product promotional image '+(i+1))}" loading="lazy"></a>`).join('')}</div>`;
+      const alt=p.media.imageAlt||`${p.name} product promotional image`;
+      return `<div class="external-media">${p.media.label?`<p class="external-media-label">${localize(p.media.label,p.media.labelKo)}</p>`:''}<div class="external-artwork${p.media.layout==='landscape'?' external-artwork-landscape':''}">${images.map((url,i)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(alt)} ${i+1}"><img src="${esc(url)}" alt="${esc(alt)} ${i+1}" loading="lazy"></a>`).join('')}</div></div>`;
     }
     if (p.media?.type === 'channel') {
       const img = `<img class="channel-art-image" src="${esc(p.media.src)}" alt="${esc(p.name)}" loading="lazy">`;

@@ -168,10 +168,16 @@
         "ko": "리모컨 입력과 TV 내비게이션을 구현하고 애플리케이션을 TV 플랫폼과 연동했습니다."
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "url": "https://apps.apple.com/kr/app/%ED%94%BC%EB%A7%9D-%EB%89%B4%EB%B2%A0%EA%B0%80%EC%8A%A4-%EC%8A%AC%EB%A1%AF-%EB%B0%94%EC%B9%B4%EB%9D%BC-%EB%B8%94%EB%9E%99%EC%9E%AD/id1533610401",
+        "en": "Pmang New Vegas on the App Store (renewed version)",
+        "ko": "피망 뉴베가스 App Store (리뉴얼 버전)"
+      }
+    ],
     "overview": {
-      "en": "Pmang Vegas Royal Casino is a social casino adapted for Samsung Smart TV, allowing users to navigate and play on a television with a remote control.",
-      "ko": "피망 베가스 로열 카지노를 삼성 스마트 TV에서 이용할 수 있도록 포팅한 프로젝트입니다. 이용자는 TV 리모컨으로 화면을 탐색하고 게임을 즐길 수 있습니다."
+      "en": "Pmang Vegas Royal Casino was a social casino adapted for Samsung Smart TV. It is the predecessor to the renewed Pmang New Vegas app, which offers slots, baccarat, and blackjack. The screenshots show the renewed app.",
+      "ko": "피망 베가스 로열 카지노는 삼성 스마트 TV에서 이용할 수 있도록 개발한 소셜 카지노입니다. 현재 앱스토어의 피망 뉴베가스는 이 게임의 리뉴얼 버전으로 슬롯·바카라·블랙잭을 제공합니다. 스크린샷은 리뉴얼된 현재 버전의 화면입니다."
     }
   },
   {
