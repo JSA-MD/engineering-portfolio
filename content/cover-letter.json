@@ -1,0 +1,46 @@
+[
+  {
+    "headingKo": "만드는 일이 좋아서 시작한 길",
+    "headingEn": "A path that began with the joy of making",
+    "paragraphs": [
+      {
+        "ko": "제가 개발자를 꿈꾸던 시절에는 게임 회사가 열 곳도 되지 않았고, 개발을 직업으로 삼겠다는 사람도 드물었습니다. 그래도 저는 무언가를 직접 만들어 사람들이 쓰게 하는 일이 좋았습니다. 대학 졸업 전 여름방학에 무작정 회사에 전화를 걸어, 급여 없이도 좋으니 일을 배우게 해 달라고 부탁드렸습니다. 그렇게 시작한 두 달간의 인턴 생활이 제 첫 실무 경험이었습니다.",
+        "en": "When I dreamed of becoming a developer, there were fewer than ten game companies in Korea, and few people wanted to make software development their career. Even so, I loved making things myself and seeing people use them. During a summer break before graduating from university, I called a company out of the blue and asked to learn on the job, even without pay. That two-month internship became my first practical experience."
+      }
+    ]
+  },
+  {
+    "headingKo": "여러 현장에서 배운 것들",
+    "headingEn": "Lessons from different workplaces",
+    "paragraphs": [
+      {
+        "ko": "그 뒤로 아직 자리를 잡지 못한 작은 팀에서부터 큰 조직까지, 한국과 일본의 다양한 현장에서 일했습니다. 방향이 자주 바뀌는 프로젝트도, 갑자기 멈추는 프로젝트도 겪었습니다. 사용자가 빠르게 늘었는데 운영 체계가 따라가지 못해 서비스가 무너지는 과정도 지켜보았습니다. 순탄하지만은 않았지만, 이런 경험 덕분에 코드를 잘 짜는 것만큼 안정적인 운영과 사용자 경험, 팀이 지속될 수 있는 구조가 중요하다는 것을 몸으로 배웠습니다.",
+        "en": "Since then, I have worked in many settings in Korea and Japan, from small teams still finding their footing to large organizations. I have seen projects change direction repeatedly or stop without warning. I have also watched a service fail when its operations could not keep pace with rapid user growth. These experiences taught me firsthand that reliable operations, user experience and a structure that allows a team to sustain its work matter as much as writing good code."
+      }
+    ]
+  },
+  {
+    "headingKo": "AI 시대에 더 쓸모 있어진 경험",
+    "headingEn": "Experience that matters in the AI era",
+    "paragraphs": [
+      {
+        "ko": "요즘은 AI 덕분에 코드를 쓰는 속도가 크게 빨라졌습니다. 그만큼 앞으로는 무엇을 만들지 정하고, 시스템 전체를 설계하고, 문제가 생겼을 때 원인을 찾아내는 능력이 더 중요해질 것이라고 생각합니다. 저는 C, C++, C#, JavaScript부터 최근의 Python까지 여러 언어와 환경을 오가며 개발해 왔고, 서비스가 성장하고 흔들리는 과정을 여러 번 경험했습니다. 한 분야에 머물지 않고 다양하게 쌓아 온 이 경험이 AI와 함께 일하는 시대에 오히려 큰 힘이 된다고 믿습니다.",
+        "en": "AI has greatly accelerated the speed at which we can write code. I believe that makes the ability to decide what to build, design the whole system and find the cause of a problem even more important. I have developed across languages and environments, from C, C++, C# and JavaScript to Python more recently, and have repeatedly experienced services growing and facing difficulties. I believe the breadth of that experience is a strength when working alongside AI."
+      },
+      {
+        "ko": "지금도 새로운 도구를 직접 써 보며 배우고 있습니다. 최근에는 Python, n8n, PostgreSQL을 엮어 자동화 시스템을 만들고 있고, 아직 서툰 부분은 만들어 보면서 익혀 가고 있습니다.",
+        "en": "I still learn by trying new tools myself. Recently I have been connecting Python, n8n and PostgreSQL to build automation systems, learning the parts I am less familiar with by putting them into practice."
+      }
+    ]
+  },
+  {
+    "headingKo": "지원동기",
+    "headingEn": "Why I want to contribute",
+    "paragraphs": [
+      {
+        "ko": "어릴 때 좋아하던 게임에서 시작된 관심은 이제 소프트웨어와 AI 전반으로 넓어졌습니다. 아직 스스로 완전히 만족할 만한 제품을 만들었다고는 말하기 어렵습니다. 그래서 더 배우고, 사용자에게 오래 쓰이는 서비스를 만드는 일에 힘을 보태고 싶습니다. 그동안의 시행착오가 귀사의 서비스를 만들고 안정적으로 운영하는 데 도움이 되기를 바랍니다.",
+        "en": "An interest that began with the games I loved as a child has grown to encompass software and AI. I cannot yet say that I have built a product that fully satisfies me. That is why I want to keep learning and contribute to services people continue to use for a long time. I hope the lessons from my trials and errors can help your company build and operate its services reliably."
+      }
+    ]
+  }
+]
