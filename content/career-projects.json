@@ -417,9 +417,10 @@
     ],
     "detail": "/work/trend-trading/",
     "media": {
-      "type": "diagram",
-      "source": "System overview · illustrative architecture diagram",
-      "sourceKo": "시스템 구성도 · 개념 다이어그램"
+      "type": "image",
+      "src": "/assets/trend-dashboard-redacted.jpg",
+      "source": "Actual dashboard · operating and account information redacted",
+      "sourceKo": "실제 대시보드 · 운영·계좌 정보 가림"
     }
   },
   {

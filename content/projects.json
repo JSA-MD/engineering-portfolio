@@ -489,6 +489,11 @@
         "bodyEn": "The workspace grew to include stored experiments, simulated portfolios, paper trading and operational monitoring. Research records also preserve unsuccessful targets and unresolved differences. A historical simulation is useful for the next question, but it is not evidence of future performance or actual fills; that distinction shaped both the dashboard and the development process.",
         "bodyKo": "프로젝트는 실험 기록, 포트폴리오 시뮬레이션, 모의매매와 운영 감시 화면으로 발전했습니다. 목표에 미치지 못한 실험과 아직 설명하지 못한 차이도 연구 기록에 남겼습니다. 과거 시뮬레이션 결과는 다음 질문을 찾는 근거로 활용하되, 실제 체결이나 앞으로의 수익과 혼동하지 않도록 화면과 개발 과정을 구분했습니다."
       }
-    ]
+    ],
+    "detailMedia": {
+      "type": "diagram",
+      "source": "System overview · illustrative architecture diagram",
+      "sourceKo": "시스템 구성도 · 개념 다이어그램"
+    }
   }
 ]
