@@ -483,18 +483,18 @@
       "sourceKo": "RandomSlots · G2E 전시 제3자 촬영"
     },
     "detail": null,
-    "skills": "Unity3D · C# · Hardware integration",
+    "skills": "Unity3D · C# · Release stabilization",
     "highlight": "Led development; exhibited at G2E Las Vegas in 2019.",
     "highlightKo": "개발팀 리딩, 2019 라스베이거스 G2E 출품.",
     "description": [
       "A casino slot-machine game for Kangwon Land / KLSaberi.",
       "Built a Unity-based game framework and gameplay.",
-      "Integrated game software with casino hardware."
+      "Stabilized builds for casino hardware and exhibition use."
     ],
     "descriptionKo": [
       "강원랜드 KLSaberi의 슬롯머신 게임입니다.",
       "Unity 기반 게임 프레임워크와 콘텐츠를 개발했습니다.",
-      "카지노 하드웨어와 게임 소프트웨어를 연동했습니다."
+      "카지노 하드웨어와 전시 환경에 맞춰 빌드를 안정화했습니다."
     ]
   },
   {
@@ -701,12 +701,12 @@
     "description": [
       "An online MMORPG with persistent multiplayer data.",
       "Developed Linux-based game server logic.",
-      "Handled sessions, inventory and database integration."
+      "Developed game logic and PostgreSQL data processing."
     ],
     "descriptionKo": [
       "다중 접속과 게임 데이터를 사용하는 MMORPG입니다.",
       "Linux 기반 게임 서버 로직을 개발했습니다.",
-      "세션·인벤토리와 데이터베이스를 연결했습니다."
+      "게임 로직과 PostgreSQL 데이터 처리를 개발했습니다."
     ]
   },
   {
