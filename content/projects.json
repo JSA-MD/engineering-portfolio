@@ -516,6 +516,15 @@
         "originalLink": true
       },
       {
+        "src": "/assets/trend-screens/dashboard-bottom.jpg",
+        "alt": "Trend Trading dashboard bottom of page",
+        "caption": "Dashboard · bottom of page",
+        "captionKo": "대시보드 · 화면 하단",
+        "description": "The end of the full dashboard, including strategy information and the ranking section.",
+        "descriptionKo": "대시보드 끝부분의 전략 정보와 랭킹 영역을 이어서 보여줍니다.",
+        "originalLink": true
+      },
+      {
         "src": "/assets/trend-screens/profit.jpg",
         "alt": "Trend Trading Profit and loss analysis",
         "caption": "Profit and loss analysis",
@@ -549,6 +558,15 @@
         "captionKo": "매매전략",
         "description": "Inspect strategy conditions and historical research comparisons in the dashboard.",
         "descriptionKo": "대시보드에서 전략의 진입·청산 조건과 과거 연구 결과를 비교합니다.",
+        "originalLink": true
+      },
+      {
+        "src": "/assets/trend-screens/strategy-bottom.jpg",
+        "alt": "Trend Trading strategy screen bottom of page",
+        "caption": "Strategy research · bottom of page",
+        "captionKo": "매매전략 · 화면 하단",
+        "description": "The lower part of the strategy research screen, including entry and exit rules.",
+        "descriptionKo": "전략 연구 화면 하단의 진입·청산 조건을 보여줍니다.",
         "originalLink": true
       },
       {
