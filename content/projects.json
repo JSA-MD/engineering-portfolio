@@ -516,15 +516,6 @@
         "originalLink": true
       },
       {
-        "src": "/assets/trend-screens/live.jpg",
-        "alt": "Trend Trading Live trading management",
-        "caption": "Live trading management",
-        "captionKo": "실거래 관리",
-        "description": "The live trading view requires an administrator token; this capture shows the access prompt.",
-        "descriptionKo": "실거래 관리 화면은 관리자 토큰이 필요하며, 캡처에는 인증 요청 화면이 표시됩니다.",
-        "originalLink": true
-      },
-      {
         "src": "/assets/trend-screens/profit.jpg",
         "alt": "Trend Trading Profit and loss analysis",
         "caption": "Profit and loss analysis",
