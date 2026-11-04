@@ -53,3 +53,5 @@ for(const cls of ['nav-standard','nav-overview']){const links=[...homeHtml.match
 for(const route of ['', 'work','career','highlights','journey','lab','about',...projects.map(p=>`work/${p.id}`),...careerDetails.map(d=>`work/${d.slug}`)]){const html=await readFile(join('dist',route,'index.html'),'utf8');if(html.includes('Jinseong-Ahn-Resume.pdf')||html.includes('resume-link'))throw Error(`${route}: resume download must be removed`);}
 if((homeHtml.match(/class="home-recommendation"/g)||[]).length!==2||!homeHtml.includes('Jaehoon Choi'))throw Error('LinkedIn recommendation missing from home layouts');
 try{await access('dist/assets/Jinseong-Ahn-Resume.pdf');throw Error('resume PDF must not be published')}catch(e){if(e.code!=='ENOENT')throw e;}
+
+await access('dist/assets/linkedin-recommendation.png');if((homeHtml.match(/src="\/assets\/linkedin-recommendation.png"/g)||[]).length!==2)throw Error('Recommendation screenshot missing from home layouts');
