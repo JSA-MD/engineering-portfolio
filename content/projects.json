@@ -34,7 +34,23 @@
     "overview": {
       "en": "An automated production workflow for a YouTube audio-drama channel for older listeners. It uses n8n to generate story material, narration, subtitles, and scene images and combine them into videos.",
       "ko": "시니어 시청자를 위한 유튜브 오디오 드라마 제작 자동화 프로젝트입니다. n8n으로 이야기·대본·음성·자막·장면 이미지를 만들고 영상 제작 과정에 연결합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "N8N",
+        "titleEn": "Automating audio-drama production",
+        "titleKo": "오디오 드라마 제작 자동화",
+        "bodyEn": "I used n8n to connect story planning, synopsis and chapter generation to voice, subtitles, images and video composition for a senior-oriented YouTube channel.",
+        "bodyKo": "시니어를 위한 유튜브 채널을 운영하며 n8n으로 이야기 기획, 시놉시스와 챕터 생성부터 음성·자막·이미지·영상 제작 단계를 연결했습니다."
+      },
+      {
+        "date": "WORKFLOW",
+        "titleEn": "Organizing a multi-stage workflow",
+        "titleKo": "단계별 워크플로 구성",
+        "bodyEn": "I organized the workflow into topic, synopsis, plot and chapter stages, then connected the chapter output to media-generation workflows.",
+        "bodyKo": "주제 선정, 시놉시스, 줄거리와 챕터 제작으로 과정을 나누고 챕터 결과를 음성·자막·이미지와 영상 생성 워크플로에 연결했습니다."
+      }
+    ]
   },
   {
     "id": "epicfun-animal-shorts",
@@ -78,7 +94,23 @@
     "overview": {
       "en": "An n8n workflow for creating animal-themed YouTube Shorts. It selects ideas, requests AI video generation, and connects scheduled runs to channel uploads.",
       "ko": "재미있는 동물 영상을 유튜브 숏츠로 제작하는 자동화 프로젝트입니다. n8n으로 소재 선정과 AI 영상 생성, 예약 실행 및 채널 업로드를 연결합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "N8N",
+        "titleEn": "Creating animal Shorts",
+        "titleKo": "동물 숏츠 제작 자동화",
+        "bodyEn": "I built an n8n workflow for animal-themed Shorts, connecting scheduled triggers, theme selection, AI video generation and YouTube upload.",
+        "bodyKo": "재미있는 동물 숏츠 제작을 위해 n8n에서 예약 실행, 소재 선택, AI 영상 생성과 YouTube 업로드를 연결했습니다."
+      },
+      {
+        "date": "WORKFLOW",
+        "titleEn": "Coordinating generation and notification",
+        "titleKo": "영상 생성과 알림 연결",
+        "bodyEn": "The workflow requests video generation, waits for the result, retrieves the video and connects publishing with Discord notifications.",
+        "bodyKo": "영상 생성 요청 후 결과를 기다리고 생성된 영상을 가져와 게시하며, Discord로 진행 상황과 결과를 전달하도록 구성했습니다."
+      }
+    ]
   },
   {
     "id": "epic-studio",
@@ -324,7 +356,30 @@
     "overview": {
       "en": "Purenista is a Japanese avatar-styling and social art app. Users combine character items, backgrounds, and templates to create digital artwork and share it with others.",
       "ko": "Purenista는 아바타를 꾸미고 디지털 작품을 만들어 공유하는 일본 소셜 앱입니다. 사용자가 캐릭터 아이템과 배경·템플릿을 조합해 자신만의 이미지를 제작합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "ARCHITECTURE",
+        "titleEn": "A shared native image engine",
+        "titleKo": "양 플랫폼에서 공통으로 쓰는 이미지 엔진",
+        "bodyEn": "I designed the client architecture for an avatar-art creation app and built a C++ image-processing engine connected to React Native and the Swift and Kotlin platform layers.",
+        "bodyKo": "아바타 작품 제작 앱의 클라이언트 아키텍처를 설계하고 C++ 이미지 처리 엔진을 개발했습니다. React Native와 Swift·Kotlin 네이티브 계층에 연결해 iOS·Android에서 같은 엔진을 사용하도록 구성했습니다."
+      },
+      {
+        "date": "OPTIMIZATION",
+        "titleEn": "Making artwork composition practical",
+        "titleKo": "모바일에서 작품 합성이 가능하도록",
+        "bodyEn": "Combining many 2D assets took more than 40 seconds. I moved processing to native C++ and optimized the processing pipeline and memory use, reducing composition to within five seconds and image size from over 30 MB to under 3 MB.",
+        "bodyKo": "여러 2D 에셋을 하나의 이미지로 합성하는 데 40초 이상 걸려 모바일 사용성이 떨어졌습니다. 처리를 네이티브 C++로 옮기고 처리 흐름과 메모리 사용을 최적화해 합성 시간을 5초 이내로, 생성 이미지 크기를 30MB 이상에서 3MB 이하로 줄였습니다."
+      },
+      {
+        "date": "DELIVERY",
+        "titleEn": "Supporting the Japanese launch",
+        "titleKo": "일본 상용화와 개발자상",
+        "bodyEn": "I also worked on backend business logic and database schemas and supported the iOS and Android launch in Japan. I received Hangame’s 2020 Developer of the Year award.",
+        "bodyKo": "클라이언트뿐 아니라 백엔드 비즈니스 로직과 데이터베이스 스키마도 개발하고 일본 iOS·Android 상용화를 지원했습니다. 2020년 한게임 올해의 개발자상을 받았습니다."
+      }
+    ]
   },
   {
     "id": "olobo",
@@ -359,7 +414,30 @@
     "overview": {
       "en": "OLOBO is a mobile app that turns a user’s recorded voice or text into animated content. AI analyzes the story and combines fitting 3D avatar animations and camera work to create a video.",
       "ko": "OLOBO는 사용자가 녹음한 음성이나 입력한 텍스트를 AI가 분석해 콘텐츠로 만들어 주는 앱입니다. 이야기 내용에 맞는 3D 아바타 애니메이션과 카메라 워크 등을 조합해 영상을 제작합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "ARCHITECTURE",
+        "titleEn": "Connecting AI, avatars and animation",
+        "titleKo": "AI와 3D 아바타를 연결한 구조",
+        "bodyEn": "I led the application architecture and built the core framework connecting the Unity client, backend and database. I integrated prompts, voice and TTS with the avatar and animation pipeline, including conversion to video and a custom animation format.",
+        "bodyKo": "전체 앱 아키텍처와 코어 프레임워크를 설계해 Unity 클라이언트, 백엔드와 데이터베이스를 연결했습니다. AI 프롬프트·음성·TTS를 아바타와 애니메이션 파이프라인에 통합하고, 생성 결과를 영상과 자체 애니메이션 형식으로 변환했습니다."
+      },
+      {
+        "date": "DEBUGGING",
+        "titleEn": "Tracing an iOS-only random crash",
+        "titleKo": "iOS에서만 발생한 랜덤 크래시 추적",
+        "bodyEn": "A crash that did not reproduce in the Unity editor had remained unresolved for over a month. I analyzed execution sequences, added profiling and detailed logs, and compared normal and failed runs to narrow the fault to an external math-library call.",
+        "bodyKo": "Unity 에디터에서는 재현되지 않는 불규칙한 iOS 충돌이 한 달 넘게 해결되지 않고 있었습니다. 실행 순서를 분석하고 단계별 프로파일링과 상세 로그를 추가해 정상 실행과 충돌 흐름을 비교한 끝에 외부 수학 라이브러리 호출로 범위를 좁혔습니다."
+      },
+      {
+        "date": "RELEASE",
+        "titleEn": "Fixing the cause and preparing the release",
+        "titleKo": "원인 수정과 출시 안정화",
+        "bodyEn": "I identified an overflow in the library’s calculation and corrected it. I also managed build and release work for the US iOS launch and Android open beta.",
+        "bodyKo": "라이브러리 내부 연산에서 발생한 오버플로를 찾아 수정했습니다. 이후 미국 iOS 정식 출시와 Android 오픈 베타를 위한 빌드·릴리스 작업을 담당했습니다."
+      }
+    ]
   },
   {
     "id": "trading-research",
@@ -373,7 +451,23 @@
     "overview": {
       "en": "A research system for examining wick-reversal strategies in Binance futures markets. It compares historical backtests with demo execution to study signal and execution consistency.",
       "ko": "바이낸스 선물 시장의 꼬리 반전 전략을 연구하는 시스템입니다. 과거 데이터 백테스트와 데모 실행을 비교해 신호와 실행 결과의 일치성을 살펴봅니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.04",
+        "titleEn": "From signal research to a demo runtime",
+        "titleKo": "신호 연구와 데모 실행",
+        "bodyEn": "I built a Binance futures research system for wick-reversal ideas, connecting market data, signal logic, historical backtests and a demo execution environment.",
+        "bodyKo": "바이낸스 선물의 꼬리 반전 아이디어를 연구하기 위해 시장 데이터와 신호 로직, 과거 백테스트, 데모 실행 환경을 연결했습니다."
+      },
+      {
+        "date": "2026.06",
+        "titleEn": "Making backtests reproducible",
+        "titleKo": "백테스트 재현성 개선",
+        "bodyEn": "I added an immutable research snapshot to make a locked backtest window reproducible. Research and demo results are kept distinct from actual live trading performance.",
+        "bodyKo": "고정된 백테스트 구간을 동일하게 다시 검증할 수 있도록 변경 불가능한 스냅샷을 추가했습니다. 연구와 데모 결과는 실제 거래 성과와 구분해 다룹니다."
+      }
+    ]
   },
   {
     "id": "trend-trading",
@@ -495,5 +589,339 @@
       "source": "System overview · illustrative architecture diagram",
       "sourceKo": "시스템 구성도 · 개념 다이어그램"
     }
+  },
+  {
+    "id": "ai-studio-news-collector",
+    "number": "LAB",
+    "category": "INDEPENDENT / AUTOMATION",
+    "year": "2026.01",
+    "name": "AI Studio — News Collector",
+    "nameKo": "AI Studio 뉴스 수집기",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Collects news from Google and Naver. Extracts keywords, removes duplicates and ranks trends. Provides a searchable interface and scheduled collection.",
+      "ko": "구글과 네이버에서 뉴스를 수집합니다. 키워드를 추출하고 중복 제거와 트렌드 분석을 수행합니다. 검색 화면과 예약 수집 기능을 제공합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.01",
+        "titleEn": "Collecting and organizing news",
+        "titleKo": "뉴스 수집과 정리",
+        "bodyEn": "I connected Google and Naver news collection to deduplication, keyword extraction, trend scoring and a searchable Streamlit interface. FastAPI and PostgreSQL provide the application and storage layers; n8n schedules collection.",
+        "bodyKo": "구글·네이버 뉴스 수집을 중복 제거, 키워드 추출, 트렌드 점수와 Streamlit 검색 화면에 연결했습니다. FastAPI와 PostgreSQL로 서비스와 저장을 구성하고 n8n으로 수집을 예약했습니다."
+      }
+    ]
+  },
+  {
+    "id": "epic-invest-genetic-strategy-research",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.02",
+    "name": "Epic Invest — Genetic Strategy Research",
+    "nameKo": "Epic Invest 유전 전략 연구",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Explores crypto strategies with genetic programming. Generates and evaluates candidate trading formulas. Runs cost-aware backtests for research.",
+      "ko": "유전 프로그래밍으로 암호화폐 전략을 탐색합니다. 매매 수식 후보를 생성하고 평가합니다. 비용을 반영한 백테스트로 연구합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.02–04",
+        "titleEn": "Evolving strategy candidates",
+        "titleKo": "전략 수식 후보를 진화시키는 실험",
+        "bodyEn": "I explored genetic programming with DEAP to generate trading formulas and evaluate candidates using NumPy/Pandas backtests. The repository records a baseline restore and later work on state carry in the backtest kernel.",
+        "bodyKo": "DEAP 유전 프로그래밍으로 매매 수식 후보를 만들고 NumPy·Pandas 백테스트로 평가하는 방법을 연구했습니다. 저장소에는 기준 전략 복원과 백테스트의 상태 이월 개선 과정이 기록돼 있습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "online-shop-automation",
+    "number": "LAB",
+    "category": "INDEPENDENT / AUTOMATION",
+    "year": "2026.03",
+    "name": "Online Shop Automation",
+    "nameKo": "온라인 쇼핑 관리 자동화",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Automates parts of online shop research and management. Collects product trends and presents them in a dashboard. Prepares product images and listing packages.",
+      "ko": "온라인 쇼핑 조사와 관리 업무를 자동화합니다. 상품 트렌드를 수집하고 대시보드에 표시합니다. 상품 이미지와 등록용 자료를 준비합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.03",
+        "titleEn": "From product research to listing preparation",
+        "titleKo": "상품 조사부터 등록 자료 준비까지",
+        "bodyEn": "I connected online-shopping trend research with a dashboard, image processing and preparation of product listing materials.",
+        "bodyKo": "온라인 쇼핑 트렌드 조사 결과를 대시보드로 살펴보고 상품 이미지 처리와 등록 자료 준비를 연결했습니다."
+      }
+    ]
+  },
+  {
+    "id": "epic-trading-wb-strategy",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.03",
+    "name": "Epic Trading — WB Strategy",
+    "nameKo": "Epic Trading 더블비 전략",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Researches semi-automated futures trading. Analyzes signals based on the WB trading method. Provides monitoring and dashboard tools.",
+      "ko": "선물 매매의 반자동화를 연구합니다. 더블비 매매법을 바탕으로 신호를 분석합니다. 모니터링과 대시보드 도구를 제공합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.03",
+        "titleEn": "Signal analysis and operational visibility",
+        "titleKo": "신호 분석과 운영 가시성",
+        "bodyEn": "I developed a futures research workspace around the WB method, combining market feeds, signal analysis and dashboard tools. Git history shows WebSocket reconnection and structured logging improvements.",
+        "bodyKo": "더블비 매매법을 연구하며 시장 데이터, 신호 분석과 대시보드를 연결했습니다. 개발 과정에서 WebSocket 재연결과 구조화된 로그를 보강했습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "epic-trading-2-scalping-research",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.04",
+    "name": "Epic Trading 2 — Scalping Research",
+    "nameKo": "Epic Trading 2 단타 전략 연구",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Studies short-term trading strategies. Combines strategy logic with historical backtesting. Includes monitoring and messaging integrations.",
+      "ko": "단기 매매 전략을 분석하는 프로젝트입니다. 전략 로직을 과거 데이터 백테스트와 연결합니다. 모니터링과 메시지 연동 기능을 포함합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.04",
+        "titleEn": "A short-term strategy research stack",
+        "titleKo": "단기 전략 연구 환경",
+        "bodyEn": "I implemented market indicators, strategy and risk components alongside a historical backtest engine, then added monitoring and messaging integrations.",
+        "bodyKo": "시장 지표와 전략·위험 관리 구성요소를 과거 데이터 백테스트 엔진과 함께 개발하고 모니터링과 메시지 연동을 추가했습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "quant-bot-exchange-toolkit",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.04",
+    "name": "Quant Bot — Exchange Toolkit",
+    "nameKo": "Quant Bot 거래소 툴킷",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Experiments with exchange-based quant trading. Uses market indicators and exchange adapters. Integrates an AI agent toolkit and runtime checks.",
+      "ko": "거래소 기반 퀀트 매매를 실험합니다. 시장 지표와 거래소 연동 모듈을 사용합니다. AI 에이전트 툴킷과 실행 안전성 검사를 연결합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.04",
+        "titleEn": "Exchange integration and safety",
+        "titleKo": "거래소 연동과 안전성 개선",
+        "bodyEn": "I experimented with exchange adapters and a Node.js trading toolkit. Later changes addressed accounting, persistent state, order identification and a kill switch.",
+        "bodyKo": "Node.js 기반 거래소 연동과 퀀트 도구를 실험했습니다. 이후 회계 처리와 상태 저장, 주문 식별, 긴급 중지 기능을 보완했습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "okx-scalping-research",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.04",
+    "name": "OKX Scalping Research",
+    "nameKo": "OKX 스캘핑 연구",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Researches five-minute futures scalping. Evaluates rule-based strategies with historical data. Includes an OKX demo paper-trading runtime.",
+      "ko": "5분봉 선물 스캘핑 전략을 연구합니다. 과거 데이터로 규칙 기반 전략을 평가합니다. OKX 데모 모의매매 실행기를 포함합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.04",
+        "titleEn": "From market data to paper execution",
+        "titleKo": "시장 데이터에서 데모 실행까지",
+        "bodyEn": "I built a rule-driven five-minute futures research system with market-data and indicator components, backtesting and an OKX demo paper runtime.",
+        "bodyKo": "시장 데이터와 지표 구성요소를 만들고 5분봉 선물 전략의 백테스트와 OKX 데모 모의 실행 환경을 연결했습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "polymarket-wallet-scanner",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.05",
+    "name": "Polymarket Wallet Scanner",
+    "nameKo": "Polymarket 지갑 분석기",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Analyzes public prediction-market wallet activity. Scores market candidates from observed positions. Applies risk checks and supports paper-mode research.",
+      "ko": "예측 시장의 공개 지갑 활동을 분석합니다. 관찰한 포지션을 바탕으로 후보를 선별합니다. 위험 검증과 모의 실행 연구를 지원합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.05",
+        "titleEn": "Screening prediction-market activity",
+        "titleKo": "예측시장 활동 분석과 후보 선별",
+        "bodyEn": "I used public Polymarket data to study wallet activity and positions, score candidates and apply risk gates. I added category-specific classification and persistence with tests; the scanner defaults to dry-run.",
+        "bodyKo": "Polymarket 공개 데이터로 지갑 활동과 포지션을 분석하고 후보를 선별해 위험 검증을 거치도록 구성했습니다. 분야별 분류와 저장 로직 및 테스트를 추가했으며 기본 실행은 모의 모드입니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "trading-bot-research-foundation",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.07",
+    "name": "Trading Bot — Research Foundation",
+    "nameKo": "Trading Bot 연구 기반",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Builds a reproducible market research foundation. Replays candles through indicators and regime analysis. Keeps backtest components and tests separate.",
+      "ko": "재현 가능한 시장 분석 기반을 구축합니다. 캔들을 재생하며 지표와 시장 국면을 분석합니다. 백테스트 구성요소와 검증 코드를 분리합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.07",
+        "titleEn": "Reproducible research foundations",
+        "titleKo": "재현 가능한 연구 기반",
+        "bodyEn": "I organized a research scaffold around market indicators, deterministic replay and tests. Development records distinguish implemented components from designed or planned work.",
+        "bodyKo": "시장 지표와 결정론적 재생, 테스트를 중심으로 연구 기반을 구성했습니다. 개발 기록에서 구현된 구성요소와 설계·계획 단계를 구분했습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "emanuel-tradingview-research",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.08",
+    "name": "Emanuel — TradingView Research",
+    "nameKo": "Emanuel TradingView 전략 연구",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "A research scaffold for TradingView strategy tests followed by planned Python signal-parity and paper or shadow validation.",
+      "ko": "TradingView 전략 실험을 시작으로 Python 신호 일치성과 모의·섀도 검증 단계를 구상한 연구 기반 프로젝트입니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.08",
+        "titleEn": "TradingView research scaffold",
+        "titleKo": "TradingView 연구 설계",
+        "bodyEn": "I explored a scaffold in which TradingView is used for initial strategy tests before Python parity checks and paper or shadow validation. This is a research workflow, not a claim of live readiness.",
+        "bodyKo": "TradingView에서 전략을 먼저 시험하고 Python 신호 일치성과 모의·섀도 검증으로 이어지는 연구 구조를 살폈습니다. 실전 준비 완료를 의미하지 않는 연구용 기반입니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "alpha-factory-research-orchestrator",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.08",
+    "name": "Alpha Factory — Research Orchestrator",
+    "nameKo": "Alpha Factory 전략 연구 플랫폼",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Organizes agent-assisted strategy experiments. Separates candidate generation from validation. Records research evidence and gate decisions.",
+      "ko": "AI 에이전트 기반 전략 실험을 관리합니다. 후보 생성과 검증 절차를 분리합니다. 연구 근거와 검증 결과를 기록합니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.08",
+        "titleEn": "Separating proposals from verification",
+        "titleKo": "후보 생성과 검증 분리",
+        "bodyEn": "I developed an agent-assisted research scaffold with explicit verification and recorded handoffs. Its history shows a bootstrap, validation gates and independent verifier work.",
+        "bodyKo": "AI 에이전트를 활용한 전략 연구에서 검증과 작업 인계를 분리하는 구조를 개발했습니다. 초기 기반 구성과 검증 게이트, 독립 검증 작업이 개발 기록에 남아 있습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
+  },
+  {
+    "id": "emanuel-autonomous-research-lab",
+    "number": "LAB",
+    "category": "INDEPENDENT / RESEARCH",
+    "year": "2026.08",
+    "name": "Emanuel Autonomous Research Lab",
+    "nameKo": "Emanuel 자율 연구 실험실",
+    "source": "Local project documentation and development records.",
+    "overview": {
+      "en": "Manages agent-assisted strategy research. Tracks experiment configurations and validation gates. Supports repeatable review of research candidates.",
+      "ko": "AI 에이전트를 활용해 전략을 연구합니다. 실험 설정과 검증 단계를 관리합니다. 연구 후보를 반복 검토할 수 있도록 구성했습니다."
+    },
+    "engineeringStory": [
+      {
+        "date": "2026.08",
+        "titleEn": "Recording experiments and decisions",
+        "titleKo": "실험과 의사결정 기록",
+        "bodyEn": "I developed a research workflow with a trial registry and append-only decision records. Validation gates and human decisions are separated from candidate generation.",
+        "bodyKo": "실험 레지스트리와 누적형 의사결정 기록을 갖춘 연구 흐름을 개발했습니다. 후보 생성과 검증 게이트, 사람의 의사결정을 분리해 관리했습니다."
+      },
+      {
+        "date": "RESEARCH",
+        "titleEn": "Research and evaluation",
+        "titleKo": "연구와 검증",
+        "bodyEn": "I keep research hypotheses, historical simulations and paper-mode results distinct from actual trading outcomes.",
+        "bodyKo": "연구 가설과 과거 시뮬레이션·모의 실행 결과는 실제 거래 성과와 구분해 정리합니다."
+      }
+    ]
   }
 ]

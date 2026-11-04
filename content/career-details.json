@@ -26,7 +26,23 @@
     "overview": {
       "en": "Golden Express is a casino slot-machine game created for Kangwon Land / KLSaberi. Players spin the reels and experience the game on a dedicated casino machine.",
       "ko": "Golden Express는 강원랜드 / KLSaberi를 위해 개발한 카지노 슬롯머신 게임입니다. 전용 카지노 기기에서 슬롯을 돌리며 게임을 즐길 수 있도록 제작했습니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "ARCHITECTURE",
+        "titleEn": "Designing for a casino machine",
+        "titleKo": "카지노 전용 기기를 위한 개발",
+        "bodyEn": "I led the team building a Unity slot-machine game for Kangwon Land / KLSaberi. I designed the game architecture and developed core gameplay while coordinating the schedule and technical issues across the team.",
+        "bodyKo": "강원랜드 / KLSaberi의 슬롯머신 게임을 제작하며 개발팀을 이끌었습니다. Unity 기반 게임 구조와 핵심 게임플레이를 직접 개발하고 팀 일정과 기술 이슈를 조율했습니다."
+      },
+      {
+        "date": "2019.10",
+        "titleEn": "Preparing for G2E",
+        "titleKo": "G2E 전시를 위한 안정화",
+        "bodyEn": "The game needed to run reliably on casino hardware and at the exhibition. I coordinated integration and release builds and worked on runtime stability for its presentation at G2E Las Vegas in October 2019.",
+        "bodyKo": "카지노 기기와 전시 환경에서 안정적으로 동작하도록 통합과 릴리스 빌드를 관리했습니다. 현장 운영을 고려해 런타임을 안정화하고 2019년 10월 라스베이거스 G2E 출품을 준비했습니다."
+      }
+    ]
   },
   {
     "project": "FASSKER",
@@ -55,7 +71,23 @@
     "overview": {
       "en": "FASSKER is a fashion social application where users explore and share styles and fashion content.",
       "ko": "FASSKER는 패션 스타일과 콘텐츠를 둘러보고 공유할 수 있는 패션 소셜 앱입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "FOUNDATION",
+        "titleEn": "Establishing the technical foundation",
+        "titleKo": "프로젝트 초기 기술 기반 구축",
+        "bodyEn": "At the company’s early stage I designed the architecture and core framework, building a base layer that subsequent features could share.",
+        "bodyKo": "회사 설립 초기 프로젝트에 참여해 전체 기술 구조와 코어 프레임워크를 설계했습니다. 이후 기능에서 공통으로 활용할 기반 레이어를 먼저 구축했습니다."
+      },
+      {
+        "date": "DELIVERY",
+        "titleEn": "Connecting client, backend and deployment",
+        "titleKo": "클라이언트부터 배포 환경까지 연결",
+        "bodyEn": "I designed communication between the Unity client and Spring Boot backend, set up the AWS service environment, and established iOS and Android build and deployment foundations.",
+        "bodyKo": "Unity 클라이언트와 Spring Boot 백엔드의 통신 구조를 만들고 AWS 서비스 환경을 구성했습니다. iOS·Android 빌드와 배포 기반도 마련해 이후 팀이 서비스 기능 개발을 이어갈 수 있도록 했습니다."
+      }
+    ]
   },
   {
     "project": "Machigai Breaker",
@@ -84,7 +116,23 @@
     "overview": {
       "en": "Machigai Breaker is a Japanese mobile quiz RPG. Players identify the wrong answers among four choices to attack enemies and advance through battles.",
       "ko": "마치가이 브레이커는 퀴즈와 RPG 전투를 결합한 일본 모바일 게임입니다. 4개의 선택지에서 틀린 답을 골라 적을 공격하며 모험을 진행합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "GAMEPLAY",
+        "titleEn": "Turning a quiz mechanic into a mobile RPG",
+        "titleKo": "퀴즈와 RPG를 하나의 게임으로",
+        "bodyEn": "Working in Tokyo as lead programmer, I designed the Unity client architecture and developed gameplay systems for a quiz and turn-based RPG.",
+        "bodyKo": "일본 도쿄에서 리드 프로그래머로 참여해 Unity 클라이언트 구조를 설계하고, 퀴즈와 턴제 RPG 전투를 결합한 게임플레이를 개발했습니다."
+      },
+      {
+        "date": "RELEASE",
+        "titleEn": "From development to Japanese launch",
+        "titleKo": "일본 양대 플랫폼 출시까지",
+        "bodyEn": "I addressed critical technical issues, supported iOS and Android platform integration, and stabilized the game for its commercial release in Japan.",
+        "bodyKo": "개발 중 발생한 핵심 기술 문제와 iOS·Android 플랫폼 대응을 담당하고 일본 상용 출시를 위한 안정화에 참여했습니다."
+      }
+    ]
   },
   {
     "project": "VM Casino",
@@ -99,7 +147,16 @@
     "overview": {
       "en": "VM Casino is a mobile social casino where users can play slot-game content on iOS and Android.",
       "ko": "VM Casino는 iOS와 Android에서 슬롯 콘텐츠를 즐길 수 있는 모바일 소셜 카지노 앱입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "MY WORK",
+        "titleEn": "My contribution",
+        "titleKo": "개발에 참여한 내용",
+        "bodyEn": "I developed and updated slot-game content and supported stability across mobile devices.",
+        "bodyKo": "슬롯 게임 콘텐츠와 업데이트를 개발하고 모바일 기기별 안정화 작업을 지원했습니다."
+      }
+    ]
   },
   {
     "project": "Double Fortune Casino",
@@ -124,7 +181,23 @@
     "overview": {
       "en": "Double Fortune Casino is a mobile social casino featuring Macau-inspired slot machines. Players can enjoy themed slots, bonus games, free spins, jackpots, and group chat.",
       "ko": "Double Fortune Casino는 마카오풍 슬롯을 제공하는 모바일 소셜 카지노입니다. 테마별 슬롯과 보너스 게임, 무료 스핀과 잭팟을 즐기고 다른 이용자와 채팅할 수 있습니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "CLIENT + SERVER",
+        "titleEn": "Building the mobile casino client",
+        "titleKo": "모바일 카지노 클라이언트와 서버 연결",
+        "bodyEn": "I developed the Unity client architecture and connected game features to a Spring Boot backend and MySQL data processing, supporting the iOS and Android versions.",
+        "bodyKo": "Unity 클라이언트 구조를 개발하고 Spring Boot 백엔드와 MySQL 게임 데이터 처리를 연결했습니다. iOS와 Android 버전의 출시도 지원했습니다."
+      },
+      {
+        "date": "DELIVERY",
+        "titleEn": "Delivering multiple titles",
+        "titleKo": "여러 타이틀의 출시 경험",
+        "bodyEn": "Alongside Double Fortune Casino, I worked on the development and launch of eight social casino titles for the Chinese market.",
+        "bodyKo": "Double Fortune Casino와 함께 중국 시장을 대상으로 소셜 카지노 게임 8종의 개발과 출시를 진행했습니다."
+      }
+    ]
   },
   {
     "project": "S4 League",
@@ -153,7 +226,23 @@
     "overview": {
       "en": "S4 League is an online PC action shooter in which players compete using fast movement, weapons, and team-based game modes.",
       "ko": "S4 League는 빠른 이동과 다양한 무기를 활용해 팀 대전을 즐기는 PC 온라인 액션 슈팅 게임입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "LIVE SERVICE",
+        "titleEn": "Working within an established codebase",
+        "titleKo": "운영 중인 게임의 코드 분석",
+        "bodyEn": "I analyzed the existing C/C++ codebase and maintained the DirectX PC client of a long-running online action game.",
+        "bodyKo": "장기간 운영된 온라인 액션 게임의 C/C++ 코드베이스를 분석하고 DirectX 기반 PC 클라이언트를 유지보수했습니다."
+      },
+      {
+        "date": "STABILITY",
+        "titleEn": "Resolving issues without breaking existing behavior",
+        "titleKo": "기존 동작을 고려한 안정화",
+        "bodyEn": "I investigated live-service issues and made changes with attention to existing game behavior and runtime stability.",
+        "bodyKo": "서비스 중 발생한 이슈를 분석하고 기존 게임 동작에 영향을 주지 않도록 수정 범위와 런타임 안정성을 함께 살폈습니다."
+      }
+    ]
   },
   {
     "project": "Pmang Vegas Royal Casino · Smart TV",
@@ -178,7 +267,16 @@
     "overview": {
       "en": "Pmang Vegas Royal Casino was a social casino adapted for Samsung Smart TV. It is the predecessor to the renewed Pmang New Vegas app, which offers slots, baccarat, and blackjack. The screenshots show the renewed app.",
       "ko": "피망 베가스 로열 카지노는 삼성 스마트 TV에서 이용할 수 있도록 개발한 소셜 카지노입니다. 현재 앱스토어의 피망 뉴베가스는 이 게임의 리뉴얼 버전으로 슬롯·바카라·블랙잭을 제공합니다. 스크린샷은 리뉴얼된 현재 버전의 화면입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "MY WORK",
+        "titleEn": "My contribution",
+        "titleKo": "개발에 참여한 내용",
+        "bodyEn": "I worked on bringing the Pmang Vegas social casino experience to Samsung Smart TV. I implemented remote-control input and TV navigation, and integrated the application with the TV platform.",
+        "bodyKo": "피망 베가스 소셜 카지노를 삼성 스마트 TV 환경으로 포팅했습니다. 리모컨 입력과 TV 내비게이션을 구현하고 애플리케이션을 TV 플랫폼과 연동했습니다."
+      }
+    ]
   },
   {
     "project": "Arcade Games & Enjoy Derby",
@@ -201,7 +299,23 @@
     "overview": {
       "en": "A collection of arcade games and a Japan-focused online horse-racing system designed for dedicated game hardware.",
       "ko": "전용 게임 하드웨어에서 동작하는 아케이드 게임들과 일본 시장을 위한 온라인 경마 시스템입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "HARDWARE",
+        "titleEn": "Software connected to physical devices",
+        "titleKo": "게임과 외부 장치를 연결",
+        "bodyEn": "I developed C/C++ and DirectX arcade game systems, used SQLite for local data, and implemented RS232C communication with external devices.",
+        "bodyKo": "C/C++와 DirectX로 아케이드 게임 시스템을 개발하고 SQLite 로컬 데이터 처리와 RS232C 외부 장치 통신을 구현했습니다."
+      },
+      {
+        "date": "DELIVERY",
+        "titleEn": "Arcade products and a Japanese racing system",
+        "titleKo": "아케이드 게임과 일본 경마 시스템",
+        "bodyEn": "As lead programmer I worked on approximately 20 arcade game releases and a Japan-focused online horse-racing system.",
+        "bodyKo": "리드 프로그래머로 아케이드 게임 약 20종의 상용화에 참여하고 일본 시장을 위한 온라인 경마 시스템도 개발했습니다."
+      }
+    ]
   },
   {
     "project": "Warbane",
@@ -226,7 +340,23 @@
     "overview": {
       "en": "Warbane: Rising of Darkness is a fantasy MMORPG set in a medieval European-inspired world. Players join factions, explore, and participate in large-scale battles.",
       "ko": "워베인: 어둠의 부활은 중세 유럽풍 판타지 세계를 배경으로 한 MMORPG입니다. 이용자들은 진영에 참여해 모험하고 대규모 전투를 펼칩니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "SERVER",
+        "titleEn": "Developing the MMORPG server",
+        "titleKo": "MMORPG 서버와 게임 로직",
+        "bodyEn": "I developed game-server and business logic in C/C++ on Linux and used PostgreSQL for persistent game data.",
+        "bodyKo": "Linux 환경에서 C/C++로 MMORPG 서버와 게임·업무 로직을 개발하고 PostgreSQL로 게임 데이터를 처리했습니다."
+      },
+      {
+        "date": "LIVE SERVICE",
+        "titleEn": "Supporting the live game",
+        "titleKo": "라이브 서비스 운영",
+        "bodyEn": "I maintained the live service and investigated production issues, extending my work beyond the game client to server-side logic and data.",
+        "bodyKo": "상용 서비스 운영과 유지보수, 서비스 중 발생한 문제에 대응하며 클라이언트뿐 아니라 서버 로직과 데이터 처리까지 담당했습니다."
+      }
+    ]
   },
   {
     "project": "Project N",
@@ -241,7 +371,16 @@
     "overview": {
       "en": "Project N is an MMORPG development project built with Unreal Engine 3, combining a game client and graphical user interfaces.",
       "ko": "Project N은 Unreal Engine 3를 기반으로 개발한 MMORPG 프로젝트입니다. 게임 클라이언트와 이용자 인터페이스를 구성했습니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "MY WORK",
+        "titleEn": "My contribution",
+        "titleKo": "개발에 참여한 내용",
+        "bodyEn": "I integrated Scaleform with the game engine and developed the game’s user interfaces.",
+        "bodyKo": "게임 엔진에 Scaleform을 연동하고 게임 사용자 인터페이스를 개발했습니다."
+      }
+    ]
   },
   {
     "project": "PangYa / Online Game Client",
@@ -266,7 +405,23 @@
     "overview": {
       "en": "PangYa is an online casual golf game where players compete on golf courses using distinctive characters and shot mechanics.",
       "ko": "팡야는 캐릭터를 선택하고 다양한 코스에서 샷을 겨루는 온라인 캐주얼 골프 게임입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "CLIENT",
+        "titleEn": "Developing the online golf client",
+        "titleKo": "온라인 골프 게임 클라이언트 개발",
+        "bodyEn": "I contributed C/C++ client features, DirectX rendering and game logic to the commercial online golf game.",
+        "bodyKo": "온라인 골프 게임의 C/C++ 클라이언트 기능과 DirectX 렌더링, 게임 로직 개발에 참여했습니다."
+      },
+      {
+        "date": "LIVE",
+        "titleEn": "Supporting a live product",
+        "titleKo": "상용 서비스 대응",
+        "bodyEn": "I worked on game features and supported the product after release, considering existing behavior while developing the client.",
+        "bodyKo": "기존 게임 동작을 고려해 기능을 개발하고 출시 후 서비스 단계에도 대응했습니다."
+      }
+    ]
   },
   {
     "project": "Online Games & 3D Engine",
@@ -285,7 +440,16 @@
     "overview": {
       "en": "Online game development for the Japanese market, including a custom 3D golf-game engine and tools used to create game content.",
       "ko": "일본 시장을 대상으로 한 온라인 게임 개발 프로젝트입니다. 자체 3D 골프 게임 엔진과 게임 콘텐츠 제작 도구를 포함합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "MY WORK",
+        "titleEn": "My contribution",
+        "titleKo": "개발에 참여한 내용",
+        "bodyEn": "I developed online games for the Japanese market and built a custom 3D golf-game engine. I also created animation, terrain, and content-production tools for the game-development workflow.",
+        "bodyKo": "일본 시장을 대상으로 온라인 게임과 자체 3D 골프 게임 엔진을 개발했습니다. 게임 제작에 필요한 애니메이션·지형·콘텐츠 제작 도구를 개발했습니다."
+      }
+    ]
   },
   {
     "project": "Game & 3D Programming Education",
@@ -310,7 +474,23 @@
     "overview": {
       "en": "A game and 3D engine programming curriculum that helps students learn graphics programming and build project portfolios.",
       "ko": "게임·3D 엔진 프로그래밍을 배우고 직접 프로젝트 포트폴리오를 만드는 교육 과정입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "TEACHING",
+        "titleEn": "Teaching game and graphics programming",
+        "titleKo": "게임과 3D 프로그래밍 교육",
+        "bodyEn": "I taught C/C++ and DirectX in game-programming and 3D-engine courses at HanbitSoft Digital Campus.",
+        "bodyKo": "한빛소프트 디지털캠퍼스에서 C/C++와 DirectX를 활용한 게임 프로그래밍과 3D 엔진 과정을 강의했습니다."
+      },
+      {
+        "date": "MENTORING",
+        "titleEn": "Guiding project portfolios",
+        "titleKo": "프로젝트와 포트폴리오 지도",
+        "bodyEn": "I guided student portfolios and helped students investigate and resolve problems in their own projects.",
+        "bodyKo": "수강생이 직접 만드는 프로젝트와 포트폴리오를 지도하고 개발 과정에서 발생한 문제 해결을 도왔습니다."
+      }
+    ]
   },
   {
     "project": "PC Online Casual Games",
@@ -329,7 +509,16 @@
     "overview": {
       "en": "PC online casual games and the content-production tools used to create and operate them.",
       "ko": "이용자가 PC에서 즐기는 온라인 캐주얼 게임과 게임 콘텐츠 제작을 위한 도구입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "MY WORK",
+        "titleEn": "My contribution",
+        "titleKo": "개발에 참여한 내용",
+        "bodyEn": "I developed PC online casual games and supported the tools used to create game content. My work included game architecture, event and state handling, and sound systems.",
+        "bodyKo": "PC 온라인 캐주얼 게임과 콘텐츠 제작 도구를 개발했습니다. 게임 구조와 이벤트·상태·사운드 시스템을 담당했습니다."
+      }
+    ]
   },
   {
     "project": "3D Subway Simulator",
@@ -354,7 +543,23 @@
     "overview": {
       "en": "A real-time 3D subway driving simulation for the Incheon subway, recreating railway environments such as stations, tracks, and tunnels.",
       "ko": "인천 지하철 운행 환경을 3D로 재현하는 실시간 시뮬레이션입니다. 역·선로·터널 등의 환경을 화면에 표시합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "REAL-TIME 3D",
+        "titleEn": "Recreating a railway environment",
+        "titleKo": "지하철 환경의 3D 재현",
+        "bodyEn": "I contributed to an Incheon subway simulation, developing C/C++ client features and DirectX-based rendering.",
+        "bodyKo": "인천 지하철 운행 환경을 재현하는 프로젝트에 참여해 C/C++ 클라이언트와 DirectX 기반 렌더링을 개발했습니다."
+      },
+      {
+        "date": "SIMULATION",
+        "titleEn": "Implementing simulation logic",
+        "titleKo": "운행 시뮬레이션 구현",
+        "bodyEn": "I also worked on simulation logic for the real-time 3D application.",
+        "bodyKo": "실시간 3D 화면과 함께 동작하는 시뮬레이션 로직을 개발했습니다."
+      }
+    ]
   },
   {
     "project": "Medical PC Software",
@@ -373,7 +578,23 @@
     "overview": {
       "en": "PC software for medical insurance and patient-care administration, with utilities and hardware communication supporting day-to-day work.",
       "ko": "의료보험과 환자 진료 업무를 처리하는 PC 소프트웨어입니다. 업무 유틸리티와 외부 장치 통신 기능을 함께 제공합니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "BUSINESS SOFTWARE",
+        "titleEn": "Supporting medical administration",
+        "titleKo": "의료 업무용 PC 소프트웨어",
+        "bodyEn": "I developed PC applications for medical insurance and patient-care administration, as well as supporting utilities and libraries.",
+        "bodyKo": "의료보험과 환자 진료 업무를 위한 PC 소프트웨어를 개발하고 업무용 유틸리티와 라이브러리를 만들었습니다."
+      },
+      {
+        "date": "HARDWARE",
+        "titleEn": "Controlling an external display",
+        "titleKo": "외부 전광판 제어",
+        "bodyEn": "I developed an RS232C serial-communication library in C/C++ to control external display hardware.",
+        "bodyKo": "C/C++로 RS232C 시리얼 통신 라이브러리를 개발하고 외부 전광판 하드웨어를 제어했습니다."
+      }
+    ]
   },
   {
     "project": "PC Package Game Internship",
@@ -398,6 +619,15 @@
     "overview": {
       "en": "A PC packaged-game development project carried out at Mirinae Software.",
       "ko": "미리내소프트웨어에서 진행한 PC 패키지 게임 개발 프로젝트입니다."
-    }
+    },
+    "engineeringStory": [
+      {
+        "date": "MY WORK",
+        "titleEn": "My contribution",
+        "titleKo": "개발에 참여한 내용",
+        "bodyEn": "I began my professional career as a programmer intern at Mirinae Software, contributing to PC packaged-game development. I worked on game programming features using Visual Basic and C/C++.",
+        "bodyKo": "미리내소프트웨어에서 프로그래머 인턴으로 PC 패키지 게임 개발에 참여하며 실무 경력을 시작했습니다. Visual Basic과 C/C++를 활용해 게임 프로그래밍 작업을 수행했습니다."
+      }
+    ]
   }
 ]
