@@ -396,25 +396,31 @@
   {
     "career": 0,
     "name": "Trend Trading Workspace",
-    "nameKo": "Trend Trading 추세 연구 시스템",
+    "nameKo": "Trend Trading (추세 전략 연구 시스템)",
     "period": "2026.09 recorded",
     "periodKo": "2026.09 기록",
-    "summary": "Market-data collection, trend backtesting and trading monitoring.",
-    "summaryKo": "시장 데이터 수집·추세 전략 백테스트·매매 감시 시스템.",
-    "skills": "Python · FastAPI · React · PostgreSQL",
-    "highlight": "Research, paper trading and operational monitoring in one workspace.",
-    "highlightKo": "연구·모의매매·운영 감시를 하나의 화면으로 구성.",
+    "summary": "AI-assisted engineering workspace for market data, strategy research, backtesting and monitoring.",
+    "summaryKo": "AI 협업 개발로 구축한 시장 데이터·전략 연구·백테스트·매매 감시 워크스페이스.",
+    "skills": "Python · FastAPI · React · PostgreSQL · AI-assisted development",
+    "highlight": "One workspace for strategy research, simulation and monitoring.",
+    "highlightKo": "전략 연구·시뮬레이션·운영 감시를 통합한 워크스페이스.",
     "slug": "trend-trading-workspace",
     "description": [
-      "Collects market data for trend research.",
-      "Combines backtesting, paper trading and monitoring.",
-      "Presents analysis and operational views in a web UI."
+      "Collects market data and organizes trend-strategy research.",
+      "Connects backtesting and paper trading with operational monitoring.",
+      "Built and refined with AI-assisted development and a web dashboard."
     ],
     "descriptionKo": [
-      "추세 전략 연구를 위한 시장 데이터를 수집합니다.",
-      "백테스트·모의매매·거래 감시를 연결합니다.",
-      "웹 화면에서 분석과 운영 상태를 확인합니다."
-    ]
+      "시장 데이터를 수집하고 추세 전략을 연구하는 시스템입니다.",
+      "백테스트·모의매매·운영 감시를 하나의 흐름으로 연결합니다.",
+      "AI 협업 개발을 활용해 웹 대시보드와 연구 기능을 구축했습니다."
+    ],
+    "detail": "/work/trend-trading/",
+    "media": {
+      "type": "diagram",
+      "source": "System overview · illustrative architecture diagram",
+      "sourceKo": "시스템 구성도 · 개념 다이어그램"
+    }
   },
   {
     "career": 1,
