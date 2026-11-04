@@ -27,9 +27,9 @@ for(const [i,p] of careerProjects.entries()){
 for(const [i] of career.entries())if(!careerProjects.some(p=>p.career===i))throw Error(`career ${i}: missing project`);
 const careerHtml=await readFile('dist/career/index.html','utf8');
 if((careerHtml.match(/data-career-group/g)||[]).length!==career.length)throw Error('career entries missing from built page');
-if((careerHtml.match(/class="career-project"/g)||[]).length!==careerProjects.length)throw Error('career projects missing from built page');
+if((careerHtml.match(/class="career-project(?: [^"]*)?"/g)||[]).length!==careerProjects.length)throw Error('career projects missing from built page');
 const labHtml=await readFile('dist/lab/index.html','utf8');
-if((labHtml.match(/class="career-project"/g)||[]).length!==careerProjects.filter(p=>p.career===0).length)throw Error('independent projects missing from AI lab');
+if((labHtml.match(/class="career-project(?: [^"]*)?"/g)||[]).length!==careerProjects.filter(p=>p.career===0).length)throw Error('independent projects missing from AI lab');
 const homeHtml=await readFile('dist/index.html','utf8');
 const aiGroup=homeHtml.match(/<section class="overview-project-group ai-project-group"[\s\S]*?<\/section>/)?.[0];
 const commercialGroup=homeHtml.match(/<section class="overview-project-group commercial-project-group"[\s\S]*?<\/section>/)?.[0];
@@ -59,3 +59,6 @@ await access('dist/assets/linkedin-recommendation.png');if((homeHtml.match(/src=
 const story=JSON.parse(await readFile('content/personal-story.json','utf8'));if(story.paragraphs.length!==3||story.paragraphs.some(p=>!p.en||!p.ko))throw Error('Personal story must have three bilingual paragraphs');if((homeHtml.match(/class="home-personal-story"/g)||[]).length!==2)throw Error('Personal story missing from home layouts');
 
 const letterContent=JSON.parse(await readFile('content/cover-letter.json','utf8'));const letterHtml=await readFile('dist/cover-letter/index.html','utf8');if(letterContent.length!==4||letterContent.some(s=>!s.headingEn||!s.headingKo||s.paragraphs.some(p=>!p.en||!p.ko))||(letterHtml.match(/class="letter-section"/g)||[]).length!==4)throw Error('Personal statement sections are incomplete');
+
+await access('dist/assets/trend-ai-concept.png');
+const workHtml=await readFile('dist/work/index.html','utf8');if(!workHtml.includes('feature-card-trend')||!workHtml.includes('trend-ai-concept.png')||!workHtml.includes('AI 협업 연구 · 개념 이미지')||workHtml.indexOf('/work/trend-trading/')>workHtml.indexOf('/work/epic-studio/'))throw Error('Trend Trading feature or conceptual image missing');
