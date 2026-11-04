@@ -30,7 +30,11 @@
         "captionKo": "n8n 오디오 드라마 제작 워크플로 · 프로젝트 제작자 제공 화면",
         "originalLink": true
       }
-    ]
+    ],
+    "overview": {
+      "en": "An automated production workflow for a YouTube audio-drama channel for older listeners. It uses n8n to generate story material, narration, subtitles, and scene images and combine them into videos.",
+      "ko": "시니어 시청자를 위한 유튜브 오디오 드라마 제작 자동화 프로젝트입니다. n8n으로 이야기·대본·음성·자막·장면 이미지를 만들고 영상 제작 과정에 연결합니다."
+    }
   },
   {
     "id": "epicfun-animal-shorts",
@@ -70,6 +74,10 @@
       "source": "EpicFun · Raccoon Steals Tools Mid-Repair",
       "sourceKo": "EpicFun · Raccoon Steals Tools Mid-Repair",
       "channelUrl": "https://www.youtube.com/@epicfun777"
+    },
+    "overview": {
+      "en": "An n8n workflow for creating animal-themed YouTube Shorts. It selects ideas, requests AI video generation, and connects scheduled runs to channel uploads.",
+      "ko": "재미있는 동물 영상을 유튜브 숏츠로 제작하는 자동화 프로젝트입니다. n8n으로 소재 선정과 AI 영상 생성, 예약 실행 및 채널 업로드를 연결합니다."
     }
   },
   {
@@ -226,6 +234,10 @@
         "en": "Automation is the project goal. Available records show implemented components and historical publication, not independent proof that every configured channel ran without intervention.",
         "ko": "완전 자동화는 프로젝트 목표입니다. 확인된 자료는 구현된 기능과 과거 게시 이력을 보여주며, 모든 채널의 모든 실행이 개입 없이 완료됐다는 독립 검증은 아닙니다."
       }
+    },
+    "overview": {
+      "en": "An AI-assisted system for automating YouTube channel production. It connects topic discovery, script and media creation, video composition, upload, and channel-performance feedback to support the next production cycle.",
+      "ko": "유튜브 채널 운영 전반을 자동화하기 위한 AI 기반 프로그램입니다. 소재 수집과 주제 선정부터 대본·이미지·음성·자막·영상 제작, 합성·업로드와 채널 성과 수집까지 연결하고 다음 제작에 활용합니다."
     }
   },
   {
@@ -259,7 +271,11 @@
         "en": "I received Hangame’s 2020 Developer of the Year award.",
         "ko": "2020년 한게임 올해의 개발자상을 수상했습니다."
       }
-    ]
+    ],
+    "overview": {
+      "en": "Purenista is a Japanese avatar-styling and social art app. Users combine character items, backgrounds, and templates to create digital artwork and share it with others.",
+      "ko": "Purenista는 아바타를 꾸미고 디지털 작품을 만들어 공유하는 일본 소셜 앱입니다. 사용자가 캐릭터 아이템과 배경·템플릿을 조합해 자신만의 이미지를 제작합니다."
+    }
   },
   {
     "id": "olobo",
@@ -290,7 +306,11 @@
         "en": "I managed build and release work for the US iOS launch and Android open beta.",
         "ko": "미국 iOS 정식 출시와 Android 오픈 베타를 위한 빌드·릴리스를 담당했습니다."
       }
-    ]
+    ],
+    "overview": {
+      "en": "OLOBO is a mobile app that turns a user’s recorded voice or text into animated content. AI analyzes the story and combines fitting 3D avatar animations and camera work to create a video.",
+      "ko": "OLOBO는 사용자가 녹음한 음성이나 입력한 텍스트를 AI가 분석해 콘텐츠로 만들어 주는 앱입니다. 이야기 내용에 맞는 3D 아바타 애니메이션과 카메라 워크 등을 조합해 영상을 제작합니다."
+    }
   },
   {
     "id": "trading-research",
@@ -300,6 +320,10 @@
     "name": "Binance Manual Wick Research",
     "status": "Research and demo environments",
     "statusKo": "연구 및 데모 환경",
-    "source": "Local README, source and commit e8cbe18; no exchange-account data used."
+    "source": "Local README, source and commit e8cbe18; no exchange-account data used.",
+    "overview": {
+      "en": "A research system for examining wick-reversal strategies in Binance futures markets. It compares historical backtests with demo execution to study signal and execution consistency.",
+      "ko": "바이낸스 선물 시장의 꼬리 반전 전략을 연구하는 시스템입니다. 과거 데이터 백테스트와 데모 실행을 비교해 신호와 실행 결과의 일치성을 살펴봅니다."
+    }
   }
 ]

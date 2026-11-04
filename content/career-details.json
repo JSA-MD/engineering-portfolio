@@ -22,15 +22,19 @@
         "en": "G2E 2019 exhibition footage",
         "ko": "2019 G2E 전시 영상"
       }
-    ]
+    ],
+    "overview": {
+      "en": "Golden Express is a casino slot-machine game created for Kangwon Land / KLSaberi. Players spin the reels and experience the game on a dedicated casino machine.",
+      "ko": "Golden Express는 강원랜드 / KLSaberi를 위해 개발한 카지노 슬롯머신 게임입니다. 전용 카지노 기기에서 슬롯을 돌리며 게임을 즐길 수 있도록 제작했습니다."
+    }
   },
   {
     "project": "FASSKER",
     "slug": "fassker",
     "notes": [
       {
-        "en": "FASSKER is a fashion social platform for sharing styles and digital content. I established its technical foundation in the company’s early stage.",
-        "ko": "FASSKER는 패션 스타일과 콘텐츠를 공유하는 소셜 플랫폼입니다. 회사 설립 초기 프로젝트의 기술 기반을 구축했습니다."
+        "en": "I established the project’s technical foundation in the company’s early stage.",
+        "ko": "회사 설립 초기 프로젝트의 기술 기반을 구축했습니다."
       },
       {
         "en": "I designed the client architecture and common framework, connecting the Unity application to a Spring Boot backend.",
@@ -47,15 +51,19 @@
         "en": "FASSKER product article (2022)",
         "ko": "FASSKER 제품 소개 기사 (2022)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "FASSKER is a fashion social application where users explore and share styles and fashion content.",
+      "ko": "FASSKER는 패션 스타일과 콘텐츠를 둘러보고 공유할 수 있는 패션 소셜 앱입니다."
+    }
   },
   {
     "project": "Machigai Breaker",
     "slug": "machigai-breaker",
     "notes": [
       {
-        "en": "Machigai Breaker is a Japanese mobile RPG that combines quizzes with turn-based combat. I worked on the project in Tokyo as lead programmer.",
-        "ko": "마치가이 브레이커는 퀴즈와 턴제 전투를 결합한 일본 모바일 RPG입니다. 도쿄에서 리드 프로그래머로 개발했습니다."
+        "en": "I worked on the project in Tokyo as lead programmer.",
+        "ko": "도쿄에서 리드 프로그래머로 프로젝트를 개발했습니다."
       },
       {
         "en": "I designed the Unity client architecture, developed gameplay systems, and resolved critical technical issues.",
@@ -72,31 +80,31 @@
         "en": "gamebiz product announcement (Japanese)",
         "ko": "gamebiz 제품 발표 기사 (일본어)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "Machigai Breaker is a Japanese mobile quiz RPG. Players identify the wrong answers among four choices to attack enemies and advance through battles.",
+      "ko": "마치가이 브레이커는 퀴즈와 RPG 전투를 결합한 일본 모바일 게임입니다. 4개의 선택지에서 틀린 답을 골라 적을 공격하며 모험을 진행합니다."
+    }
   },
   {
     "project": "VM Casino",
     "slug": "vm-casino",
     "notes": [
       {
-        "en": "VM Casino is a mobile social casino featuring slot games.",
-        "ko": "VM Casino는 다양한 슬롯 콘텐츠를 제공하는 모바일 소셜 카지노입니다."
-      },
-      {
         "en": "I developed and updated slot-game content and supported stability across mobile devices.",
         "ko": "슬롯 게임 콘텐츠와 업데이트를 개발하고 모바일 기기별 안정화 작업을 지원했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "VM Casino is a mobile social casino where users can play slot-game content on iOS and Android.",
+      "ko": "VM Casino는 iOS와 Android에서 슬롯 콘텐츠를 즐길 수 있는 모바일 소셜 카지노 앱입니다."
+    }
   },
   {
     "project": "Double Fortune Casino",
     "slug": "double-fortune-casino",
     "notes": [
-      {
-        "en": "Double Fortune Casino is a mobile social casino featuring Macau-inspired slots, bonus games, jackpots, and group chat.",
-        "ko": "Double Fortune Casino는 마카오풍 슬롯, 보너스 게임, 잭팟과 그룹 채팅을 제공하는 모바일 소셜 카지노입니다."
-      },
       {
         "en": "I developed the Unity client architecture, integrated it with the Spring Boot backend, and handled game data with MySQL.",
         "ko": "Unity 클라이언트 아키텍처와 Spring Boot 백엔드를 연동하고 MySQL 기반 게임 데이터 처리를 개발했습니다."
@@ -112,15 +120,19 @@
         "en": "APKPure game listing",
         "ko": "APKPure 게임 페이지"
       }
-    ]
+    ],
+    "overview": {
+      "en": "Double Fortune Casino is a mobile social casino featuring Macau-inspired slot machines. Players can enjoy themed slots, bonus games, free spins, jackpots, and group chat.",
+      "ko": "Double Fortune Casino는 마카오풍 슬롯을 제공하는 모바일 소셜 카지노입니다. 테마별 슬롯과 보너스 게임, 무료 스핀과 잭팟을 즐기고 다른 이용자와 채팅할 수 있습니다."
+    }
   },
   {
     "project": "S4 League",
     "slug": "s4-league",
     "notes": [
       {
-        "en": "S4 League is an online action shooter. I maintained its established PC game client and supported the live service.",
-        "ko": "S4 League는 온라인 액션 슈팅 게임입니다. 기존 PC 게임 클라이언트의 유지보수와 라이브 서비스를 담당했습니다."
+        "en": "I maintained the PC game client and supported the live service.",
+        "ko": "PC 게임 클라이언트 유지보수와 라이브 서비스를 담당했습니다."
       },
       {
         "en": "I analyzed the C/C++ codebase, maintained DirectX client systems, and investigated production issues.",
@@ -137,7 +149,11 @@
         "en": "S4 League store page (later release)",
         "ko": "S4 League 스토어 페이지 (후기 버전)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "S4 League is an online PC action shooter in which players compete using fast movement, weapons, and team-based game modes.",
+      "ko": "S4 League는 빠른 이동과 다양한 무기를 활용해 팀 대전을 즐기는 PC 온라인 액션 슈팅 게임입니다."
+    }
   },
   {
     "project": "Pmang Vegas Royal Casino · Smart TV",
@@ -152,7 +168,11 @@
         "ko": "리모컨 입력과 TV 내비게이션을 구현하고 애플리케이션을 TV 플랫폼과 연동했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "Pmang Vegas Royal Casino is a social casino adapted for Samsung Smart TV, allowing users to navigate and play on a television with a remote control.",
+      "ko": "피망 베가스 로열 카지노를 삼성 스마트 TV에서 이용할 수 있도록 포팅한 프로젝트입니다. 이용자는 TV 리모컨으로 화면을 탐색하고 게임을 즐길 수 있습니다."
+    }
   },
   {
     "project": "Arcade Games & Enjoy Derby",
@@ -171,16 +191,16 @@
         "ko": "아케이드 게임 약 20종의 개발과 상용화에 참여했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "A collection of arcade games and a Japan-focused online horse-racing system designed for dedicated game hardware.",
+      "ko": "전용 게임 하드웨어에서 동작하는 아케이드 게임들과 일본 시장을 위한 온라인 경마 시스템입니다."
+    }
   },
   {
     "project": "Warbane",
     "slug": "warbane",
     "notes": [
-      {
-        "en": "Warbane: Rising of Darkness is a fantasy MMORPG centered on battles between factions.",
-        "ko": "워베인: 어둠의 부활은 진영 간 전쟁과 모험을 중심으로 한 판타지 MMORPG입니다."
-      },
       {
         "en": "I developed game-server and business logic in C/C++, built Linux server applications, and handled persistent game data with PostgreSQL.",
         "ko": "C/C++ 게임 서버와 비즈니스 로직, Linux 서버 애플리케이션과 PostgreSQL 데이터 처리를 개발했습니다."
@@ -196,30 +216,34 @@
         "en": "Warbane product article (2010)",
         "ko": "워베인 공개 기사 (2010)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "Warbane: Rising of Darkness is a fantasy MMORPG set in a medieval European-inspired world. Players join factions, explore, and participate in large-scale battles.",
+      "ko": "워베인: 어둠의 부활은 중세 유럽풍 판타지 세계를 배경으로 한 MMORPG입니다. 이용자들은 진영에 참여해 모험하고 대규모 전투를 펼칩니다."
+    }
   },
   {
     "project": "Project N",
     "slug": "project-n",
     "notes": [
       {
-        "en": "Project N is an MMORPG development project using Unreal Engine 3.",
-        "ko": "Project N은 Unreal Engine 3를 기반으로 한 MMORPG 개발 프로젝트입니다."
-      },
-      {
         "en": "I integrated Scaleform with the game engine and developed the game’s user interfaces.",
         "ko": "게임 엔진에 Scaleform을 연동하고 게임 사용자 인터페이스를 개발했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "Project N is an MMORPG development project built with Unreal Engine 3, combining a game client and graphical user interfaces.",
+      "ko": "Project N은 Unreal Engine 3를 기반으로 개발한 MMORPG 프로젝트입니다. 게임 클라이언트와 이용자 인터페이스를 구성했습니다."
+    }
   },
   {
     "project": "PangYa / Online Game Client",
     "slug": "pangya",
     "notes": [
       {
-        "en": "PangYa is an online casual golf game. I contributed to the PC game client and live product.",
-        "ko": "팡야는 온라인 캐주얼 골프 게임입니다. PC 게임 클라이언트와 서비스 개발에 참여했습니다."
+        "en": "I contributed to the PC game client and live product.",
+        "ko": "PC 게임 클라이언트와 서비스 개발에 참여했습니다."
       },
       {
         "en": "I developed C/C++ client features, DirectX rendering, and game logic, and supported operation after release.",
@@ -232,7 +256,11 @@
         "en": "PangYa product article (2009)",
         "ko": "팡야 제품 소개 기사 (2009)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "PangYa is an online casual golf game where players compete on golf courses using distinctive characters and shot mechanics.",
+      "ko": "팡야는 캐릭터를 선택하고 다양한 코스에서 샷을 겨루는 온라인 캐주얼 골프 게임입니다."
+    }
   },
   {
     "project": "Online Games & 3D Engine",
@@ -247,7 +275,11 @@
         "ko": "게임 제작에 필요한 애니메이션·지형·콘텐츠 제작 도구를 개발했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "Online game development for the Japanese market, including a custom 3D golf-game engine and tools used to create game content.",
+      "ko": "일본 시장을 대상으로 한 온라인 게임 개발 프로젝트입니다. 자체 3D 골프 게임 엔진과 게임 콘텐츠 제작 도구를 포함합니다."
+    }
   },
   {
     "project": "Game & 3D Programming Education",
@@ -268,7 +300,11 @@
         "en": "Hanbit Digital Campus article (2002)",
         "ko": "한빛디지털캠퍼스 기사 (2002)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "A game and 3D engine programming curriculum that helps students learn graphics programming and build project portfolios.",
+      "ko": "게임·3D 엔진 프로그래밍을 배우고 직접 프로젝트 포트폴리오를 만드는 교육 과정입니다."
+    }
   },
   {
     "project": "PC Online Casual Games",
@@ -283,7 +319,11 @@
         "ko": "게임 구조와 이벤트·상태·사운드 시스템을 담당했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "PC online casual games and the content-production tools used to create and operate them.",
+      "ko": "이용자가 PC에서 즐기는 온라인 캐주얼 게임과 게임 콘텐츠 제작을 위한 도구입니다."
+    }
   },
   {
     "project": "3D Subway Simulator",
@@ -304,7 +344,11 @@
         "en": "VRStaff subway simulation article (2000)",
         "ko": "VRStaff 지하철 시뮬레이션 기사 (2000)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "A real-time 3D subway driving simulation for the Incheon subway, recreating railway environments such as stations, tracks, and tunnels.",
+      "ko": "인천 지하철 운행 환경을 3D로 재현하는 실시간 시뮬레이션입니다. 역·선로·터널 등의 환경을 화면에 표시합니다."
+    }
   },
   {
     "project": "Medical PC Software",
@@ -319,7 +363,11 @@
         "ko": "업무 유틸리티와 C/C++ 라이브러리를 개발하고 RS232C 시리얼 통신으로 전광판 하드웨어를 제어했습니다."
       }
     ],
-    "links": []
+    "links": [],
+    "overview": {
+      "en": "PC software for medical insurance and patient-care administration, with utilities and hardware communication supporting day-to-day work.",
+      "ko": "의료보험과 환자 진료 업무를 처리하는 PC 소프트웨어입니다. 업무 유틸리티와 외부 장치 통신 기능을 함께 제공합니다."
+    }
   },
   {
     "project": "PC Package Game Internship",
@@ -340,6 +388,10 @@
         "en": "Mirinae Software company profile (1997)",
         "ko": "미리내소프트웨어 소개 기사 (1997)"
       }
-    ]
+    ],
+    "overview": {
+      "en": "A PC packaged-game development project carried out at Mirinae Software.",
+      "ko": "미리내소프트웨어에서 진행한 PC 패키지 게임 개발 프로젝트입니다."
+    }
   }
 ]
