@@ -65,10 +65,11 @@
         "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7476278336042741760/"
       },
       {
-        "src": "/assets/claude-payment-redacted.jpg",
-        "alt": "결제 날짜와 금액을 가린 Claude Code 결제 화면",
-        "captionEn": "Claude Code payment history · dates and amounts redacted",
-        "captionKo": "Claude Code 결제 내역 · 날짜와 금액 가림"
+        "src": "/assets/claude-payment.jpg",
+        "alt": "Claude Code 결제 날짜와 금액 내역",
+        "captionEn": "Claude Code payment history",
+        "captionKo": "Claude Code 결제 내역",
+        "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7476279582908706816/"
       }
     ]
   },
