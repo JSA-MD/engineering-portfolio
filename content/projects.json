@@ -325,5 +325,34 @@
       "en": "A research system for examining wick-reversal strategies in Binance futures markets. It compares historical backtests with demo execution to study signal and execution consistency.",
       "ko": "바이낸스 선물 시장의 꼬리 반전 전략을 연구하는 시스템입니다. 과거 데이터 백테스트와 데모 실행을 비교해 신호와 실행 결과의 일치성을 살펴봅니다."
     }
+  },
+  {
+    "id": "trend-trading",
+    "number": "02",
+    "category": "AI-ASSISTED ENGINEERING / RESEARCH",
+    "year": "2026",
+    "name": "Trend Trading Workspace",
+    "nameKo": "Trend Trading (추세 전략 연구 시스템)",
+    "status": "Independent research and monitoring workspace",
+    "statusKo": "독립 연구·모니터링 워크스페이스",
+    "source": "Local project README and code; research and simulation results are not proof of live performance.",
+    "overview": {
+      "en": "A workspace for researching trend strategies using market data. It brings together strategy backtests, paper trading and operational monitoring in a web application developed with AI assistance.",
+      "ko": "시장 데이터를 바탕으로 추세 전략을 연구하는 워크스페이스입니다. 백테스트와 모의매매, 운영 감시를 하나의 웹 애플리케이션에서 다룰 수 있도록 AI 협업 개발을 활용해 구축했습니다."
+    },
+    "roleDetails": [
+      {
+        "en": "I built a FastAPI backend and React dashboard to collect market data, run strategy experiments, and inspect research results.",
+        "ko": "시장 데이터 수집과 전략 실험, 연구 결과 확인을 위해 FastAPI 백엔드와 React 대시보드를 구축했습니다."
+      },
+      {
+        "en": "I connected historical simulation, paper-trading workflows and monitoring views so that research and system operation can be reviewed in one place.",
+        "ko": "과거 데이터 시뮬레이션과 모의매매, 모니터링 화면을 연결해 연구와 시스템 운영을 한곳에서 살펴볼 수 있도록 했습니다."
+      },
+      {
+        "en": "I used AI coding tools to support implementation and iterative review while preserving the distinction between research results, simulated trades and actual trading.",
+        "ko": "AI 코딩 도구를 구현과 반복 검토에 활용하고, 연구 결과·모의매매·실제 거래를 구분해 확인할 수 있도록 구성했습니다."
+      }
+    ]
   }
 ]

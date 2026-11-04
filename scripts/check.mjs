@@ -30,6 +30,10 @@ if((careerHtml.match(/data-career-group/g)||[]).length!==career.length)throw Err
 if((careerHtml.match(/class="career-project"/g)||[]).length!==careerProjects.length)throw Error('career projects missing from built page');
 const labHtml=await readFile('dist/lab/index.html','utf8');
 if((labHtml.match(/class="career-project"/g)||[]).length!==careerProjects.filter(p=>p.career===0).length)throw Error('independent projects missing from AI lab');
+const homeHtml=await readFile('dist/index.html','utf8');
+const aiGroup=homeHtml.match(/<section class="overview-project-group ai-project-group"[\s\S]*?<\/section>/)?.[0];
+const commercialGroup=homeHtml.match(/<section class="overview-project-group commercial-project-group"[\s\S]*?<\/section>/)?.[0];
+if(!aiGroup||!commercialGroup||!aiGroup.includes('/work/epic-studio/')||!aiGroup.includes('/work/trend-trading/')||!aiGroup.includes('/work/olobo/')||!aiGroup.includes('상용 프로젝트')||(aiGroup.match(/overview-project is-spotlight/g)||[]).length!==2||!commercialGroup.includes('/work/machigai-breaker/'))throw Error('featured AI and commercial project groups are incomplete');
 const briefs=[...careerHtml.matchAll(/<div class="project-brief">([\s\S]*?)<\/div>/g)];
 if(briefs.length!==careerProjects.length || briefs.some(x=>(x[1].match(/<p(?:\s[^>]*)?>/g)||[]).length!==5))throw Error('Each project must have three description lines, skills and highlight');
 for(const p of projects){const html=await readFile(join('dist','work',p.id,'index.html'),'utf8');if(!p.overview?.en||!p.overview?.ko||!html.includes('class="project-overview"'))throw Error(`${p.id}: missing bilingual project overview`);if(/THE PROBLEM|THE SYSTEM|해결할 문제|구현 방식/.test(html))throw Error(`${p.id}: old detailed sections remain`);if((html.match(/class="project-brief"/g)||[]).length!==1)throw Error(`${p.id}: missing project brief`);if(p.roleDetails?.length&&html.indexOf('class="project-overview"')>html.indexOf('class="project-role"'))throw Error(`${p.id}: overview must precede role`);}
