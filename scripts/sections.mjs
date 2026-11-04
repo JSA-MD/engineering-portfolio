@@ -6,6 +6,9 @@ export function makeSections({ t, esc, projects, careerEntries, careerProjects }
   const localize = (en, ko) => t(en, ko);
   const projectLink = p => p.detail || (p.slug ? '/lab/#project-'+p.slug : '/career/#career-'+p.career);
   const thumbnail = (p, interactive = true) => {
+    if (p.media?.type === 'external') {
+      return `<a class="media-empty" href="${esc(p.media.url)}" target="_blank" rel="noopener noreferrer"><span>${esc(p.name.split(' ').slice(0,2).map(x=>x[0]).join('').toUpperCase())}</span><small>${localize('View public product artwork ↗','공개 제품 이미지 보기 ↗')}</small></a>`;
+    }
     if (p.media?.type === 'channel') {
       const img = `<img class="channel-art-image" src="${esc(p.media.src)}" alt="${esc(p.name)}" loading="lazy">`;
       return interactive ? `<a class="channel-art" href="${esc(p.media.channelUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(p.name)} YouTube channel">${img}</a>` : img;
@@ -25,7 +28,7 @@ export function makeSections({ t, esc, projects, careerEntries, careerProjects }
     }
     return `<div class="media-empty"><span>${esc(p.name.split(' ').slice(0,2).map(x=>x[0]).join('').toUpperCase())}</span><small>${localize('Media not yet verified','확인된 화면·영상 없음')}</small></div>`;
   };
-  const mediaSource = p => p.media ? `<p class="media-source">${localize(p.media.source,p.media.sourceKo)}${p.media.type==='youtube'?` · <a href="https://www.youtube.com/watch?v=${esc(p.media.id)}" target="_blank" rel="noopener noreferrer">YouTube ↗</a>`:''}${p.media.channelUrl?` · <a href="${esc(p.media.channelUrl)}" target="_blank" rel="noopener noreferrer">${localize('Channel','채널')} ↗</a>`:''}</p>` : `<p class="media-source">${localize('No verified screen or video available.','공개 가능한 화면·영상을 아직 확인하지 못했습니다.')}</p>`;
+  const mediaSource = p => p.media ? `<p class="media-source">${localize(p.media.source,p.media.sourceKo)}${p.media.type==='youtube'?` · <a href="https://www.youtube.com/watch?v=${esc(p.media.id)}" target="_blank" rel="noopener noreferrer">YouTube ↗</a>`:''}${p.media.listingUrl?` · <a href="${esc(p.media.listingUrl)}" target="_blank" rel="noopener noreferrer">${localize('Product listing','제품 페이지')} ↗</a>`:''}${p.media.channelUrl?` · <a href="${esc(p.media.channelUrl)}" target="_blank" rel="noopener noreferrer">${localize('Channel','채널')} ↗</a>`:''}</p>` : `<p class="media-source">${localize('No verified screen or video available.','공개 가능한 화면·영상을 아직 확인하지 못했습니다.')}</p>`;
   const brief = p => `<div class="project-brief">${p.description.map((line,i)=>`<p${i?' class="brief-continuation"':''}>${i?'':`<strong>${localize('PROJECT','프로젝트')}</strong> `}${localize(line,p.descriptionKo[i])}</p>`).join('')}<p><strong>${localize('SKILLS','사용 기술')}</strong> ${esc(p.skills)}</p><p><strong>${localize('HIGHLIGHT','핵심 성과')}</strong> ${localize(p.highlight,p.highlightKo)}</p></div>`;
   const featuredCard = p => `<a class="feature-card" href="${esc(projectLink(p))}"><div class="feature-media">${thumbnail(p,false)}<span class="feature-badge">${p.media?.type==='video'?localize('AI VIDEO SAMPLE','AI 영상 발췌'):p.media?.type==='youtube'?localize('VIDEO','영상'):p.media?.type==='channel'?localize('CHANNEL','채널'):p.media?.type==='image'?localize('SCREENSHOT','실제 화면'):localize('MEDIA UNAVAILABLE','미디어 미확보')}</span></div><div class="feature-content"><p class="feature-meta">${p.period?localize(p.period,p.periodKo):esc(careerEntries[p.career].period)} · ${localize(careerEntries[p.career].company,careerEntries[p.career].companyKo)}</p><h3>${localize(p.name,p.nameKo)}</h3>${brief(p)}<strong>${localize('VIEW PROJECT','프로젝트 보기')} ↗</strong></div></a>`;
   const featureGrid = `<div class="feature-grid">${ids.map((name,i)=>featuredCard(projectByName(name),i)).join('')}</div>`;

@@ -582,20 +582,26 @@
     "career": 7,
     "name": "Double Fortune Casino",
     "nameKo": "Double Fortune Casino",
-    "summary": "Mobile social casino game with multiple slot experiences.",
-    "summaryKo": "다양한 슬롯을 제공하는 모바일 소셜 카지노 게임.",
-    "media": null,
+    "summary": "A mobile social casino featuring themed slot machines and bonus games.",
+    "summaryKo": "테마별 슬롯과 보너스 게임을 제공하는 모바일 소셜 카지노.",
+    "media": {
+      "type": "external",
+      "url": "https://image.winudf.com/v2/image/Y29tLmRpYW1vbmRnYW1lcy5kb3VibGVmb3J0dW5lY2FzaW5vX3NjcmVlbl8wXzE1Mjg3Njg4OThfMDA3/screen-0.jpg?fakeurl=1&type=.jpg",
+      "listingUrl": "https://apkpure.com/double-fortune-casino-%E2%80%93-free-slots-games/com.diamondgames.doublefortunecasino",
+      "source": "APKPure product artwork · external image, not gameplay footage",
+      "sourceKo": "APKPure 제품 홍보 이미지 · 외부 이미지이며 실제 플레이 영상은 아닙니다"
+    },
     "detail": null,
     "skills": "Unity3D · C# · Spring Boot · MySQL",
     "highlight": "iOS / Android release; eight casino titles for China (résumé).",
     "highlightKo": "iOS·Android 출시 및 중국향 카지노 8종 개발·출시(경력 문서).",
     "description": [
-      "A social casino with multiple slot experiences.",
+      "A mobile social casino featuring themed slots and bonus games.",
       "Developed client architecture and backend integration.",
       "Supported mobile releases and related casino titles."
     ],
     "descriptionKo": [
-      "다양한 슬롯을 제공하는 모바일 소셜 카지노입니다.",
+      "테마별 슬롯과 보너스 게임을 제공하는 모바일 소셜 카지노입니다.",
       "클라이언트 구조와 백엔드 연동을 개발했습니다.",
       "모바일 출시와 관련 카지노 게임 개발에 참여했습니다."
     ]
