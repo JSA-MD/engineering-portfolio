@@ -25,10 +25,12 @@
       "metric": "~3 × / week",
       "titleEn": "Still training about three times a week",
       "titleKo": "현재도 주 3회가량 운동",
-      "bodyEn": "Since 2023, I have continued weight training and high-intensity interval training about three times a week, and I still keep up the routine today.",
-      "bodyKo": "2023년부터 현재까지 매주 3회가량 웨이트 트레이닝과 고강도 인터벌 운동을 꾸준히 이어가고 있습니다.",
+      "bodyEn": "I continue to combine weight training with high-intensity interval training.",
+      "bodyKo": "웨이트 트레이닝과 고강도 인터벌 운동을 병행하며 꾸준히 운동하고 있습니다.",
       "periodEn": "2023—Present",
-      "periodKo": "2023—현재"
+      "periodKo": "2023—현재",
+      "metricKo": "주 3회",
+      "metricEn": "3 times / week"
     }
   ],
   "recognition": {
