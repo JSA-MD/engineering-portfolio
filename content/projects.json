@@ -237,7 +237,29 @@
     "status": "Commercial project · résumé-reported impact",
     "statusKo": "상용 프로젝트 · 이력서에 기록된 성과",
     "link": "https://www.purenista.jp/",
-    "source": "Supplied technical résumé; official product site. Metrics are self-reported."
+    "source": "Supplied technical résumé; official product site. Metrics are self-reported.",
+    "roleDetails": [
+      {
+        "en": "I designed the client architecture for Purenista, a Japanese social app for creating and sharing avatar artwork.",
+        "ko": "아바타 스타일링과 작품 공유를 위한 일본 소셜 앱 Purenista의 클라이언트 아키텍처를 설계했습니다."
+      },
+      {
+        "en": "I built a native C++ image-processing engine and integrated it with React Native, Swift, and Kotlin so the same engine could run on iOS and Android.",
+        "ko": "네이티브 C++ 이미지 처리 엔진을 개발하고 React Native·Swift·Kotlin과 연동해 iOS와 Android에서 공통으로 사용하도록 구성했습니다."
+      },
+      {
+        "en": "I reduced image composition from over 40 seconds to within 5 seconds, and output size from over 30 MB to within 3 MB.",
+        "ko": "이미지 합성 시간을 40초 이상에서 5초 이내로 단축하고 생성 이미지 크기를 30MB 이상에서 3MB 이하로 줄였습니다."
+      },
+      {
+        "en": "I also developed backend business logic and database schemas, and supported the product’s Japanese iOS and Android launch.",
+        "ko": "백엔드 비즈니스 로직과 데이터베이스 스키마를 개발하고 일본 iOS·Android 상용화를 지원했습니다."
+      },
+      {
+        "en": "I received Hangame’s 2020 Developer of the Year award.",
+        "ko": "2020년 한게임 올해의 개발자상을 수상했습니다."
+      }
+    ]
   },
   {
     "id": "olobo",
@@ -250,7 +272,25 @@
     "source": "User-supplied technical résumé; underlying incident data unavailable for independent verification.",
     "link": "https://www.youtube.com/@olobo.official/videos",
     "linkLabel": "Official YouTube channel",
-    "linkLabelKo": "공식 YouTube 채널"
+    "linkLabelKo": "공식 YouTube 채널",
+    "roleDetails": [
+      {
+        "en": "I led the application architecture and built the core framework connecting the Unity client, backend services, and database.",
+        "ko": "전체 애플리케이션 아키텍처와 코어 프레임워크를 설계하고 Unity 클라이언트·백엔드·데이터베이스를 연결했습니다."
+      },
+      {
+        "en": "I integrated AI prompts, TTS, voice, and 3D avatars, and built an animation pipeline that converts generated content into video and a custom animation format.",
+        "ko": "AI 프롬프트·TTS·음성·3D 아바타를 통합하고 생성 애니메이션을 영상과 자체 애니메이션 형식으로 변환하는 파이프라인을 구축했습니다."
+      },
+      {
+        "en": "I traced an intermittent iOS-only crash using execution sequences, profiling, and logs. I identified an overflow in an external math library and fixed the calculation.",
+        "ko": "실행 순서 분석과 프로파일링·로그를 통해 iOS에서만 불규칙하게 발생하던 충돌을 추적하고, 외부 수학 라이브러리의 오버플로 연산을 수정했습니다."
+      },
+      {
+        "en": "I managed build and release work for the US iOS launch and Android open beta.",
+        "ko": "미국 iOS 정식 출시와 Android 오픈 베타를 위한 빌드·릴리스를 담당했습니다."
+      }
+    ]
   },
   {
     "id": "trading-research",
