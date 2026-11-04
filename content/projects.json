@@ -507,52 +507,85 @@
     ],
     "images": [
       {
-        "src": "/assets/trend-dashboard-redacted.jpg",
-        "alt": "Trend Trading dashboard with sensitive operating and account information redacted",
-        "caption": "Dashboard · operating and account information redacted",
-        "captionKo": "대시보드 · 운영·계좌 정보 가림"
+        "src": "/assets/trend-screens/dashboard.jpg",
+        "alt": "Trend Trading Dashboard",
+        "caption": "Dashboard",
+        "captionKo": "대시보드",
+        "description": "A full view of operational status, positions, signals, strategy research and rankings at the capture time.",
+        "descriptionKo": "운영 상태와 포지션, 신규 시그널, 전략 연구 및 랭킹을 한 화면에서 확인합니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-pnl-redacted.jpg",
-        "alt": "Trend Trading profit and loss analysis with private figures and chart redacted",
-        "caption": "Profit and loss analysis · figures and chart redacted",
-        "captionKo": "손익 분석 · 수치와 차트 가림"
+        "src": "/assets/trend-screens/live.jpg",
+        "alt": "Trend Trading Live trading management",
+        "caption": "Live trading management",
+        "captionKo": "실거래 관리",
+        "description": "The live trading view requires an administrator token; this capture shows the access prompt.",
+        "descriptionKo": "실거래 관리 화면은 관리자 토큰이 필요하며, 캡처에는 인증 요청 화면이 표시됩니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-paper-redacted.jpg",
-        "alt": "Trend Trading paper trading view with figures redacted",
-        "caption": "Paper trading · figures redacted; simulated trades",
-        "captionKo": "모의매매 · 수치 가림, 실거래 아님"
+        "src": "/assets/trend-screens/profit.jpg",
+        "alt": "Trend Trading Profit and loss analysis",
+        "caption": "Profit and loss analysis",
+        "captionKo": "손익 분석",
+        "description": "Review realized and unrealized profit and loss, trade counts and period-based breakdowns.",
+        "descriptionKo": "실현·미실현 손익, 거래 건수와 기간별 내역을 확인합니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-portfolio-redacted.jpg",
-        "alt": "Trend Trading portfolio simulation with figures and rows redacted",
-        "caption": "Portfolio simulation · results and rows redacted",
-        "captionKo": "포트폴리오 시뮬레이션 · 결과와 내역 가림"
+        "src": "/assets/trend-screens/paper.jpg",
+        "alt": "Trend Trading Paper trading",
+        "caption": "Paper trading",
+        "captionKo": "모의매매",
+        "description": "Monitor simulated positions and the paper-trading ledger; the results are not live fills.",
+        "descriptionKo": "모의 포지션과 매매 원장을 살펴보는 화면으로, 실거래 체결 결과와 구분합니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-strategy-redacted.jpg",
-        "alt": "Trend Trading strategy research comparison with numeric results redacted",
-        "caption": "Strategy research comparison · historical figures redacted",
-        "captionKo": "매매전략 연구 비교 · 과거 결과 수치 가림"
+        "src": "/assets/trend-screens/portfolio.jpg",
+        "alt": "Trend Trading Portfolio simulation",
+        "caption": "Portfolio simulation",
+        "captionKo": "포트폴리오 시뮬레이션",
+        "description": "Compare historical strategy simulations with a buy-and-hold baseline.",
+        "descriptionKo": "과거 데이터에서 전략별 포트폴리오 시뮬레이션과 단순 보유를 비교합니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-analyzer.jpg",
-        "alt": "Trend Trading coin analyzer with a privacy filter applied",
-        "caption": "Coin analyzer · search filter applied for presentation",
-        "captionKo": "코인 분석기 · 검색 필터 적용"
+        "src": "/assets/trend-screens/strategy.jpg",
+        "alt": "Trend Trading Strategy research",
+        "caption": "Strategy research",
+        "captionKo": "매매전략",
+        "description": "Inspect strategy conditions and historical research comparisons in the dashboard.",
+        "descriptionKo": "대시보드에서 전략의 진입·청산 조건과 과거 연구 결과를 비교합니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-experiments.jpg",
-        "alt": "Trend Trading research library header",
-        "caption": "Experiment library · cropped to omit financial information",
-        "captionKo": "실험 기록 · 화면 일부"
+        "src": "/assets/trend-screens/analyzer.jpg",
+        "alt": "Trend Trading Coin analyzer",
+        "caption": "Coin analyzer",
+        "captionKo": "코인 분석기",
+        "description": "Compare market cycles, moving-average combinations and coin-level research results.",
+        "descriptionKo": "코인별 가격 사이클과 이동평균 조합, 연구 결과를 비교합니다.",
+        "originalLink": true
       },
       {
-        "src": "/assets/trend-insights-redacted.jpg",
-        "alt": "Trend Trading research insights with figures redacted",
-        "caption": "Research insights · backtest figures redacted",
-        "captionKo": "연구 인사이트 · 백테스트 수치 가림"
+        "src": "/assets/trend-screens/experiment.jpg",
+        "alt": "Trend Trading Experiment record · one expanded example",
+        "caption": "Experiment record · one expanded example",
+        "captionKo": "실험 기록 · 상세를 펼친 예시 1건",
+        "description": "An expanded short-strategy research record shows the conditions, comparison table and research-only conclusion.",
+        "descriptionKo": "숏 전략 재검증 기록 한 건을 펼쳐 실험 조건과 비교표, 연구 단계 결론을 보여줍니다.",
+        "originalLink": true
+      },
+      {
+        "src": "/assets/trend-screens/insights.jpg",
+        "alt": "Trend Trading Insights",
+        "caption": "Insights",
+        "captionKo": "인사이트",
+        "description": "Explore historical moving-average combinations and coin-level summaries.",
+        "descriptionKo": "과거 이동평균 조합과 코인별 분석 결과를 살펴봅니다.",
+        "originalLink": true
       }
     ],
     "engineeringStory": [
@@ -596,7 +629,8 @@
       "type": "diagram",
       "source": "System overview · illustrative architecture diagram",
       "sourceKo": "시스템 구성도 · 개념 다이어그램"
-    }
+    },
+    "fullScreens": true
   },
   {
     "id": "ai-studio-news-collector",
