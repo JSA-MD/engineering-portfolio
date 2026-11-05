@@ -662,8 +662,8 @@
     ],
     "detailMedia": {
       "type": "diagram",
-      "source": "System overview · illustrative architecture diagram",
-      "sourceKo": "시스템 구성도 · 개념 다이어그램"
+      "source": "System architecture based on project code",
+      "sourceKo": "프로젝트 코드 기반 시스템 구성도"
     },
     "fullScreens": true
   },
