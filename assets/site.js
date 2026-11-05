@@ -7,20 +7,22 @@
   const get = key => { try { return localStorage.getItem(key); } catch { return null; } };
   const set = (key,value) => { try { localStorage.setItem(key,value); } catch {} };
   function applyLanguage(lang) {
-    const selected = lang === 'ko' ? 'ko' : 'en';
+    const selected = ['ko','en','ja'].includes(lang) ? lang : 'en';
     doc.lang = selected;
     document.querySelectorAll('[data-en][data-ko]').forEach(el => { el.textContent = el.getAttribute(`data-${selected}`); });
-    language.textContent = selected === 'en' ? 'KO' : 'EN';
-    language.setAttribute('aria-label', selected === 'en' ? 'Switch to Korean' : 'Switch to English');
-    document.querySelector('.style-switch').setAttribute('aria-label', selected === 'ko' ? '디자인 스타일' : 'Design style');
+    language.value = selected;
+    document.querySelector('.style-switch').setAttribute('aria-label', {ko:'디자인 스타일',en:'Design style',ja:'デザインスタイル'}[selected]);
+    document.querySelector('.skip').textContent = {ko:'본문으로 건너뛰기',en:'Skip to content',ja:'本文へスキップ'}[selected];
+    document.querySelector('.close-dialog').setAttribute('aria-label', {ko:'이미지 닫기',en:'Close image',ja:'画像を閉じる'}[selected]);
+    const searchInput = document.querySelector('#career-search');
+    if (searchInput) searchInput.placeholder = {ko:'회사·프로젝트 검색',en:'Search companies and projects',ja:'会社・プロジェクトを検索'}[selected];
     updateThemeLabel();
-    set('portfolio-language', selected);
     if (typeof updateCareer === 'function') updateCareer();
   }
   function updateThemeLabel() {
     const next = doc.dataset.theme === 'dark' ? 'light' : 'dark';
     theme.textContent = doc.dataset.theme === 'dark' ? '☼' : '☾';
-    theme.setAttribute('aria-label', doc.lang === 'ko' ? (next === 'light' ? '밝은 화면으로 전환' : '어두운 화면으로 전환') : `Switch to ${next} mode`);
+    theme.setAttribute('aria-label', doc.lang === 'ko' ? (next === 'light' ? '밝은 화면으로 전환' : '어두운 화면으로 전환') : doc.lang === 'ja' ? (next === 'light' ? 'ライトモードに切り替え' : 'ダークモードに切り替え') : `Switch to ${next} mode`);
   }
   function applyStyle(style) {
     doc.dataset.style = styleChoices.some(button => button.dataset.styleChoice === style) ? style : defaultStyle;
@@ -29,7 +31,7 @@
   }
   applyStyle(doc.dataset.style);
   styleChoices.forEach(button => button.addEventListener('click', () => applyStyle(button.dataset.styleChoice)));
-  language.addEventListener('click', () => applyLanguage(doc.lang === 'en' ? 'ko' : 'en'));
+  language.addEventListener('change', () => { set('portfolio-language-choice-v2',language.value); applyLanguage(language.value); });
   theme.addEventListener('click', () => { doc.dataset.theme = doc.dataset.theme === 'dark' ? 'light' : 'dark'; set('portfolio-theme', doc.dataset.theme); updateThemeLabel(); });
   const historyToggles = [...document.querySelectorAll('.home-career-toggle')];
   function setHistoryExpanded(expanded) {
@@ -41,7 +43,8 @@
       const label = button.querySelector('[data-en][data-ko]');
       label.dataset.en = expanded ? 'Hide career history' : 'More career history';
       label.dataset.ko = expanded ? '이력사항 접기' : '이력사항 자세히 보기';
-      label.textContent = label.dataset[doc.lang === 'ko' ? 'ko' : 'en'];
+      label.dataset.ja = expanded ? '経歴を閉じる' : '職務経歴をもっと見る';
+      label.textContent = label.dataset[doc.lang];
       button.querySelector('[aria-hidden="true"]').textContent = expanded ? '↑' : '↓';
     });
   }
@@ -81,7 +84,7 @@
       group.hidden = groupCount === 0;
     });
     document.querySelector('.career-empty').hidden = shown !== 0;
-    document.querySelector('#career-count').textContent = doc.lang === 'ko' ? `프로젝트 ${shown}개` : `${shown} project${shown === 1 ? '' : 's'}`;
+    document.querySelector('#career-count').textContent = doc.lang === 'ko' ? `프로젝트 ${shown}개` : doc.lang === 'ja' ? `${shown}件のプロジェクト` : `${shown} project${shown === 1 ? '' : 's'}`;
   }
   if (search) {
     search.addEventListener('input', updateCareer);
@@ -92,5 +95,7 @@
     }));
     updateCareer();
   }
-  applyLanguage(get('portfolio-language') || 'en');
+  const savedLanguage = get('portfolio-language-choice-v2');
+  const browserLanguage = (navigator.languages?.length ? navigator.languages : [navigator.language]).map(value => String(value || '').toLowerCase().split('-')[0]).find(value => ['ko','en','ja'].includes(value));
+  applyLanguage(['ko','en','ja'].includes(savedLanguage) ? savedLanguage : (browserLanguage || 'en'));
 })();
