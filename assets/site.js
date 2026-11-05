@@ -10,6 +10,8 @@
     const selected = ['ko','en','ja'].includes(lang) ? lang : 'en';
     doc.lang = selected;
     document.querySelectorAll('[data-en][data-ko]').forEach(el => { el.textContent = el.getAttribute(`data-${selected}`); });
+    const visibleHeading = [...document.querySelectorAll('main h1')].find(el => el.getClientRects().length);
+    if (visibleHeading?.textContent.trim()) document.title = `${visibleHeading.textContent.trim().replace(/\s+/g, ' ')} | Jinseong Ahn`;
     language.value = selected;
     document.querySelector('.style-switch').setAttribute('aria-label', {ko:'디자인 스타일',en:'Design style',ja:'デザインスタイル'}[selected]);
     document.querySelector('.skip').textContent = {ko:'본문으로 건너뛰기',en:'Skip to content',ja:'本文へスキップ'}[selected];
