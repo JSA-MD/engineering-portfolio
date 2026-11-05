@@ -206,3 +206,4 @@ html[data-style=overview] .button.primary:hover{background:#7f2d1c}
 .detail-main{min-width:0}.trend-system,.trend-system-scroll{min-width:0;max-width:100%}
 
 #language{font:inherit;font-size:12px;font-weight:700;line-height:1.4;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 5px;cursor:pointer;max-width:108px}#language:focus-visible{outline:2px solid var(--accent2);outline-offset:3px}
+html[lang=ja] :is(h1,h2,h3,p,span,strong,li){word-break:normal;overflow-wrap:anywhere}
